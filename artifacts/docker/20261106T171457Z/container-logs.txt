@@ -1,0 +1,129 @@
+kontext-validation-3de6671c01-qdrant  |            _                 _    
+kontext-validation-3de6671c01-app     | Traceback (most recent call last):
+kontext-validation-3de6671c01-app     |   File "/usr/local/bin/uvicorn", line 8, in <module>
+kontext-validation-3de6671c01-app     |     sys.exit(main())
+kontext-validation-3de6671c01-app     |              ^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/click/core.py", line 1631, in __call__
+kontext-validation-3de6671c01-qdrant  |   __ _  __| |_ __ __ _ _ __ | |_  
+kontext-validation-3de6671c01-qdrant  |  / _` |/ _` | '__/ _` | '_ \| __| 
+kontext-validation-3de6671c01-qdrant  | | (_| | (_| | | | (_| | | | | |_  
+kontext-validation-3de6671c01-qdrant  |  \__, |\__,_|_|  \__,_|_| |_|\__| 
+kontext-validation-3de6671c01-qdrant  |     |_|                           
+kontext-validation-3de6671c01-qdrant  | 
+kontext-validation-3de6671c01-qdrant  | Version: 1.20.0, build: 222b2e44
+kontext-validation-3de6671c01-qdrant  | Access web UI at http://localhost:6333/dashboard
+kontext-validation-3de6671c01-qdrant  | Agentic Skills: https://skills.qdrant.tech/
+kontext-validation-3de6671c01-qdrant  | 
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.191421Z  INFO storage::content_manager::consensus::persistent: Initializing new raft state at ./storage/raft_state.json
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.249505Z  INFO qdrant: Distributed mode disabled
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.256370Z  INFO qdrant: Telemetry reporting enabled, id: 0c940a4a-cb16-48ab-b23b-b216c7a310ea
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.342667Z  INFO qdrant::actix: REST transport settings: keep_alive=5s, client_request_timeout=5s, client_disconnect_timeout=5s
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.343194Z  INFO qdrant::actix: TLS disabled for REST API
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.343403Z  INFO qdrant::actix: Qdrant HTTP listening on 6333
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.343608Z  INFO actix_server::builder: starting 3 workers
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.343803Z  INFO actix_server::server: Actix runtime found; starting in Actix runtime
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.343992Z  INFO actix_server::server: starting service: "actix-web-service-0.0.0.0:6333", workers: 3, listening on: 0.0.0.0:6333
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.379417Z  INFO qdrant::tonic: Qdrant gRPC listening on 6334
+kontext-validation-3de6671c01-qdrant  | 2026-11-06T17:15:19.380182Z  INFO qdrant::tonic: TLS disabled for gRPC API
+kontext-validation-3de6671c01-app     |     return self.main(*args, **kwargs)
+kontext-validation-3de6671c01-app     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/click/core.py", line 1552, in main
+kontext-validation-3de6671c01-app     |     rv = self.invoke(ctx)
+kontext-validation-3de6671c01-app     |          ^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/click/core.py", line 1415, in invoke
+kontext-validation-3de6671c01-app     |     return ctx.invoke(self.callback, **ctx.params)
+kontext-validation-3de6671c01-app     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/click/core.py", line 910, in invoke
+kontext-validation-3de6671c01-app     |     return callback(*args, **kwargs)
+kontext-validation-3de6671c01-app     |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/uvicorn/main.py", line 448, in main
+kontext-validation-3de6671c01-app     |     run(
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/uvicorn/main.py", line 620, in run
+kontext-validation-3de6671c01-app     |     config.load_app()
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/uvicorn/config.py", line 434, in load_app
+kontext-validation-3de6671c01-app     |     return import_from_string(self.app)
+kontext-validation-3de6671c01-app     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/site-packages/uvicorn/importer.py", line 19, in import_from_string
+kontext-validation-3de6671c01-app     |     module = importlib.import_module(module_str)
+kontext-validation-3de6671c01-app     |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "/usr/local/lib/python3.11/importlib/__init__.py", line 126, in import_module
+kontext-validation-3de6671c01-app     |     return _bootstrap._gcd_import(name[level:], package, level)
+kontext-validation-3de6671c01-app     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+kontext-validation-3de6671c01-app     |   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+kontext-validation-3de6671c01-app     |   File "/app/app/main.py", line 7, in <module>
+kontext-validation-3de6671c01-app     |     from app.api.router import api_router
+kontext-validation-3de6671c01-app     |   File "/app/app/api/router.py", line 5, in <module>
+kontext-validation-3de6671c01-app     |     from app.api.routes_search import router as search_router
+kontext-validation-3de6671c01-app     |   File "/app/app/api/routes_search.py", line 44, in <module>
+kontext-validation-3de6671c01-app     |     method: str = Query("hybrid", enum=["bm25", "dense", "hybrid", "reranked"]),
+kontext-validation-3de6671c01-app     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+kontext-validation-3de6671c01-app     | TypeError: Query() got an unexpected keyword argument 'enum'
+kontext-validation-3de6671c01-postgres  | The files belonging to this database system will be owned by user "postgres".
+kontext-validation-3de6671c01-postgres  | This user must also own the server process.
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | The database cluster will be initialized with locale "en_US.utf8".
+kontext-validation-3de6671c01-postgres  | The default database encoding has accordingly been set to "UTF8".
+kontext-validation-3de6671c01-postgres  | The default text search configuration will be set to "english".
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | Data page checksums are disabled.
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+kontext-validation-3de6671c01-postgres  | creating subdirectories ... ok
+kontext-validation-3de6671c01-postgres  | selecting dynamic shared memory implementation ... posix
+kontext-validation-3de6671c01-postgres  | selecting default max_connections ... 100
+kontext-validation-3de6671c01-postgres  | selecting default shared_buffers ... 128MB
+kontext-validation-3de6671c01-postgres  | selecting default time zone ... UTC
+kontext-validation-3de6671c01-postgres  | creating configuration files ... ok
+kontext-validation-3de6671c01-postgres  | running bootstrap script ... ok
+kontext-validation-3de6671c01-postgres  | sh: locale: not found
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:21.772 UTC [35] WARNING:  no usable system locales were found
+kontext-validation-3de6671c01-postgres  | performing post-bootstrap initialization ... ok
+kontext-validation-3de6671c01-postgres  | initdb: warning: enabling "trust" authentication for local connections
+kontext-validation-3de6671c01-postgres  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+kontext-validation-3de6671c01-postgres  | syncing data to disk ... ok
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | Success. You can now start the database server using:
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | waiting for server to start....2026-11-06 17:15:23.837 UTC [47] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:23.840 UTC [47] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:23.853 UTC [50] LOG:  database system was shut down at 2026-11-06 17:15:23 UTC
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:23.867 UTC [47] LOG:  database system is ready to accept connections
+kontext-validation-3de6671c01-postgres  |  done
+kontext-validation-3de6671c01-postgres  | server started
+kontext-validation-3de6671c01-postgres  | CREATE DATABASE
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+kontext-validation-3de6671c01-postgres  | CREATE TABLE
+kontext-validation-3de6671c01-postgres  | CREATE TABLE
+kontext-validation-3de6671c01-postgres  | CREATE TABLE
+kontext-validation-3de6671c01-postgres  | CREATE TABLE
+kontext-validation-3de6671c01-postgres  | CREATE TABLE
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | waiting for server to shut down....2026-11-06 17:15:24.381 UTC [47] LOG:  received fast shutdown request
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.384 UTC [47] LOG:  aborting any active transactions
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.400 UTC [47] LOG:  background worker "logical replication launcher" (PID 53) exited with exit code 1
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.400 UTC [48] LOG:  shutting down
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.405 UTC [48] LOG:  checkpoint starting: shutdown immediate
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.600 UTC [48] LOG:  checkpoint complete: wrote 944 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.058 s, sync=0.124 s, total=0.200 s; sync files=322, longest=0.004 s, average=0.001 s; distance=4395 kB, estimate=4395 kB; lsn=0/1941D38, redo lsn=0/1941D38
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.620 UTC [47] LOG:  database system is shut down
+kontext-validation-3de6671c01-postgres  |  done
+kontext-validation-3de6671c01-postgres  | server stopped
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | PostgreSQL init process complete; ready for start up.
+kontext-validation-3de6671c01-postgres  | 
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.741 UTC [1] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.741 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.741 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.749 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.762 UTC [70] LOG:  database system was shut down at 2026-11-06 17:15:24 UTC
+kontext-validation-3de6671c01-postgres  | 2026-11-06 17:15:24.777 UTC [1] LOG:  database system is ready to accept connections

@@ -1,0 +1,60 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 521B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 1.54kB 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim@sha256:65bd3d9f1d7fa268dd1909973ba7eb4bdf41f6dcf2cfbe76ba9528b170f3fd79
+#3 DONE 0.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 407B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 DONE 0.0s
+
+#6 [1/7] FROM docker.io/library/python:3.11-slim@sha256:65bd3d9f1d7fa268dd1909973ba7eb4bdf41f6dcf2cfbe76ba9528b170f3fd79
+#6 resolve docker.io/library/python:3.11-slim@sha256:65bd3d9f1d7fa268dd1909973ba7eb4bdf41f6dcf2cfbe76ba9528b170f3fd79 0.0s done
+#6 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 34.93kB 0.2s done
+#5 DONE 0.2s
+
+#7 [2/7] WORKDIR /app
+#7 CACHED
+
+#8 [3/7] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     curl     libpq-dev     && rm -rf /var/lib/apt/lists/*
+#8 CACHED
+
+#9 [4/7] COPY requirements.txt requirements-linux.lock requirements-mcp-client.txt requirements-mcp-client.lock ./
+#9 CACHED
+
+#10 [5/7] RUN pip install --no-cache-dir -r requirements-linux.lock     && python -m venv /opt/mcp-sdk     && /opt/mcp-sdk/bin/pip install --no-cache-dir -r requirements-mcp-client.lock
+#10 CACHED
+
+#11 [6/7] COPY . .
+#11 DONE 0.1s
+
+#12 [7/7] RUN groupadd --gid 10001 appuser && useradd --uid 10001 --gid 10001 --no-create-home appuser     && mkdir -p /var/lib/kontext /app/data     && chown -R 10001:10001 /var/lib/kontext /app/data
+#12 DONE 0.6s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 0.4s done
+#13 exporting manifest sha256:8401be71d345e74b2c0b13aaeea7ed17f350069d462f0e18a03afde6b13d6907 0.0s done
+#13 exporting config sha256:137f89e1e322e48688ce90afb5b701c6757b7d355ba92d568a1ccfacdae5cb17 0.0s done
+#13 exporting attestation manifest sha256:4980dd4be6feab9bf77c7d13f49f23daa224ccab5fe0f0c826199e58e2c2db65 0.0s done
+#13 exporting manifest list sha256:808bb4b98c453e49042e2c737d5430682cb6fc721664b9e569620220a8ee274d 0.0s done
+#13 naming to docker.io/library/kontext-validation-a3e2b293a3-app:latest done
+#13 unpacking to docker.io/library/kontext-validation-a3e2b293a3-app:latest
+#13 unpacking to docker.io/library/kontext-validation-a3e2b293a3-app:latest 0.2s done
+#13 DONE 0.8s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ Image kontext-validation-a3e2b293a3-app Building 
+ Image kontext-validation-a3e2b293a3-app Built 

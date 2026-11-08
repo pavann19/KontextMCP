@@ -1,0 +1,225 @@
+{
+  "status": "FAIL",
+  "scope": "local Docker: FastAPI + PostgreSQL + remote Qdrant",
+  "project": "kontext-validation-0eae24555f",
+  "checks": [
+    {
+      "name": "explicit_schema_migration",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_concurrent_retry_and_fault_case",
+      "status": "PASS",
+      "details": {
+        "status": "PASS",
+        "timestamp": "2026-11-08T10:34:54.739777+00:00",
+        "scope": "Disposable local PostgreSQL repository writes and outbox fault injection; not production capacity",
+        "database": "postgresql",
+        "concurrency": 8,
+        "concurrent_retry_attempts": 64,
+        "committed_assessments_from_concurrent_attempts": 8,
+        "duplicate_assessment_effects": 0,
+        "payload_conflicts_rejected": 8,
+        "discarded_acknowledgement": "SIMULATED_CLIENT_OUTCOME_REPLAYED",
+        "rollback_and_retry": "PASS",
+        "append_before_ack_fault": "INJECTED_AND_RECOVERED",
+        "total_case_assessments": 10,
+        "ledger_records_per_assessment": 1,
+        "sql_mirrors_per_assessment": 1,
+        "recovery_seconds": 0.010604120001517003
+      }
+    },
+    {
+      "name": "image_excludes_local_secrets_and_runtime",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "health",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "rest_request_admission",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "reject_demo_key",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "reject_forged_role",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "public_cannot_read_private",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "developer_department_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "remote_vector_search",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "search_enum_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "schema_rejects_boolean_score",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "developer_cannot_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "explicit_postgres_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "explicit_postgres_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "unique_assessment_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_retry_safe_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_retry_payload_conflict",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "chat_cannot_sign_off",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "chat_response",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "trace_privacy_and_ownership",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "real_backend_connections",
+      "status": "PASS",
+      "details": {
+        "dialect": "postgresql",
+        "vector_points": 803,
+        "vector_client": "QdrantRemote"
+      }
+    },
+    {
+      "name": "postgres_restart_persistence",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "signed_audit_after_restart",
+      "status": "PASS",
+      "details": {
+        "is_valid": true,
+        "total_records": 20,
+        "error": null,
+        "verification_status": "CRYPTOGRAPHIC_CHAIN_VERIFIED"
+      }
+    },
+    {
+      "name": "readiness",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "authenticated_metrics",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "audit_delivery_health_metrics",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_backup",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_restore_matches",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "readiness_detects_database_outage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "database_connection_recovery",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "readiness_detects_vector_outage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "vector_connection_recovery",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "official_sdk_http",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "bounded_concurrent_load",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "linux_regression_suite",
+      "status": "FAIL",
+      "details": {
+        "tests": 169,
+        "failures_or_errors": 1,
+        "skipped": 0,
+        "evidence": "docker-tests.xml"
+      }
+    }
+  ],
+  "optional_services": "SKIPPED: Ollama and Langfuse are not used by the default request path",
+  "production_capacity": "UNVERIFIED",
+  "external_mcp_application": "UNVERIFIED",
+  "error": "linux_regression_suite",
+  "cleanup": "PASS",
+  "source_sha256": "ce75e8e87769a115904d5161c8f92ccef6a83bec136a8183e8b2d51e676df321",
+  "timestamp": "2026-11-08T10:37:42.958505+00:00"
+}

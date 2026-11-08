@@ -1,0 +1,2 @@
+ Container kontext-validation-a3e2b293a3-qdrant Starting 
+ Container kontext-validation-a3e2b293a3-qdrant Started 

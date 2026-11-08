@@ -1,0 +1,827 @@
+{
+  "status": "MEASURED",
+  "dataset_sha256": "bb017fead11ce278560237abd5e164ce4b91ed77559a5ff1ca5c057b465e8c47",
+  "queries": 24,
+  "overlap_with_fixed_benchmark": 0,
+  "expected_article_returned_rate": 0.8333333333333334,
+  "source_verified_answers": 24,
+  "annotation_review": "UNVERIFIED: agent-authored expectations, not independent human/legal review",
+  "results": [
+    {
+      "id": "HOLDOUT-01-en",
+      "language": "en",
+      "query": "Which provision addresses hidden manipulation that changes a person\u2019s decisions?",
+      "expected_article_id": "Article 5",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_13_p1",
+          "doc_id": "eu_ai_act_en_art_13",
+          "article_id": "Article 13",
+          "title": "Transparency and provision of information to deployers",
+          "language": "en",
+          "source_text_sha256": "54011ac428fc18619376334363965ef4cc00b1a54f3ecd93e179f402eb32a597"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_03_p1",
+          "doc_id": "eu_ai_act_en_art_03",
+          "article_id": "Article 3",
+          "title": "Definitions",
+          "language": "en",
+          "source_text_sha256": "7063f8e0d5d9d1346c314a60a9844980a0a82fd1a5d4377ce0663b0a036d981a"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_05_p1",
+          "doc_id": "eu_ai_act_en_art_05",
+          "article_id": "Article 5",
+          "title": "Prohibited Artificial Intelligence Practices",
+          "language": "en",
+          "source_text_sha256": "f0feef0cd34149950058c8d183c690c6569e23c2ea15900c03b2275331fec071"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-01-de",
+      "language": "de",
+      "query": "Welche Bestimmung betrifft verdeckte Manipulation menschlicher Entscheidungen?",
+      "expected_article_id": "Article 5",
+      "expected_article_returned": false,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_03_p1",
+          "doc_id": "eu_ai_act_de_art_03",
+          "article_id": "Artikel 3",
+          "title": "Begriffsbestimmungen",
+          "language": "de",
+          "source_text_sha256": "42f12ecc0bf12376f98926eb9c0a289c9d8917d1c98e6174cffdb267102cdf2a"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_annex_03_p1",
+          "doc_id": "eu_ai_act_de_annex_03",
+          "article_id": "Anhang III",
+          "title": "Hochrisiko-KI-Systeme gem\u00e4\u00df Artikel 6 Absatz 2",
+          "language": "de",
+          "source_text_sha256": "94d68f596ba8da648d6d981a5d8fb4e9b9285b7f6e4f4461b71611bcbbb27939"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_50_p1",
+          "doc_id": "eu_ai_act_de_art_50",
+          "article_id": "Artikel 50",
+          "title": "Transparenzpflichten f\u00fcr Anbieter und Betreiber bestimmter KI-Systeme",
+          "language": "de",
+          "source_text_sha256": "9e833b267846e574536bb398435c778b9598fb1852893056e074afa9e4c6fa58"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-02-en",
+      "language": "en",
+      "query": "Where are lifecycle processes for identifying and mitigating risks described?",
+      "expected_article_id": "Article 9",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_09_p1",
+          "doc_id": "eu_ai_act_en_art_09",
+          "article_id": "Article 9",
+          "title": "Risk management system",
+          "language": "en",
+          "source_text_sha256": "a60ab6ad4c51b5c826380e05dc2c96cb451326cbd527d3d30f5818266afc3cca"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_55_p1",
+          "doc_id": "eu_ai_act_en_art_55",
+          "article_id": "Article 55",
+          "title": "Obligations for providers of general-purpose AI models with systemic risk",
+          "language": "en",
+          "source_text_sha256": "c189bf4947f42db4c0f8e88e0ee719fe4f708f4de3639164a1741bb17143c458"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_10_p1",
+          "doc_id": "eu_ai_act_en_art_10",
+          "article_id": "Article 10",
+          "title": "Data and data governance",
+          "language": "en",
+          "source_text_sha256": "ed4d001219ee84e70ddbdd5e67d3824dfe613159ef51f5e09919690df3ec435d"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-02-de",
+      "language": "de",
+      "query": "Wo werden fortlaufende Prozesse zur Erkennung und Begrenzung von Risiken beschrieben?",
+      "expected_article_id": "Article 9",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p1",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "65955827bbf897e763124e313fafafd424fb3081ede78c68763145c91cb6d8f4"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_14_p1",
+          "doc_id": "eu_ai_act_de_art_14",
+          "article_id": "Artikel 14",
+          "title": "Menschliche Aufsicht",
+          "language": "de",
+          "source_text_sha256": "761d258a4ae69c9d1f0fb2e9ac9d56e4813f52965ae360a5b191538547538d11"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_09_p1",
+          "doc_id": "eu_ai_act_de_art_09",
+          "article_id": "Artikel 9",
+          "title": "Risikomanagementsystem",
+          "language": "de",
+          "source_text_sha256": "11c5a65de24f00be9195f0c79d8ef05f8e0a1b0c015f7ebd9d5115dd8aadc324"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-03-en",
+      "language": "en",
+      "query": "Where should I look for requirements about representativeness of training data?",
+      "expected_article_id": "Article 10",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_10_p1",
+          "doc_id": "eu_ai_act_en_art_10",
+          "article_id": "Article 10",
+          "title": "Data and data governance",
+          "language": "en",
+          "source_text_sha256": "ed4d001219ee84e70ddbdd5e67d3824dfe613159ef51f5e09919690df3ec435d"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_10_p2",
+          "doc_id": "eu_ai_act_en_art_10",
+          "article_id": "Article 10",
+          "title": "Data and data governance",
+          "language": "en",
+          "source_text_sha256": "ea6e57464e2f2fd1c79d7ab249c6d5800f09fc095921a445edc82365b7a7c944"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_12_p1",
+          "doc_id": "eu_ai_act_en_art_12",
+          "article_id": "Article 12",
+          "title": "Record-keeping",
+          "language": "en",
+          "source_text_sha256": "3099db5d8975bd2bb5a2b02444b3769edefdb3f949874f4c90c2632473470bf3"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-03-de",
+      "language": "de",
+      "query": "Wo finde ich Anforderungen an die Repr\u00e4sentativit\u00e4t von Trainingsdaten?",
+      "expected_article_id": "Article 10",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p2",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "de1505dd359958b4aa2d603e4ad273f165b994bdf0560295a30f4846def4c5f4"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_12_p1",
+          "doc_id": "eu_ai_act_de_art_12",
+          "article_id": "Artikel 12",
+          "title": "Aufzeichnungspflichten",
+          "language": "de",
+          "source_text_sha256": "220bcfd9e7963b1dd0729fb57355b407124a056375de9b10ef846323571d0dff"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p1",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "65955827bbf897e763124e313fafafd424fb3081ede78c68763145c91cb6d8f4"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-04-en",
+      "language": "en",
+      "query": "Which provision concerns automatic recording of system events?",
+      "expected_article_id": "Article 12",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_12_p1",
+          "doc_id": "eu_ai_act_en_art_12",
+          "article_id": "Article 12",
+          "title": "Record-keeping",
+          "language": "en",
+          "source_text_sha256": "3099db5d8975bd2bb5a2b02444b3769edefdb3f949874f4c90c2632473470bf3"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_13_p2",
+          "doc_id": "eu_ai_act_en_art_13",
+          "article_id": "Article 13",
+          "title": "Transparency and provision of information to deployers",
+          "language": "en",
+          "source_text_sha256": "4739e1ddb2d98a399d91b87e59465bfd140745396a7a8c1f35b8e8f74835fc33"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_09_p1",
+          "doc_id": "eu_ai_act_en_art_09",
+          "article_id": "Article 9",
+          "title": "Risk management system",
+          "language": "en",
+          "source_text_sha256": "a60ab6ad4c51b5c826380e05dc2c96cb451326cbd527d3d30f5818266afc3cca"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-04-de",
+      "language": "de",
+      "query": "Welche Bestimmung betrifft die automatische Aufzeichnung von Systemereignissen?",
+      "expected_article_id": "Article 12",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_12_p1",
+          "doc_id": "eu_ai_act_de_art_12",
+          "article_id": "Artikel 12",
+          "title": "Aufzeichnungspflichten",
+          "language": "de",
+          "source_text_sha256": "220bcfd9e7963b1dd0729fb57355b407124a056375de9b10ef846323571d0dff"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_50_p1",
+          "doc_id": "eu_ai_act_de_art_50",
+          "article_id": "Artikel 50",
+          "title": "Transparenzpflichten f\u00fcr Anbieter und Betreiber bestimmter KI-Systeme",
+          "language": "de",
+          "source_text_sha256": "9e833b267846e574536bb398435c778b9598fb1852893056e074afa9e4c6fa58"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_51_p1",
+          "doc_id": "eu_ai_act_de_art_51",
+          "article_id": "Artikel 51",
+          "title": "Einstufung von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+          "language": "de",
+          "source_text_sha256": "8f738adb53c35d8d60ffc5039ef7f99fa6b2cb7cc6a09fdc41d8457b3732cd9a"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-05-en",
+      "language": "en",
+      "query": "Where are instructions supplied to a system\u2019s deployer discussed?",
+      "expected_article_id": "Article 13",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_03_p1",
+          "doc_id": "eu_ai_act_en_art_03",
+          "article_id": "Article 3",
+          "title": "Definitions",
+          "language": "en",
+          "source_text_sha256": "7063f8e0d5d9d1346c314a60a9844980a0a82fd1a5d4377ce0663b0a036d981a"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_13_p1",
+          "doc_id": "eu_ai_act_en_art_13",
+          "article_id": "Article 13",
+          "title": "Transparency and provision of information to deployers",
+          "language": "en",
+          "source_text_sha256": "54011ac428fc18619376334363965ef4cc00b1a54f3ecd93e179f402eb32a597"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_06_p1",
+          "doc_id": "eu_ai_act_en_art_06",
+          "article_id": "Article 6",
+          "title": "Classification rules for high-risk AI systems",
+          "language": "en",
+          "source_text_sha256": "c199d85991eb2b2f2abe6326cd7e4b4ed0469262017e3be2682e670cbde6cb36"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-05-de",
+      "language": "de",
+      "query": "Wo werden die dem Betreiber bereitzustellenden Gebrauchsanweisungen behandelt?",
+      "expected_article_id": "Article 13",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_50_p1",
+          "doc_id": "eu_ai_act_de_art_50",
+          "article_id": "Artikel 50",
+          "title": "Transparenzpflichten f\u00fcr Anbieter und Betreiber bestimmter KI-Systeme",
+          "language": "de",
+          "source_text_sha256": "9e833b267846e574536bb398435c778b9598fb1852893056e074afa9e4c6fa58"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_13_p1",
+          "doc_id": "eu_ai_act_de_art_13",
+          "article_id": "Artikel 13",
+          "title": "Transparenz und Bereitstellung von Informationen f\u00fcr Betreiber",
+          "language": "de",
+          "source_text_sha256": "f259f5966fdfbd8aaa2a2156a3da48cc37fd63092578036f11fc2fa1ad9de3ac"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_03_p2",
+          "doc_id": "eu_ai_act_de_art_03",
+          "article_id": "Artikel 3",
+          "title": "Begriffsbestimmungen",
+          "language": "de",
+          "source_text_sha256": "6c629446121f0b8efd9c2a87211d2c1121c07365a6ad877c1ee3f24e8847ec77"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-06-en",
+      "language": "en",
+      "query": "Where does the regulation discuss the ability of a person to override a system?",
+      "expected_article_id": "Article 14",
+      "expected_article_returned": false,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_03_p1",
+          "doc_id": "eu_ai_act_en_art_03",
+          "article_id": "Article 3",
+          "title": "Definitions",
+          "language": "en",
+          "source_text_sha256": "7063f8e0d5d9d1346c314a60a9844980a0a82fd1a5d4377ce0663b0a036d981a"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_05_p1",
+          "doc_id": "eu_ai_act_en_art_05",
+          "article_id": "Article 5",
+          "title": "Prohibited Artificial Intelligence Practices",
+          "language": "en",
+          "source_text_sha256": "f0feef0cd34149950058c8d183c690c6569e23c2ea15900c03b2275331fec071"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_05_p3",
+          "doc_id": "eu_ai_act_en_art_05",
+          "article_id": "Article 5",
+          "title": "Prohibited Artificial Intelligence Practices",
+          "language": "en",
+          "source_text_sha256": "0b7d8f3773d95611a4640122a4582f267a51e6e2927dc101f84c13b00e5e7db2"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-06-de",
+      "language": "de",
+      "query": "Wo behandelt die Verordnung die M\u00f6glichkeit eines Menschen, ein System zu \u00fcbersteuern?",
+      "expected_article_id": "Article 14",
+      "expected_article_returned": false,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_06_p2",
+          "doc_id": "eu_ai_act_de_art_06",
+          "article_id": "Artikel 6",
+          "title": "Einstufungsregeln f\u00fcr Hochrisiko-KI-Systeme",
+          "language": "de",
+          "source_text_sha256": "dc38997f8a72c76128aabf7f6ff0c3a3f8d524336b6c6795104887642cc1426f"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_09_p2",
+          "doc_id": "eu_ai_act_de_art_09",
+          "article_id": "Artikel 9",
+          "title": "Risikomanagementsystem",
+          "language": "de",
+          "source_text_sha256": "817f8b5bfa8998874a477358c0aafe02c880983cbe78303968414adf219ded4f"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_03_p1",
+          "doc_id": "eu_ai_act_de_art_03",
+          "article_id": "Artikel 3",
+          "title": "Begriffsbestimmungen",
+          "language": "de",
+          "source_text_sha256": "42f12ecc0bf12376f98926eb9c0a289c9d8917d1c98e6174cffdb267102cdf2a"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-07-en",
+      "language": "en",
+      "query": "Which provision deals with robustness against data poisoning?",
+      "expected_article_id": "Article 15",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_15_p2",
+          "doc_id": "eu_ai_act_en_art_15",
+          "article_id": "Article 15",
+          "title": "Accuracy, robustness and cybersecurity",
+          "language": "en",
+          "source_text_sha256": "eed1cc380aeffea16f74ccd915138623946319f54f52527b2df738c68167e20b"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_15_p1",
+          "doc_id": "eu_ai_act_en_art_15",
+          "article_id": "Article 15",
+          "title": "Accuracy, robustness and cybersecurity",
+          "language": "en",
+          "source_text_sha256": "3efaa87a0f870d56d59ede5a661f83c267a2c1c43073f2ade81abeb41c9b55ec"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_10_p1",
+          "doc_id": "eu_ai_act_en_art_10",
+          "article_id": "Article 10",
+          "title": "Data and data governance",
+          "language": "en",
+          "source_text_sha256": "ed4d001219ee84e70ddbdd5e67d3824dfe613159ef51f5e09919690df3ec435d"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-07-de",
+      "language": "de",
+      "query": "Welche Bestimmung behandelt die Robustheit gegen Datenvergiftung?",
+      "expected_article_id": "Article 15",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_15_p1",
+          "doc_id": "eu_ai_act_de_art_15",
+          "article_id": "Artikel 15",
+          "title": "Genauigkeit, Robustheit und Cybersicherheit",
+          "language": "de",
+          "source_text_sha256": "87a988e1ead2e3a27a01067a2df0f6030afaa3834f92640659c2c386e03b1263"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p1",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "65955827bbf897e763124e313fafafd424fb3081ede78c68763145c91cb6d8f4"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_05_p2",
+          "doc_id": "eu_ai_act_de_art_05",
+          "article_id": "Artikel 5",
+          "title": "Verbotene Praktiken im Bereich der k\u00fcnstlichen Intelligenz",
+          "language": "de",
+          "source_text_sha256": "eb1db5c1a772048ef3882e0958aa948a04c7cc1f9ba7ea25580ca40ce7bdaf03"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-08-en",
+      "language": "en",
+      "query": "Where are disclosures about machine-generated content discussed?",
+      "expected_article_id": "Article 50",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_50_p1",
+          "doc_id": "eu_ai_act_en_art_50",
+          "article_id": "Article 50",
+          "title": "Transparency obligations for providers and deployers of certain AI systems",
+          "language": "en",
+          "source_text_sha256": "8aa59f983bbb7e01064d9851eea335f53dff32e21bbbd0a89f2119033eba4fc2"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_03_p1",
+          "doc_id": "eu_ai_act_en_art_03",
+          "article_id": "Article 3",
+          "title": "Definitions",
+          "language": "en",
+          "source_text_sha256": "7063f8e0d5d9d1346c314a60a9844980a0a82fd1a5d4377ce0663b0a036d981a"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_05_p2",
+          "doc_id": "eu_ai_act_en_art_05",
+          "article_id": "Article 5",
+          "title": "Prohibited Artificial Intelligence Practices",
+          "language": "en",
+          "source_text_sha256": "8498ef65f9222c690c41dd92f0abefb30c37a150979e3f13b79ea8287a323699"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-08-de",
+      "language": "de",
+      "query": "Wo werden Offenlegungen zu maschinell erzeugten Inhalten behandelt?",
+      "expected_article_id": "Article 50",
+      "expected_article_returned": false,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_14_p1",
+          "doc_id": "eu_ai_act_de_art_14",
+          "article_id": "Artikel 14",
+          "title": "Menschliche Aufsicht",
+          "language": "de",
+          "source_text_sha256": "761d258a4ae69c9d1f0fb2e9ac9d56e4813f52965ae360a5b191538547538d11"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_99_p1",
+          "doc_id": "eu_ai_act_de_art_99",
+          "article_id": "Artikel 99",
+          "title": "Sanktionen und Geldbu\u00dfen",
+          "language": "de",
+          "source_text_sha256": "12b72a2b79442189213e4462cd117568450c53da226c636c64799d225f6d109e"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_11_p1",
+          "doc_id": "eu_ai_act_de_art_11",
+          "article_id": "Artikel 11",
+          "title": "Technische Dokumentation",
+          "language": "de",
+          "source_text_sha256": "e16e80899e7f9eb35aee28e9695e2bd614db9d24042a39886e56417f4eb14605"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-09-en",
+      "language": "en",
+      "query": "Which provision discusses classification of general-purpose models with systemic risk?",
+      "expected_article_id": "Article 51",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_51_p1",
+          "doc_id": "eu_ai_act_en_art_51",
+          "article_id": "Article 51",
+          "title": "Classification of general-purpose AI models as general-purpose AI models with systemic risk",
+          "language": "en",
+          "source_text_sha256": "72dd66405bbbfa022e1779547ede329743a6453b10c1291b7b01cad8652e6484"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_55_p1",
+          "doc_id": "eu_ai_act_en_art_55",
+          "article_id": "Article 55",
+          "title": "Obligations for providers of general-purpose AI models with systemic risk",
+          "language": "en",
+          "source_text_sha256": "c189bf4947f42db4c0f8e88e0ee719fe4f708f4de3639164a1741bb17143c458"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_02_p1",
+          "doc_id": "eu_ai_act_en_art_02",
+          "article_id": "Article 2",
+          "title": "Scope",
+          "language": "en",
+          "source_text_sha256": "1fc80f86edad4e6cf05f425d3b08363c24e8fb1af573fe1ce6d5383dbc9e9419"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-09-de",
+      "language": "de",
+      "query": "Welche Bestimmung behandelt die Einstufung von Modellen mit allgemeinem Verwendungszweck und systemischem Risiko?",
+      "expected_article_id": "Article 51",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_51_p1",
+          "doc_id": "eu_ai_act_de_art_51",
+          "article_id": "Artikel 51",
+          "title": "Einstufung von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+          "language": "de",
+          "source_text_sha256": "8f738adb53c35d8d60ffc5039ef7f99fa6b2cb7cc6a09fdc41d8457b3732cd9a"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_55_p1",
+          "doc_id": "eu_ai_act_de_art_55",
+          "article_id": "Artikel 55",
+          "title": "Pflichten f\u00fcr Anbieter von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+          "language": "de",
+          "source_text_sha256": "1c255e5688fc1341fed603759f3b23b997999cddc8fe251074b7916e0e2364e6"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_03_p3",
+          "doc_id": "eu_ai_act_de_art_03",
+          "article_id": "Artikel 3",
+          "title": "Begriffsbestimmungen",
+          "language": "de",
+          "source_text_sha256": "458b46945710daa9334a137229a7cc61653a106db8a72e6570a71f9779bb3774"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-10-en",
+      "language": "en",
+      "query": "Where are adversarial evaluations for systemic-risk models addressed?",
+      "expected_article_id": "Article 55",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_55_p1",
+          "doc_id": "eu_ai_act_en_art_55",
+          "article_id": "Article 55",
+          "title": "Obligations for providers of general-purpose AI models with systemic risk",
+          "language": "en",
+          "source_text_sha256": "c189bf4947f42db4c0f8e88e0ee719fe4f708f4de3639164a1741bb17143c458"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_02_p1",
+          "doc_id": "eu_ai_act_en_art_02",
+          "article_id": "Article 2",
+          "title": "Scope",
+          "language": "en",
+          "source_text_sha256": "1fc80f86edad4e6cf05f425d3b08363c24e8fb1af573fe1ce6d5383dbc9e9419"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_10_p1",
+          "doc_id": "eu_ai_act_en_art_10",
+          "article_id": "Article 10",
+          "title": "Data and data governance",
+          "language": "en",
+          "source_text_sha256": "ed4d001219ee84e70ddbdd5e67d3824dfe613159ef51f5e09919690df3ec435d"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-10-de",
+      "language": "de",
+      "query": "Wo werden adversarielle Bewertungen f\u00fcr Modelle mit systemischem Risiko behandelt?",
+      "expected_article_id": "Article 55",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_51_p1",
+          "doc_id": "eu_ai_act_de_art_51",
+          "article_id": "Artikel 51",
+          "title": "Einstufung von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+          "language": "de",
+          "source_text_sha256": "8f738adb53c35d8d60ffc5039ef7f99fa6b2cb7cc6a09fdc41d8457b3732cd9a"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_55_p1",
+          "doc_id": "eu_ai_act_de_art_55",
+          "article_id": "Artikel 55",
+          "title": "Pflichten f\u00fcr Anbieter von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+          "language": "de",
+          "source_text_sha256": "1c255e5688fc1341fed603759f3b23b997999cddc8fe251074b7916e0e2364e6"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_06_p1",
+          "doc_id": "eu_ai_act_de_art_06",
+          "article_id": "Artikel 6",
+          "title": "Einstufungsregeln f\u00fcr Hochrisiko-KI-Systeme",
+          "language": "de",
+          "source_text_sha256": "1132def69098dd08757b124b8a4c75d132ce0796908b34f6fe2656f8f0684395"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-11-en",
+      "language": "en",
+      "query": "Where are administrative penalties for infringements described?",
+      "expected_article_id": "Article 99",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_art_99_p1",
+          "doc_id": "eu_ai_act_en_art_99",
+          "article_id": "Article 99",
+          "title": "Penalties and administrative fines",
+          "language": "en",
+          "source_text_sha256": "a63406301f14674824e3b1030e37e6620fe3cf3e757ea4752e728655940d4a38"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_99_p2",
+          "doc_id": "eu_ai_act_en_art_99",
+          "article_id": "Article 99",
+          "title": "Penalties and administrative fines",
+          "language": "en",
+          "source_text_sha256": "130ddad949bf8029d311390aa8c97fcc1b57a7d7af98ba6645401177808384b4"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_02_p1",
+          "doc_id": "eu_ai_act_en_art_02",
+          "article_id": "Article 2",
+          "title": "Scope",
+          "language": "en",
+          "source_text_sha256": "1fc80f86edad4e6cf05f425d3b08363c24e8fb1af573fe1ce6d5383dbc9e9419"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-11-de",
+      "language": "de",
+      "query": "Wo werden verwaltungsrechtliche Sanktionen bei Verst\u00f6\u00dfen beschrieben?",
+      "expected_article_id": "Article 99",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_art_99_p1",
+          "doc_id": "eu_ai_act_de_art_99",
+          "article_id": "Artikel 99",
+          "title": "Sanktionen und Geldbu\u00dfen",
+          "language": "de",
+          "source_text_sha256": "12b72a2b79442189213e4462cd117568450c53da226c636c64799d225f6d109e"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p1",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "65955827bbf897e763124e313fafafd424fb3081ede78c68763145c91cb6d8f4"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_03_p1",
+          "doc_id": "eu_ai_act_de_art_03",
+          "article_id": "Artikel 3",
+          "title": "Begriffsbestimmungen",
+          "language": "de",
+          "source_text_sha256": "42f12ecc0bf12376f98926eb9c0a289c9d8917d1c98e6174cffdb267102cdf2a"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-12-en",
+      "language": "en",
+      "query": "Which list includes recruitment and employee evaluation as use cases?",
+      "expected_article_id": "Annex III",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_en_annex_03_p3",
+          "doc_id": "eu_ai_act_en_annex_03",
+          "article_id": "Annex III",
+          "title": "High-risk AI systems pursuant to Article 6(2)",
+          "language": "en",
+          "source_text_sha256": "776b9c70bb5a062f8bd767eaf97651b1fbe0334ce9bde4ca6ded959072e28503"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_annex_03_p2",
+          "doc_id": "eu_ai_act_en_annex_03",
+          "article_id": "Annex III",
+          "title": "High-risk AI systems pursuant to Article 6(2)",
+          "language": "en",
+          "source_text_sha256": "acd315524935bbb764628ecd6b7fd81bcde00c00e0ad31c7f0f09f1c7d279844"
+        },
+        {
+          "chunk_id": "eu_ai_act_en_art_05_p2",
+          "doc_id": "eu_ai_act_en_art_05",
+          "article_id": "Article 5",
+          "title": "Prohibited Artificial Intelligence Practices",
+          "language": "en",
+          "source_text_sha256": "8498ef65f9222c690c41dd92f0abefb30c37a150979e3f13b79ea8287a323699"
+        }
+      ]
+    },
+    {
+      "id": "HOLDOUT-12-de",
+      "language": "de",
+      "query": "Welche Liste umfasst die Personalauswahl und Bewertung von Besch\u00e4ftigten?",
+      "expected_article_id": "Annex III",
+      "expected_article_returned": true,
+      "grounding_status": "SOURCE_VERIFIED",
+      "citations": [
+        {
+          "chunk_id": "eu_ai_act_de_annex_03_p1",
+          "doc_id": "eu_ai_act_de_annex_03",
+          "article_id": "Anhang III",
+          "title": "Hochrisiko-KI-Systeme gem\u00e4\u00df Artikel 6 Absatz 2",
+          "language": "de",
+          "source_text_sha256": "94d68f596ba8da648d6d981a5d8fb4e9b9285b7f6e4f4461b71611bcbbb27939"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_09_p1",
+          "doc_id": "eu_ai_act_de_art_09",
+          "article_id": "Artikel 9",
+          "title": "Risikomanagementsystem",
+          "language": "de",
+          "source_text_sha256": "11c5a65de24f00be9195f0c79d8ef05f8e0a1b0c015f7ebd9d5115dd8aadc324"
+        },
+        {
+          "chunk_id": "eu_ai_act_de_art_10_p1",
+          "doc_id": "eu_ai_act_de_art_10",
+          "article_id": "Artikel 10",
+          "title": "Daten und Daten-Governance",
+          "language": "de",
+          "source_text_sha256": "65955827bbf897e763124e313fafafd424fb3081ede78c68763145c91cb6d8f4"
+        }
+      ]
+    }
+  ]
+}

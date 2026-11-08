@@ -1,0 +1,2 @@
+ Container kontext-validation-a3e2b293a3-postgres Starting 
+ Container kontext-validation-a3e2b293a3-postgres Started 

@@ -1,0 +1,130 @@
+kontext-validation-97495fe25d-qdrant    |            _                 _    
+kontext-validation-97495fe25d-qdrant    |   __ _  __| |_ __ __ _ _ __ | |_  
+kontext-validation-97495fe25d-app       | INFO:     Started server process [1]
+kontext-validation-97495fe25d-app       | INFO:     Waiting for application startup.
+kontext-validation-97495fe25d-qdrant    |  / _` |/ _` | '__/ _` | '_ \| __| 
+kontext-validation-97495fe25d-qdrant    | | (_| | (_| | | | (_| | | | | |_  
+kontext-validation-97495fe25d-qdrant    |  \__, |\__,_|_|  \__,_|_| |_|\__| 
+kontext-validation-97495fe25d-app       | INFO:     Application startup complete.
+kontext-validation-97495fe25d-app       | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+kontext-validation-97495fe25d-app       | INFO:     127.0.0.1:49318 - "GET /ready HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-postgres  | The files belonging to this database system will be owned by user "postgres".
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/tools/list HTTP/1.1" 401 Unauthorized
+kontext-validation-97495fe25d-postgres  | This user must also own the server process.
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/tools/list HTTP/1.1" 401 Unauthorized
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/search?q=Article+5+prohibited+practices&method=reranked&top_k=3 HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-postgres  | The database cluster will be initialized with locale "en_US.utf8".
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/search?q=Article+5&method=unknown HTTP/1.1" 422 Unprocessable Entity
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/search?q=Article+5&language=unknown HTTP/1.1" 422 Unprocessable Entity
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-qdrant    |     |_|                           
+kontext-validation-97495fe25d-qdrant    | 
+kontext-validation-97495fe25d-qdrant    | Version: 1.20.0, build: 222b2e44
+kontext-validation-97495fe25d-qdrant    | Access web UI at http://localhost:6333/dashboard
+kontext-validation-97495fe25d-qdrant    | Agentic Skills: https://skills.qdrant.tech/
+kontext-validation-97495fe25d-postgres  | The default database encoding has accordingly been set to "UTF8".
+kontext-validation-97495fe25d-qdrant    | 
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:15.713553Z  INFO storage::content_manager::consensus::persistent: Initializing new raft state at ./storage/raft_state.json
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:15.768572Z  INFO qdrant: Distributed mode disabled
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:15.769577Z  INFO qdrant: Telemetry reporting enabled, id: 293e4653-5692-4501-8d87-8459c95dc612
+kontext-validation-97495fe25d-postgres  | The default text search configuration will be set to "english".
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:60414 - "GET /api/v1/audit/traces HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.147723Z  INFO qdrant::actix: REST transport settings: keep_alive=5s, client_request_timeout=5s, client_disconnect_timeout=5s
+kontext-validation-97495fe25d-app       | INFO:     Shutting down
+kontext-validation-97495fe25d-app       | INFO:     Waiting for application shutdown.
+kontext-validation-97495fe25d-app       | INFO:     Application shutdown complete.
+kontext-validation-97495fe25d-app       | INFO:     Finished server process [1]
+kontext-validation-97495fe25d-app       | INFO:     Started server process [1]
+kontext-validation-97495fe25d-app       | INFO:     Waiting for application startup.
+kontext-validation-97495fe25d-app       | INFO:     Application startup complete.
+kontext-validation-97495fe25d-app       | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.147843Z  INFO qdrant::actix: TLS disabled for REST API
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.147929Z  INFO qdrant::actix: Qdrant HTTP listening on 6333
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.148047Z  INFO actix_server::builder: starting 3 workers
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.149055Z  INFO actix_server::server: Actix runtime found; starting in Actix runtime
+kontext-validation-97495fe25d-postgres  | Data page checksums are disabled.
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.149328Z  INFO actix_server::server: starting service: "actix-web-service-0.0.0.0:6333", workers: 3, listening on: 0.0.0.0:6333
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.169707Z  INFO qdrant::tonic: Qdrant gRPC listening on 6334
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:16.170114Z  INFO qdrant::tonic: TLS disabled for gRPC API
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:32.358868Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 71 "-" "python-client/1.20.0 python/3.11.18" 0.008454
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:32.373545Z  INFO storage::content_manager::toc::collection_meta_ops: Creating collection eu_ai_act_bilingual
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:32.529403Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual HTTP/1.1" 200 56 "-" "python-client/1.20.0 python/3.11.18" 0.163845
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:32.720465Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 87 "-" "python-client/1.20.0 python/3.11.18" 0.000272
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:36.357798Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual/points?wait=true HTTP/1.1" 200 81 "-" "python-client/1.20.0 python/3.11.18" 0.234732
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:12:58.824566Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections/eu_ai_act_bilingual HTTP/1.1" 200 485 "-" "python-client/1.20.0 python/3.11.18" 0.005158
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:04.686747Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7948 "-" "python-client/1.20.0 python/3.11.18" 0.023161
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:04.870241Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7361 "-" "python-client/1.20.0 python/3.11.18" 0.012254
+kontext-validation-97495fe25d-postgres  | creating subdirectories ... ok
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:09.289837Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 88 "-" "python-client/1.20.0 python/3.11.18" 0.001318
+kontext-validation-97495fe25d-postgres  | selecting dynamic shared memory implementation ... posix
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:09.296818Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections/eu_ai_act_bilingual HTTP/1.1" 200 483 "-" "python-client/1.20.0 python/3.11.18" 0.001276
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:18.324808Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 87 "-" "python-client/1.20.0 python/3.11.18" 0.000446
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:18.520485Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 87 "-" "python-client/1.20.0 python/3.11.18" 0.000209
+kontext-validation-97495fe25d-qdrant    | 2026-11-07T04:13:22.081960Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual/points?wait=true HTTP/1.1" 200 81 "-" "python-client/1.20.0 python/3.11.18" 0.206049
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:44976 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-postgres  | selecting default max_connections ... 100
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:44976 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-app       | INFO:     172.24.0.1:44976 - "GET /api/v1/audit/verify HTTP/1.1" 200 OK
+kontext-validation-97495fe25d-postgres  | selecting default shared_buffers ... 128MB
+kontext-validation-97495fe25d-postgres  | selecting default time zone ... UTC
+kontext-validation-97495fe25d-postgres  | creating configuration files ... ok
+kontext-validation-97495fe25d-postgres  | running bootstrap script ... ok
+kontext-validation-97495fe25d-postgres  | sh: locale: not found
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:19.152 UTC [35] WARNING:  no usable system locales were found
+kontext-validation-97495fe25d-postgres  | performing post-bootstrap initialization ... ok
+kontext-validation-97495fe25d-postgres  | initdb: warning: enabling "trust" authentication for local connections
+kontext-validation-97495fe25d-postgres  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+kontext-validation-97495fe25d-postgres  | syncing data to disk ... ok
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | Success. You can now start the database server using:
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | waiting for server to start....2026-11-07 04:12:20.947 UTC [54] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:20.951 UTC [54] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:20.962 UTC [57] LOG:  database system was shut down at 2026-11-07 04:12:20 UTC
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:20.974 UTC [54] LOG:  database system is ready to accept connections
+kontext-validation-97495fe25d-postgres  |  done
+kontext-validation-97495fe25d-postgres  | server started
+kontext-validation-97495fe25d-postgres  | CREATE DATABASE
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+kontext-validation-97495fe25d-postgres  | CREATE TABLE
+kontext-validation-97495fe25d-postgres  | CREATE TABLE
+kontext-validation-97495fe25d-postgres  | CREATE TABLE
+kontext-validation-97495fe25d-postgres  | CREATE TABLE
+kontext-validation-97495fe25d-postgres  | CREATE TABLE
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | waiting for server to shut down...2026-11-07 04:12:21.418 UTC [54] LOG:  received fast shutdown request
+kontext-validation-97495fe25d-postgres  | .2026-11-07 04:12:21.421 UTC [54] LOG:  aborting any active transactions
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.427 UTC [54] LOG:  background worker "logical replication launcher" (PID 60) exited with exit code 1
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.431 UTC [55] LOG:  shutting down
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.434 UTC [55] LOG:  checkpoint starting: shutdown immediate
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.625 UTC [55] LOG:  checkpoint complete: wrote 944 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.056 s, sync=0.126 s, total=0.195 s; sync files=322, longest=0.004 s, average=0.001 s; distance=4395 kB, estimate=4395 kB; lsn=0/1941D38, redo lsn=0/1941D38
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.642 UTC [54] LOG:  database system is shut down
+kontext-validation-97495fe25d-postgres  |  done
+kontext-validation-97495fe25d-postgres  | server stopped
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | PostgreSQL init process complete; ready for start up.
+kontext-validation-97495fe25d-postgres  | 
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.777 UTC [1] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.777 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.778 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.789 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.803 UTC [72] LOG:  database system was shut down at 2026-11-07 04:12:21 UTC
+kontext-validation-97495fe25d-postgres  | 2026-11-07 04:12:21.818 UTC [1] LOG:  database system is ready to accept connections

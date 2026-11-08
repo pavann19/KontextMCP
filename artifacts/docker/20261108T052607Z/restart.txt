@@ -1,0 +1,2 @@
+ Container kontext-validation-87246694b1-app Restarting 
+ Container kontext-validation-87246694b1-app Started 

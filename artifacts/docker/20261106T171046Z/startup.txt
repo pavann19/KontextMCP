@@ -1,0 +1,238 @@
+ Image qdrant/qdrant:latest Pulling 
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ a2020284dda8 Pulling fs layer 0B
+ a559964b7ae8 Pulling fs layer 0B
+ 2e5c280d7a27 Pulling fs layer 0B
+ 01c8a71a87e5 Pulling fs layer 0B
+ c7aee25c66bb Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 5df9a99116e9 Pulling fs layer 0B
+ f2be67225471 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Already exists 0B
+ a2020284dda8 Download complete 0B
+ 5df9a99116e9 Download complete 0B
+ a559964b7ae8 Download complete 0B
+ f2be67225471 Downloading 1.049MB
+ 2e5c280d7a27 Downloading 1.049MB
+ 2e5c280d7a27 Downloading 1.049MB
+ f2be67225471 Downloading 1.049MB
+ 2e5c280d7a27 Downloading 2.097MB
+ 01c8a71a87e5 Downloading 1.049MB
+ f2be67225471 Downloading 2.097MB
+ 2e5c280d7a27 Downloading 2.097MB
+ 01c8a71a87e5 Downloading 2.097MB
+ f2be67225471 Downloading 3.146MB
+ f2be67225471 Downloading 3.146MB
+ 2e5c280d7a27 Downloading 2.097MB
+ 01c8a71a87e5 Downloading 2.097MB
+ 2e5c280d7a27 Downloading 3.146MB
+ 01c8a71a87e5 Downloading 3.146MB
+ f2be67225471 Downloading 4.194MB
+ f2be67225471 Downloading 4.194MB
+ 2e5c280d7a27 Downloading 3.146MB
+ 01c8a71a87e5 Downloading 3.146MB
+ f2be67225471 Downloading 4.194MB
+ 2e5c280d7a27 Downloading 3.146MB
+ 01c8a71a87e5 Downloading 3.146MB
+ f2be67225471 Downloading 5.243MB
+ 2e5c280d7a27 Downloading 4.194MB
+ 01c8a71a87e5 Downloading 4.194MB
+ f2be67225471 Downloading 5.243MB
+ 2e5c280d7a27 Downloading 4.194MB
+ 01c8a71a87e5 Downloading 4.194MB
+ 2e5c280d7a27 Downloading 5.243MB
+ 01c8a71a87e5 Downloading 4.194MB
+ f2be67225471 Downloading 6.291MB
+ 2e5c280d7a27 Downloading 5.243MB
+ 01c8a71a87e5 Downloading 5.243MB
+ f2be67225471 Downloading 6.291MB
+ f2be67225471 Downloading 6.291MB
+ 2e5c280d7a27 Downloading 5.243MB
+ 01c8a71a87e5 Downloading 5.243MB
+ 2e5c280d7a27 Downloading 6.291MB
+ 01c8a71a87e5 Downloading 6.291MB
+ f2be67225471 Downloading 7.34MB
+ f2be67225471 Downloading 7.34MB
+ 2e5c280d7a27 Downloading 6.291MB
+ 01c8a71a87e5 Downloading 6.291MB
+ f2be67225471 Downloading 8.389MB
+ 2e5c280d7a27 Downloading 6.291MB
+ 01c8a71a87e5 Downloading 7.113MB
+ 2e5c280d7a27 Downloading 7.34MB
+ 01c8a71a87e5 Download complete 0B
+ f2be67225471 Downloading 8.389MB
+ 2e5c280d7a27 Downloading 7.34MB
+ f2be67225471 Downloading 9.437MB
+ 2e5c280d7a27 Downloading 8.389MB
+ f2be67225471 Downloading 9.437MB
+ f2be67225471 Downloading 10.49MB
+ 2e5c280d7a27 Downloading 8.389MB
+ c7aee25c66bb Download complete 0B
+ 2e5c280d7a27 Downloading 8.389MB
+ f2be67225471 Downloading 10.49MB
+ f2be67225471 Downloading 11.53MB
+ 44136fa355b3 Already exists 0B
+ 2e5c280d7a27 Downloading 10.49MB
+ 2e5c280d7a27 Downloading 11.53MB
+ f2be67225471 Downloading 11.53MB
+ f2be67225471 Downloading 12.58MB
+ 2e5c280d7a27 Downloading 12.58MB
+ 2e5c280d7a27 Downloading 12.98MB
+ f2be67225471 Downloading 13.63MB
+ f2be67225471 Downloading 13.63MB
+ 2e5c280d7a27 Downloading 13.63MB
+ 29544e8397e4 Downloading 1.049MB
+ 2e5c280d7a27 Downloading 13.63MB
+ f2be67225471 Downloading 14.68MB
+ f2be67225471 Downloading 14.68MB
+ 29544e8397e4 Downloading 2.097MB
+ 2e5c280d7a27 Downloading 14.68MB
+ f2be67225471 Downloading 15.73MB
+ 29544e8397e4 Downloading 2.097MB
+ 2e5c280d7a27 Downloading 15.73MB
+ 29544e8397e4 Downloading 3.146MB
+ 2e5c280d7a27 Downloading 15.73MB
+ f2be67225471 Downloading 15.73MB
+ f2be67225471 Downloading 16.78MB
+ 29544e8397e4 Downloading 3.146MB
+ 2e5c280d7a27 Downloading 16.78MB
+ 29544e8397e4 Download complete 0B
+ 2e5c280d7a27 Downloading 16.78MB
+ f2be67225471 Downloading 16.78MB
+ 2e5c280d7a27 Downloading 17.83MB
+ f2be67225471 Downloading 17.83MB
+ 2e5c280d7a27 Downloading 17.83MB
+ f2be67225471 Downloading 18.87MB
+ 3d84f0dd5d33 Download complete 0B
+ 2e5c280d7a27 Downloading 18.87MB
+ f2be67225471 Downloading 18.87MB
+ f2be67225471 Downloading 19.92MB
+ 2e5c280d7a27 Downloading 19.92MB
+ f2be67225471 Downloading 20.97MB
+ 2e5c280d7a27 Downloading 20.97MB
+ 2e5c280d7a27 Downloading 20.97MB
+ f2be67225471 Downloading 20.97MB
+ 2e5c280d7a27 Downloading 22.02MB
+ f2be67225471 Downloading 22.02MB
+ 2e5c280d7a27 Downloading 22.02MB
+ f2be67225471 Downloading 22.02MB
+ 2e5c280d7a27 Downloading 23.07MB
+ f2be67225471 Downloading 23.07MB
+ f2be67225471 Downloading 23.07MB
+ 2e5c280d7a27 Downloading 23.07MB
+ 2e5c280d7a27 Downloading 24.12MB
+ f2be67225471 Downloading 24.12MB
+ 2e5c280d7a27 Downloading 25.17MB
+ f2be67225471 Downloading 24.12MB
+ 2e5c280d7a27 Downloading 25.17MB
+ f2be67225471 Downloading 25.17MB
+ f2be67225471 Downloading 25.17MB
+ 2e5c280d7a27 Downloading 26.21MB
+ f2be67225471 Downloading 26.21MB
+ 2e5c280d7a27 Downloading 26.21MB
+ f2be67225471 Downloading 27.26MB
+ 2e5c280d7a27 Downloading 27.26MB
+ f2be67225471 Downloading 28.31MB
+ 2e5c280d7a27 Downloading 28.31MB
+ f2be67225471 Downloading 28.31MB
+ 2e5c280d7a27 Downloading 28.31MB
+ f2be67225471 Downloading 29.36MB
+ 2e5c280d7a27 Downloading 28.31MB
+ 2e5c280d7a27 Downloading 29.36MB
+ f2be67225471 Download complete 0B
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 30.41MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 31.46MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 31.46MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 33.55MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 33.55MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Downloading 34.66MB
+ f2be67225471 Extracting 1B
+ 2e5c280d7a27 Download complete 0B
+ f2be67225471 Extracting 1B
+ f2be67225471 Extracting 1B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 2B
+ f2be67225471 Extracting 3B
+ f2be67225471 Extracting 3B
+ f2be67225471 Extracting 3B
+ f2be67225471 Extracting 3B
+ f2be67225471 Pull complete 0B
+ 5df9a99116e9 Extracting 1B
+ 5df9a99116e9 Extracting 1B
+ 5df9a99116e9 Extracting 1B
+ 5df9a99116e9 Pull complete 0B
+ 4f4fb700ef54 Pull complete 0B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 1B
+ 2e5c280d7a27 Extracting 2B
+ 2e5c280d7a27 Extracting 2B
+ c7aee25c66bb Extracting 1B
+ 2e5c280d7a27 Pull complete 0B
+ c7aee25c66bb Pull complete 0B
+ a2020284dda8 Pull complete 0B
+ a559964b7ae8 Pull complete 0B
+ 01c8a71a87e5 Extracting 1B
+ 01c8a71a87e5 Extracting 1B
+ 01c8a71a87e5 Extracting 1B
+ 01c8a71a87e5 Pull complete 0B
+ Image qdrant/qdrant:latest Pulled 
+ Volume kontext-validation-4651829867_postgres_data Creating 
+ Network kontext-validation-4651829867_enterprise_rag_network Creating 
+ Volume kontext-validation-4651829867_qdrant_storage Creating 
+ Volume kontext-validation-4651829867_qdrant_storage Creating 
+ Volume kontext-validation-4651829867_validation_app_data Creating 
+ Volume kontext-validation-4651829867_postgres_data Creating 
+ Volume kontext-validation-4651829867_validation_app_data Creating 
+ Network kontext-validation-4651829867_enterprise_rag_network Creating 
+ Volume kontext-validation-4651829867_qdrant_storage Created 
+ Volume kontext-validation-4651829867_qdrant_storage Created 
+ Volume kontext-validation-4651829867_validation_app_data Created 
+ Volume kontext-validation-4651829867_validation_app_data Created 
+ Volume kontext-validation-4651829867_postgres_data Created 
+ Volume kontext-validation-4651829867_postgres_data Created 
+ Network kontext-validation-4651829867_enterprise_rag_network Created 
+ Network kontext-validation-4651829867_enterprise_rag_network Created 
+ Container kontext-validation-4651829867-qdrant Creating 
+ Container kontext-validation-4651829867-postgres Creating 
+ Container kontext-validation-4651829867-qdrant Created 
+ Container kontext-validation-4651829867-postgres Created 
+ Container kontext-validation-4651829867-app Creating 
+ Container kontext-validation-4651829867-app Created 
+ Container kontext-validation-4651829867-postgres Starting 
+ Container kontext-validation-4651829867-qdrant Starting 
+ Container kontext-validation-4651829867-postgres Started 
+ Container kontext-validation-4651829867-qdrant Started 
+ Container kontext-validation-4651829867-app Starting 
+ Container kontext-validation-4651829867-app Started 
+ Container kontext-validation-4651829867-qdrant Waiting 
+ Container kontext-validation-4651829867-app Waiting 
+ Container kontext-validation-4651829867-postgres Waiting 
+ Container kontext-validation-4651829867-qdrant Healthy 
+ Container kontext-validation-4651829867-postgres Healthy 
+container kontext-validation-4651829867-app exited (1)

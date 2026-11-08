@@ -1,0 +1,170 @@
+{
+  "timestamp": "2026-11-08T05:14:05.043004+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "evaluation_queries": 225,
+  "excluded": "Tool queries are not retrieval tasks.",
+  "limitation": "Fixed generated queries over a curated corpus, no independent holdout. Warm sequential retrieval only. Reranked benchmark returns five candidates; chat returns three.",
+  "configurations": {
+    "bm25": {
+      "overall": {
+        "hit_at_1": 0.7333333333333333,
+        "hit_at_3": 0.8977777777777778,
+        "hit_at_5": 0.9555555555555556,
+        "mrr": 0.8239259259259258,
+        "queries": 225,
+        "mean_latency_ms": 0.13700711112101593,
+        "p95_latency_ms": 0.23284000003513927
+      },
+      "by_language": {
+        "cross": {
+          "hit_at_1": 0.88,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mrr": 0.9333333333333332,
+          "queries": 25,
+          "mean_latency_ms": 0.11453600000095321,
+          "p95_latency_ms": 0.16462000003230057
+        },
+        "de": {
+          "hit_at_1": 0.68,
+          "hit_at_3": 0.83,
+          "hit_at_5": 0.94,
+          "mrr": 0.7788333333333334,
+          "queries": 100,
+          "mean_latency_ms": 0.11593600000196602,
+          "p95_latency_ms": 0.19221499982222665
+        },
+        "en": {
+          "hit_at_1": 0.75,
+          "hit_at_3": 0.94,
+          "hit_at_5": 0.96,
+          "mrr": 0.8416666666666667,
+          "queries": 100,
+          "mean_latency_ms": 0.16369600002008156,
+          "p95_latency_ms": 0.2763750001236076
+        }
+      }
+    },
+    "hashed_vectors": {
+      "overall": {
+        "hit_at_1": 0.3377777777777778,
+        "hit_at_3": 0.5244444444444445,
+        "hit_at_5": 0.6533333333333333,
+        "mrr": 0.44666666666666666,
+        "queries": 225,
+        "mean_latency_ms": 2.499939111108284,
+        "p95_latency_ms": 3.5701799999969808
+      },
+      "by_language": {
+        "cross": {
+          "hit_at_1": 0.24,
+          "hit_at_3": 0.8,
+          "hit_at_5": 0.8,
+          "mrr": 0.48666666666666664,
+          "queries": 25,
+          "mean_latency_ms": 1.9283039999845641,
+          "p95_latency_ms": 2.6265599999533147
+        },
+        "de": {
+          "hit_at_1": 0.36,
+          "hit_at_3": 0.47,
+          "hit_at_5": 0.66,
+          "mrr": 0.44866666666666666,
+          "queries": 100,
+          "mean_latency_ms": 2.5906999999938307,
+          "p95_latency_ms": 3.8253050001685547
+        },
+        "en": {
+          "hit_at_1": 0.34,
+          "hit_at_3": 0.51,
+          "hit_at_5": 0.61,
+          "mrr": 0.4346666666666667,
+          "queries": 100,
+          "mean_latency_ms": 2.5520870000036666,
+          "p95_latency_ms": 3.4289999998236453
+        }
+      }
+    },
+    "hybrid_rrf": {
+      "overall": {
+        "hit_at_1": 0.6133333333333333,
+        "hit_at_3": 0.7822222222222223,
+        "hit_at_5": 0.8533333333333334,
+        "mrr": 0.7045925925925925,
+        "queries": 225,
+        "mean_latency_ms": 3.5507093333358677,
+        "p95_latency_ms": 4.822280000098544
+      },
+      "by_language": {
+        "cross": {
+          "hit_at_1": 0.76,
+          "hit_at_3": 0.92,
+          "hit_at_5": 0.96,
+          "mrr": 0.8366666666666667,
+          "queries": 25,
+          "mean_latency_ms": 1.8869799999629322,
+          "p95_latency_ms": 2.4668999999448715
+        },
+        "de": {
+          "hit_at_1": 0.57,
+          "hit_at_3": 0.77,
+          "hit_at_5": 0.83,
+          "mrr": 0.6713333333333334,
+          "queries": 100,
+          "mean_latency_ms": 3.5077680000040345,
+          "p95_latency_ms": 4.291484999976092
+        },
+        "en": {
+          "hit_at_1": 0.62,
+          "hit_at_3": 0.76,
+          "hit_at_5": 0.85,
+          "mrr": 0.7048333333333333,
+          "queries": 100,
+          "mean_latency_ms": 4.0095830000109345,
+          "p95_latency_ms": 5.439995000040199
+        }
+      }
+    },
+    "lexical_reranked_top5": {
+      "overall": {
+        "hit_at_1": 0.8177777777777778,
+        "hit_at_3": 0.9022222222222223,
+        "hit_at_5": 0.9422222222222222,
+        "mrr": 0.8631851851851852,
+        "queries": 225,
+        "mean_latency_ms": 4.391762666663352,
+        "p95_latency_ms": 5.854399999998349
+      },
+      "by_language": {
+        "cross": {
+          "hit_at_1": 1.0,
+          "hit_at_3": 1.0,
+          "hit_at_5": 1.0,
+          "mrr": 1.0,
+          "queries": 25,
+          "mean_latency_ms": 3.5382160000062868,
+          "p95_latency_ms": 4.833840000082999
+        },
+        "de": {
+          "hit_at_1": 0.75,
+          "hit_at_3": 0.86,
+          "hit_at_5": 0.9,
+          "mrr": 0.8106666666666666,
+          "queries": 100,
+          "mean_latency_ms": 4.5550559999878715,
+          "p95_latency_ms": 5.917064999994182
+        },
+        "en": {
+          "hit_at_1": 0.84,
+          "hit_at_3": 0.92,
+          "hit_at_5": 0.97,
+          "mrr": 0.8815000000000001,
+          "queries": 100,
+          "mean_latency_ms": 4.441856000003099,
+          "p95_latency_ms": 5.800010000007205
+        }
+      }
+    }
+  }
+}

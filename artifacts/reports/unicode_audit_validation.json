@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-07T18:04:17.362219+00:00",
+  "status": "PASS",
+  "scope": "Native full regression after Unicode JSONL audit parsing fix",
+  "passed": 141,
+  "failed": 0,
+  "skipped": 0,
+  "source_sha256": "49c23172c393367ed1b9cea436f7fd8064dad987cac054fef6f5ed29317b2eb2",
+  "junit": "artifacts/reports/unicode-audit-tests.xml",
+  "junit_sha256": "051441b31babd40d5192cc0068d270cd5b87a613444c9be910b73857e7441601",
+  "docker": "NOT_RERUN: prior Docker evidence remains tied to its recorded source fingerprint"
+}

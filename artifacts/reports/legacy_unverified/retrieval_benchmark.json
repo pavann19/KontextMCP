@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-03T15:13:45Z",
+  "total_queries": 250,
+  "metrics": {
+    "hit_at_1": 0.676,
+    "hit_at_3": 0.776,
+    "hit_at_5": 0.776,
+    "mrr": 0.7207,
+    "ndcg_at_3": 0.7812,
+    "statutory_keyword_coverage": 0.8432,
+    "mean_latency_ms": 5.2,
+    "p95_latency_ms": 7.21
+  },
+  "language_breakdown": {
+    "english_queries": {
+      "count": 100,
+      "hit_at_3": 0.8,
+      "mrr": 0.7547
+    },
+    "german_queries": {
+      "count": 100,
+      "hit_at_3": 0.8,
+      "mrr": 0.76
+    },
+    "cross_lingual_queries": {
+      "count": 25,
+      "hit_at_3": 0.8,
+      "mrr": 0.7573
+    },
+    "mcp_tool_queries": {
+      "count": 25,
+      "hit_at_3": 0.8,
+      "mrr": 0.756
+    }
+  }
+}

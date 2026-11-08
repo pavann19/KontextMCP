@@ -1,0 +1,521 @@
+[
+  {
+    "doc_id": "eu_ai_act_de_art_01",
+    "language": "de",
+    "type": "article",
+    "title": "Gegenstand",
+    "chapter": "Titel I - Allgemeine Bestimmungen",
+    "article_id": "Artikel 1",
+    "recital_refs": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "text": "Artikel 1 - Gegenstand\n1. Zweck dieser Verordnung ist es, das Funktionieren des Binnenmarkts zu verbessern und die Einführung einer auf den Menschen ausgerichteten und vertrauenswürdigen künstlichen Intelligenz (KI) zu fördern. Gleichzeitig soll ein hohes Schutzniveau für Gesundheit, Sicherheit und die in der Charta verankerten Grundrechte, einschließlich Demokratie, Rechtsstaatlichkeit und Umweltschutz, vor den schädlichen Auswirkungen von KI-Systemen in der Union gewährleistet und Innovationen unterstützt werden.\n2. Diese Verordnung enthält:\na) harmonisierte Vorschriften für das Inverkehrbringen, die Inbetriebnahme und die Verwendung von KI-Systemen in der Union;\nb) Verbote bestimmter Praktiken im Bereich der künstlichen Intelligenz;\nc) spezifische Anforderungen an Hochrisiko-KI-Systeme und Pflichten für die Betreiber solcher Systeme;\nd) harmonisierte Transparenzvorschriften für bestimmte KI-Systeme;\ne) harmonisierte Vorschriften für das Inverkehrbringen von KI-Modellen mit allgemeinem Verwendungszweck;\nf) Vorschriften über Marktbeobachtung, Marktüberwachung, Governance und Durchsetzung;\ng) Maßnahmen zur Unterstützung von Innovationen, mit besonderem Schwerpunkt auf KMU und Start-ups.",
+    "keywords": [
+      "Gegenstand",
+      "Binnenmarkt",
+      "menschenzentriert",
+      "Grundrechte",
+      "Verbote",
+      "Hochrisiko-KI-Systeme",
+      "Modelle mit allgemeinem Verwendungszweck"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "dab6dfa30f9b4b0ac5044565eba1c01c0350bfd393d6e273dee80c2ab87f34d4"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_02",
+    "language": "de",
+    "type": "article",
+    "title": "Anwendungsbereich",
+    "chapter": "Titel I - Allgemeine Bestimmungen",
+    "article_id": "Artikel 2",
+    "recital_refs": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "text": "Artikel 2 - Anwendungsbereich\n1. Diese Verordnung gilt für:\na) Anbieter, die KI-Systeme in der Union in Verkehr bringen oder in Betrieb nehmen oder KI-Modelle mit allgemeinem Verwendungszweck in der Union in Verkehr bringen, unabhängig davon, ob diese Anbieter in der Union oder in einem Drittland niedergelassen sind;\nb) Betreiber von KI-Systemen, die ihren Sitz oder Wohnsitz in der Union haben;\nc) Anbieter und Betreiber von KI-Systemen, die ihren Sitz oder Wohnsitz in einem Drittland haben, wenn die vom System erzeugte Ausgabe in der Union verwendet wird;\nd) Händler und Einführer von KI-Systemen;\ne) Produkthersteller, die ein KI-System zusammen mit ihrem Produkt unter eigenem Namen oder eigener Marke in Verkehr bringen oder in Betrieb nehmen;\nf) Bevollmächtigte von Anbietern, die nicht in der Union niedergelassen sind;\ng) betroffene Personen, die sich in der Union befinden.\n2. Diese Verordnung gilt nicht für KI-Systeme, wenn und soweit sie ausschließlich für militärische, verteidigungspolitische oder nationale Sicherheitszwecke in Verkehr gebracht, in Betrieb genommen oder verwendet werden.\n3. Diese Verordnung gilt nicht für Behörden in Drittländern oder internationale Organisationen im Rahmen der internationalen Zusammenarbeit in Strafverfolgung und Justiz.",
+    "keywords": [
+      "Anwendungsbereich",
+      "Anbieter",
+      "Betreiber",
+      "Einführer",
+      "Händler",
+      "Militär-Ausnahme",
+      "nationale Sicherheit",
+      "Drittland"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "db49ad30e52bddc920258b6762bcc8e0fe78f865f5ed476e08c0ab5e0f44ca28"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_03",
+    "language": "de",
+    "type": "article",
+    "title": "Begriffsbestimmungen",
+    "chapter": "Titel I - Allgemeine Bestimmungen",
+    "article_id": "Artikel 3",
+    "recital_refs": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "text": "Artikel 3 - Begriffsbestimmungen\nFür die Zwecke dieser Verordnung gelten folgende Begriffsbestimmungen:\n1. 'KI-System': ein maschinengestütztes System, das für einen unterschiedlich autonomen Betrieb ausgelegt ist und das nach seiner Betriebsaufnahme Anpassungsfähigkeit zeigen kann und das für explizite oder implizite Ziele aus den erhaltenen Eingaben ableitet, wie Ausgaben wie Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen erzeugt werden können, die physische oder virtuelle Umgebungen beeinflussen können;\n2. 'Risiko': die Kombination aus der Wahrscheinlichkeit des Auftretens eines Schadens und der Schwere dieses Schadens;\n3. 'Anbieter': eine natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die ein KI-System oder ein KI-Modell mit allgemeinem Verwendungszweck entwickelt oder entwickeln lässt und es unter ihrem eigenen Namen oder ihrer Handelsmarke in Verkehr bringt oder das KI-System in Betrieb nimmt, sei es entgeltlich oder unentgeltlich;\n4. 'Betreiber': eine natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die ein KI-System in eigener Verantwortung verwendet, es sei denn, das KI-System wird im Rahmen einer persönlichen, nicht beruflichen Tätigkeit verwendet;\n5. 'Bevollmächtigter': jede in der Union ansässige oder niedergelassene natürliche oder juristische Person, die von einem Anbieter eine schriftliche Vollmacht erhalten hat;\n6. 'Einführer': jede in der Union niedergelassene natürliche oder juristische Person, die ein KI-System in Verkehr bringt, das den Namen oder die Handelsmarke einer in einem Drittland niedergelassenen Person trägt;\n7. 'Händler': jede natürliche oder juristische Person in der Lieferkette, die ein KI-System auf dem Unionsmarkt bereitstellt, ohne dessen Eigenschaften zu verändern;\n8. 'Wirtschaftsakteur': der Anbieter, Produkthersteller, Betreiber, Bevollmächtigte, Einführer oder Händler;\n9. 'Inverkehrbringen': die erstmalige Bereitstellung eines KI-Systems oder eines KI-Modells mit allgemeinem Verwendungszweck auf dem Unionsmarkt;\n10. 'Inbetriebnahme': die erstmalige Bereitstellung eines KI-Systems zur direkten Verwendung durch den Betreiber oder zur Eigenverwendung in der Union für seinen Zweck;\n11. 'Zweckbestimmung': die Verwendung, für die ein KI-System vom Anbieter nach den Angaben in der Gebrauchsanweisung oder technischen Dokumentation bestimmt ist;\n12. 'vernünftigerweise vorhersehbare Fehlanwendung': die Verwendung eines KI-Systems in einer Art und Weise, die nicht seiner Zweckbestimmung entspricht, sich jedoch aus menschlichem Verhalten ergeben kann;\n44. 'schwerwiegender Vorfall': ein Vorfall oder eine Fehlfunktion eines KI-Systems, der unmittelbar oder mittelbar zu Folgendem führt: a) Tod einer Person oder schwere Gesundheitsschädigung; b) schwere und irreversible Störung des Betriebs kritischer Infrastrukturen; c) Verletzung von Grundrechten; d) schwere Sach- oder Umweltschäden;\n63. 'KI-Modell mit allgemeinem Verwendungszweck': ein KI-Modell, das auch dann, wenn es mit großen Datenmengen trainiert wurde, eine erhebliche Allgemeingültigkeit aufweist und in der Lage ist, ein breites Spektrum unterschiedlicher Aufgaben kompetent zu erfüllen.",
+    "keywords": [
+      "Begriffsbestimmungen",
+      "KI-System",
+      "Anbieter",
+      "Betreiber",
+      "schwerwiegender Vorfall",
+      "Zweckbestimmung",
+      "KI-Modell mit allgemeinem Verwendungszweck"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "b0e4f53bda3c8f1a105f69956a50c1a4fbe2de79b09d46249873b0b623b9d200"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_05",
+    "language": "de",
+    "type": "article",
+    "title": "Verbotene Praktiken im Bereich der künstlichen Intelligenz",
+    "chapter": "Titel II - Verbotene KI-Praktiken",
+    "article_id": "Artikel 5",
+    "recital_refs": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "text": "Artikel 5 - Verbotene Praktiken im Bereich der künstlichen Intelligenz\n1. Folgende Praktiken im Bereich der künstlichen Intelligenz sind verboten:\na) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das unterschwellige Techniken außerhalb des Bewusstseins einer Person oder absichtlich manipulative oder täuschende Techniken einsetzt, mit dem Ziel oder der Wirkung, das Verhalten einer Person oder Personengruppe wesentlich zu verzerren, indem ihre Fähigkeit zu einer informierten Entscheidung spürbar beeinträchtigt wird und ihr dadurch erheblicher Schaden zugefügt wird;\nb) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das Schwächen natürlicher Personen oder bestimmter Personengruppen aufgrund ihres Alters, einer Behinderung oder ihrer besonderen sozialen oder wirtschaftlichen Lage ausnutzt, um ihr Verhalten wesentlich zu verzerren und ihnen Schaden zuzufügen;\nc) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung von KI-Systemen zur Bewertung oder Einstufung natürlicher Personen über einen bestimmten Zeitraum anhand ihres Sozialverhaltens oder Persönlichkeitsmerkmale (Social Scoring), wenn diese Bewertung zu ungerechtfertigter oder unverhältnismäßiger Benachteiligung führt;\nd) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems zur Erstellung von Risikobewertungen natürlicher Personen, um die Wahrscheinlichkeit von Straftaten ausschließlich auf der Grundlage von Profiling oder Persönlichkeitsmerkmalen vorherzusagen (Predictive Policing), es sei denn, das System dient der Unterstützung einer menschlichen Bewertung auf der Grundlage objektiver Fakten;\ne) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung von KI-Systemen, die Gesichtserkennungsdatenbanken durch das ungezielte Auslesen von Gesichtsbildern aus dem Internet oder von Videoüberwachungsaufnahmen aufbauen oder erweitern (untargeted scraping);\nf) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung von KI-Systemen zur Ableitung von Emotionen natürlicher Personen an Arbeitsplätzen und in Bildungseinrichtungen, es sei denn, dies geschieht aus medizinischen oder Sicherheitsgründen;\ng) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung von Systemen zur biometrischen Kategorisierung natürlicher Personen anhand biometrischer Daten zur Ableitung ihrer Rasse, politischen Anschauungen, Gewerkschaftszugehörigkeit, religiösen oder weltanschaulichen Überzeugungen, ihres Sexuallebens oder ihrer sexuellen Ausrichtung;\nh) die Verwendung von biometrischen Fernidentifizierungssystemen in Echtzeit in öffentlich zugänglichen Räumen zu Zwecken der Strafverfolgung, es sei denn, dies ist zur gezielten Suche nach Opfern, Abwendung drohender Terroranschläge oder Verfolgung schwerer Straftaten zwingend erforderlich.",
+    "keywords": [
+      "Verbotene Praktiken",
+      "unterschwellige Beeinflussung",
+      "Ausnutzung von Schwächen",
+      "Social Scoring",
+      "Predictive Policing",
+      "ungezieltes Scraping von Gesichtsbildern",
+      "Emotionserkennung am Arbeitsplatz",
+      "biometrische Kategorisierung",
+      "Echtzeit-Fernidentifizierung"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "b669e2d1a77b8b2122ab4b5f6300b07fa1dae1ed627cfc0e926d95d3c168631b"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_06",
+    "language": "de",
+    "type": "article",
+    "title": "Einstufungsregeln für Hochrisiko-KI-Systeme",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 1",
+    "article_id": "Artikel 6",
+    "recital_refs": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "text": "Artikel 6 - Einstufungsregeln für Hochrisiko-KI-Systeme\n1. Unabhängig davon, ob ein KI-System getrennt von den unter den Buchstaben a und b genannten Produkten in Verkehr gebracht oder in Betrieb genommen wird, gilt dieses KI-System als Hochrisiko-KI-System, wenn beide folgenden Bedingungen erfüllt sind:\na) Das KI-System ist als Sicherheitsbauteil eines Produkts bestimmt oder das KI-System ist selbst ein Produkt, das unter die in Anhang I aufgeführten Harmonisierungsvorschriften der Union fällt;\nb) das Produkt, dessen Sicherheitsbauteil das KI-System ist, oder das KI-System als Produkt muss einer Konformitätsbewertung durch Dritte unterzogen werden.\n2. Zusätzlich zu den in Absatz 1 genannten Systemen gelten die in Anhang III genannten KI-Systeme als Hochrisiko-KI-Systeme.\n3. Abweichend von Absatz 2 gilt ein in Anhang III genanntes KI-System nicht als Hochrisiko-KI-System, wenn es kein erhebliches Risiko einer Schädigung der Gesundheit, der Sicherheit oder der Grundrechte darstellt und das Ergebnis der Entscheidungsfindung nicht wesentlich beeinflusst. Dies ist der Fall, wenn eine der folgenden Bedingungen erfüllt ist:\na) das System ist für eine eng begrenzte verfahrenstechnische Aufgabe bestimmt;\nb) das System soll das Ergebnis einer zuvor abgeschlossenen menschlichen Tätigkeit verbessern;\nc) das System soll Entscheidungsmuster oder Abweichungen erkennen, ohne eine vorherige menschliche Bewertung ohne Überprüfung zu ersetzen;\nd) das System soll nur eine vorbereitende Aufgabe für eine Bewertung aus Anhang III durchführen.",
+    "keywords": [
+      "Einstufungsregeln",
+      "Hochrisiko-KI-Systeme",
+      "Anhang I",
+      "Anhang III",
+      "Ausnahme",
+      "Sicherheitsbauteil",
+      "Konformitätsbewertung",
+      "eng begrenzte Aufgabe"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "2b5b24fd0d60d822d5ed08ba62fcfa9f6ead1a088e2995c2db193b7f6018cd9d"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_09",
+    "language": "de",
+    "type": "article",
+    "title": "Risikomanagementsystem",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 9",
+    "recital_refs": [
+      43,
+      44,
+      45
+    ],
+    "text": "Artikel 9 - Risikomanagementsystem\n1. In Bezug auf Hochrisiko-KI-Systeme ist ein Risikomanagementsystem einzurichten, umzusetzen, zu dokumentieren und aufrechtzuerhalten.\n2. Das Risikomanagementsystem ist als ein kontinuierlicher, iterativer Prozess zu verstehen, der während des gesamten Lebenszyklus des Hochrisiko-KI-Systems durchgeführt wird und eine regelmäßige systematische Aktualisierung erfordert. Es umfasst folgende Schritte:\na) Ermittlung und Analyse der bekannten und vernünftigerweise vorhersehbaren Risiken für Gesundheit, Sicherheit oder Grundrechte bei bestimmungsgemäßer Verwendung;\nb) Schätzung und Bewertung der Risiken, die bei bestimmungsgemäßer Verwendung und bei vernünftigerweise vorhersehbarer Fehlanwendung entstehen können;\nc) Bewertung sonstiger Risiken anhand von Daten aus der Beobachtung nach dem Inverkehrbringen (Artikel 72);\nd) Ergreifung geeigneter und gezielter Risikomanagementmaßnahmen zur Bewältigung der ermittelten Risiken.\n3. Bei den Risikomanagementmaßnahmen ist der kombinierten Anwendung der Anforderungen dieses Kapitels gebührend Rechnung zu tragen.\n4. Hochrisiko-KI-Systeme sind zu testen, um die am besten geeigneten Risikomanagementmaßnahmen zu ermitteln. Durch Tests ist sicherzustellen, dass die Systeme stets ihrer Zweckbestimmung entsprechen und die Anforderungen erfüllen.",
+    "keywords": [
+      "Risikomanagementsystem",
+      "Lebenszyklus",
+      "iterativer Prozess",
+      "Risikobewertung",
+      "Fehlanwendung",
+      "Risikominimierung",
+      "Prüfung und Tests"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "1d1e367ffc268ef05800d239ddfc1bafbc0a3fc0483dcba5c7f5b15dce600c76"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_10",
+    "language": "de",
+    "type": "article",
+    "title": "Daten und Daten-Governance",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 10",
+    "recital_refs": [
+      46,
+      47,
+      48
+    ],
+    "text": "Artikel 10 - Daten und Daten-Governance\n1. Hochrisiko-KI-Systeme, bei denen Techniken zum Einsatz kommen, die das Trainieren von Modellen mit Daten umfassen, sind auf der Grundlage von Trainings-, Validierungs- und Testdatensätzen zu entwickeln, die den Qualitätskriterien der Absätze 2 bis 5 entsprechen.\n2. Für Trainings-, Validierungs- und Testdatensätze müssen geeignete Daten-Governance- und Datenverwaltungspraktiken angewandt werden. Diese Praktiken betreffen insbesondere:\na) die relevanten Entwurfsentscheidungen;\nb) die Datenerfassungsprozesse und die Herkunft der Daten sowie bei personenbezogenen Daten den ursprünglichen Erhebungszweck;\nc) einschlägige Datenaufbereitungsvorgänge wie Annotation, Kennzeichnung, Bereinigung, Aktualisierung, Anreicherung und Aggregation;\nd) die Formulierung von Annahmen darüber, was die Daten messen sollen;\ne) eine Bewertung der Verfügbarkeit, Menge und Eignung der Datensätze;\nf) Prüfung auf mögliche Verzerrungen (Biases), die zu Diskriminierung oder Beeinträchtigung der Grundrechte führen können;\ng) geeignete Maßnahmen zur Erkennung, Verhinderung und Minderung möglicher Verzerrungen;\nh) Ermittlung relevanter Datenlücken oder Mängel und deren Behebung.\n3. Die Datensätze müssen relevant, repräsentativ, fehlerfrei und vollständig sein.",
+    "keywords": [
+      "Daten-Governance",
+      "Trainingsdatensätze",
+      "Validierung",
+      "Testen",
+      "Bias-Erkennung",
+      "Verzerrungen",
+      "Datenqualität",
+      "Repräsentativität"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "d6e99518969158f796ef09efc5d5668723a631a12dafd1d602e8885ba4226184"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_11",
+    "language": "de",
+    "type": "article",
+    "title": "Technische Dokumentation",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 11",
+    "recital_refs": [
+      49,
+      50
+    ],
+    "text": "Artikel 11 - Technische Dokumentation\n1. Die technische Dokumentation eines Hochrisiko-KI-Systems ist vor dem Inverkehrbringen oder der Inbetriebnahme zu erstellen und stets auf dem aktuellen Stand zu halten.\n2. Die technische Dokumentation ist so abzufassen, dass nachgewiesen wird, dass das Hochrisiko-KI-System die in diesem Kapitel festgelegten Anforderungen erfüllt, und dass den nationalen zuständigen Behörden und notifizierten Stellen alle erforderlichen Informationen bereitgestellt werden. Sie muss mindestens die in Anhang IV aufgeführten Angaben enthalten.",
+    "keywords": [
+      "technische Dokumentation",
+      "Anhang IV",
+      "Konformitätsnachweis",
+      "notifizierte Stellen",
+      "Zuständige Behörden"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "99e3906ae84d9b523ba187cf34d86d538a1bd564f7a345d4f749c43f9a18dbc4"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_12",
+    "language": "de",
+    "type": "article",
+    "title": "Aufzeichnungspflichten",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 12",
+    "recital_refs": [
+      51
+    ],
+    "text": "Artikel 12 - Aufzeichnungspflichten\n1. Hochrisiko-KI-Systeme müssen technisch so ausgelegt sein, dass sie die automatische Aufzeichnung von Ereignissen ('Protokolle' oder 'Logs') während der Lebensdauer des Systems ermöglichen.\n2. Um ein der Zweckbestimmung des Systems angemessenes Maß an Rückverfolgbarkeit zu gewährleisten, müssen die Protokollierungsfunktionen die Aufzeichnung von Ereignissen ermöglichen, die relevant sind für:\na) die Erkennung von Situationen, die zu einem Risiko oder schwerwiegenden Vorfall führen können;\nb) die Erleichterung der Beobachtung nach dem Inverkehrbringen (Artikel 72);\nc) die Überwachung des Betriebs durch die Betreiber (Artikel 26 Absatz 5).",
+    "keywords": [
+      "Aufzeichnungspflichten",
+      "automatische Protokollierung",
+      "Systemprotokolle",
+      "Rückverfolgbarkeit",
+      "schwerwiegender Vorfall",
+      "Logs"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "c227cf31297131bb4aef734d2ce3385ef379f79c32691c514aef2d646f92a77e"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_13",
+    "language": "de",
+    "type": "article",
+    "title": "Transparenz und Bereitstellung von Informationen für Betreiber",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 13",
+    "recital_refs": [
+      52,
+      53
+    ],
+    "text": "Artikel 13 - Transparenz und Bereitstellung von Informationen für Betreiber\n1. Hochrisiko-KI-Systeme müssen so konzipiert sein, dass ihr Betrieb hinreichend transparent ist, damit die Betreiber die Ausgaben des Systems interpretieren und angemessen verwenden können.\n2. Hochrisiko-KI-Systemen ist eine Gebrauchsanweisung beizufügen, die präzise, vollständige, korrekte und klare Angaben enthält.\n3. Die Gebrauchsanweisung muss Angaben zu Identität und Kontaktdaten des Anbieters, Merkmalen, Leistungsgrenzen, Genauigkeit, Cybersicherheit sowie Maßnahmen der menschlichen Aufsicht enthalten.",
+    "keywords": [
+      "Transparenz",
+      "Gebrauchsanweisung",
+      "Informationen für Betreiber",
+      "Leistungsgrenzen",
+      "Erklärbarkeit",
+      "menschliche Aufsicht"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "b37627d2d6a19140edb7eeb112c636adeb32adb7e21ca2fc7e5fd617fa634489"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_14",
+    "language": "de",
+    "type": "article",
+    "title": "Menschliche Aufsicht",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 14",
+    "recital_refs": [
+      54,
+      55
+    ],
+    "text": "Artikel 14 - Menschliche Aufsicht\n1. Hochrisiko-KI-Systeme müssen so konzipiert und entwickelt werden, dass sie von natürlichen Personen während ihrer Verwendung wirksam beaufsichtigt werden können.\n2. Die menschliche Aufsicht zielt darauf ab, Risiken für Gesundheit, Sicherheit oder Grundrechte zu verhindern oder zu minimieren.\n4. Die mit der Aufsicht betrauten Personen müssen in der Lage sein:\na) die Fähigkeiten und Grenzen des Systems richtig zu verstehen;\nb) sich der Tendenz zur automatischen Befolgung oder Übervertrauens in das System bewusst zu sein ('Automation Bias');\nc) die Ausgaben richtig zu interpretieren;\nd) in jeder Situation zu entscheiden, das System nicht zu verwenden oder dessen Ausgaben zu überstimmen, zu korrigieren oder zu verwerfen;\ne) in den Betrieb des Systems einzugreifen oder das System durch eine Stopptaste ('Stop-Button') sicher anzuhalten.",
+    "keywords": [
+      "menschliche Aufsicht",
+      "Automation Bias",
+      "Stopptaste",
+      "Übersteuerung",
+      "Mensch-Maschine-Schnittstelle",
+      "Überwachung"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "2a43ea1cb63ac1a8c9d7f6e23e415dd6c27e7b826f6d3c023caeec39f64c3fd2"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_15",
+    "language": "de",
+    "type": "article",
+    "title": "Genauigkeit, Robustheit und Cybersicherheit",
+    "chapter": "Titel III - Hochrisiko-KI-Systeme - Kapitel 2 Anforderungen",
+    "article_id": "Artikel 15",
+    "recital_refs": [
+      56,
+      57,
+      58
+    ],
+    "text": "Artikel 15 - Genauigkeit, Robustheit und Cybersicherheit\n1. Hochrisiko-KI-Systeme müssen so konzipiert sein, dass sie ein angemessenes Niveau an Genauigkeit, Robustheit und Cybersicherheit erreichen und über ihren gesamten Lebenszyklus beibehalten.\n3. Hochrisiko-KI-Systeme müssen widerstandsfähig gegenüber Fehlern, Störungen oder Unstimmigkeiten sein.\n4. Hochrisiko-KI-Systeme müssen gegen Versuche unbefugter Dritter geschützt sein, ihre Nutzung oder Ausgabe durch Ausnutzung von Schwachstellen zu verändern. Technische Lösungen müssen Angriffe wie Datenvergiftung ('Data Poisoning'), gegnerische Angriffe ('Adversarial Attacks') sowie Modellinversion und Extraktionsangriffe verhindern, erkennen und abwehren.",
+    "keywords": [
+      "Genauigkeit",
+      "Robustheit",
+      "Cybersicherheit",
+      "Adversarial Attacks",
+      "Data Poisoning",
+      "Datenvergiftung",
+      "Modellinversion",
+      "Resilienz"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "e9e3ec863b7f8bf8d73d5d016e1f6634cae4e5158d4f7cc79b3ba74e9e5231d3"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_50",
+    "language": "de",
+    "type": "article",
+    "title": "Transparenzpflichten für Anbieter und Betreiber bestimmter KI-Systeme",
+    "chapter": "Titel IV - Transparenzpflichten für bestimmte KI-Systeme",
+    "article_id": "Artikel 50",
+    "recital_refs": [
+      70,
+      71,
+      72
+    ],
+    "text": "Artikel 50 - Transparenzpflichten für Anbieter und Betreiber bestimmter KI-Systeme\n1. Anbieter stellen sicher, dass KI-Systeme, die dazu bestimmt sind, unmittelbar mit natürlichen Personen zu interagieren, so konzipiert sind, dass die betroffenen Personen darüber informiert werden, dass sie mit einem KI-System interagieren, es sei denn, dies ist aus den Umständen offensichtlich.\n2. Anbieter von KI-Systemen, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, stellen sicher, dass die Ausgaben in einem maschinenlesbaren Format gekennzeichnet und als künstlich erzeugt erkennbar sind (Wasserzeichen / Watermarking).\n3. Betreiber von Emotionserkennungssystemen oder Systemen zur biometrischen Kategorisierung informieren betroffene Personen über den Betrieb des Systems.\n4. Betreiber von KI-Systemen, die Deepfakes erzeugen oder manipulieren, legen offen, dass die Inhalte künstlich erzeugt oder manipuliert wurden.",
+    "keywords": [
+      "Transparenzpflichten",
+      "Chatbots",
+      "Deepfake-Kennzeichnung",
+      "Wasserzeichen",
+      "synthetische Inhalte",
+      "Emotionserkennung"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "70c0568a2d17257d4b82eafca43d4ad9a000cfe9d197d9f63f3e821c1eed583e"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_51",
+    "language": "de",
+    "type": "article",
+    "title": "Einstufung von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+    "chapter": "Titel V - KI-Modelle mit allgemeinem Verwendungszweck",
+    "article_id": "Artikel 51",
+    "recital_refs": [
+      110,
+      111,
+      112
+    ],
+    "text": "Artikel 51 - Einstufung von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko\n1. Ein KI-Modell mit allgemeinem Verwendungszweck wird als Modell mit systemischem Risiko eingestuft, wenn es über Fähigkeiten mit hoher Auswirkung verfügt oder die Kommission dies beschließt.\n2. Fähigkeiten mit hoher Auswirkung werden vermutet, wenn die kumulierte Rechenleistung für das Training gemessen in Gleitkommaoperationen (FLOPs) mehr als 10^25 beträgt.",
+    "keywords": [
+      "Modelle mit allgemeinem Verwendungszweck",
+      "systemisches Risiko",
+      "FLOPs Schwellenwert",
+      "10^25 FLOPs",
+      "Kommission",
+      "hohe Auswirkung"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "d3bea954056a1fdb219ff65402fee9dc79e5474e4b428eddfbe7e3f3b303a4ac"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_55",
+    "language": "de",
+    "type": "article",
+    "title": "Pflichten für Anbieter von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko",
+    "chapter": "Titel V - KI-Modelle mit allgemeinem Verwendungszweck",
+    "article_id": "Artikel 55",
+    "recital_refs": [
+      113,
+      114,
+      115
+    ],
+    "text": "Artikel 55 - Pflichten für Anbieter von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko\n1. Anbieter von Modellen mit systemischem Risiko müssen:\na) Modellbewertungen nach dem Stand der Technik durchführen und dokumentieren, einschließlich gegnerischer Tests (Adversarial Testing / Red Teaming);\nb) mögliche systemische Risiken auf Unionsebene bewerten und mindern;\nc) schwerwiegende Vorfälle unverzüglich dem KI-Büro und den nationalen Behörden melden;\nd) ein angemessenes Niveau an Cybersicherheit für das Modell und die physische Infrastruktur gewährleisten.",
+    "keywords": [
+      "Pflichten systemisches Risiko",
+      "Adversarial Testing",
+      "Red Teaming",
+      "Meldung schwerwiegender Vorfälle",
+      "KI-Büro",
+      "Cybersicherheit"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "1369ced7db0d3a38facd7090c122143570c4fb77c727610a53f661d8bf44b9b7"
+  },
+  {
+    "doc_id": "eu_ai_act_de_art_99",
+    "language": "de",
+    "type": "article",
+    "title": "Sanktionen und Geldbußen",
+    "chapter": "Titel XII - Sanktionen",
+    "article_id": "Artikel 99",
+    "recital_refs": [
+      166,
+      167,
+      168
+    ],
+    "text": "Artikel 99 - Sanktionen und Geldbußen\n1. Die Mitgliedstaaten erlassen Vorschriften über Sanktionen und Geldbußen bei Verstößen gegen diese Verordnung. Die Sanktionen müssen wirksam, verhältnismäßig und abschreckend sein.\n3. Verstöße gegen das Verbot bestimmter KI-Praktiken gemäß Artikel 5 werden mit Geldbußen von bis zu 35 000 000 EUR oder bei Unternehmen von bis zu 7 % des weltweiten Jahresumsatzes geahndet, je nachdem, welcher Betrag höher ist.\n4. Verstöße gegen sonstige Anforderungen für Hochrisiko-KI-Systeme werden mit Geldbußen von bis zu 15 000 000 EUR oder bis zu 3 % des weltweiten Jahresumsatzes geahndet, je nachdem, welcher Betrag höher ist.\n5. Bei Erteilung unrichtiger, unvollständiger oder irreführender Auskünfte an notifizierte Stellen oder Behörden drohen Geldbußen von bis zu 7 500 000 EUR oder bis zu 1,5 % des weltweiten Jahresumsatzes.\n6. Für KMU und Start-ups gilt jeweils der niedrigere Betrag aus Prozentsatz oder Höchstsumme.",
+    "keywords": [
+      "Sanktionen",
+      "Geldbußen",
+      "35 Millionen EUR",
+      "7 Prozent Umsatz",
+      "15 Millionen EUR",
+      "3 Prozent Umsatz",
+      "Verstöße gegen Artikel 5",
+      "KMU Obergrenze"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "e441c1b5831ac10229eccc674e42fa0264f444873540b4675c28a0a18b334c29"
+  },
+  {
+    "doc_id": "eu_ai_act_de_annex_03",
+    "language": "de",
+    "type": "annex",
+    "title": "Hochrisiko-KI-Systeme gemäß Artikel 6 Absatz 2",
+    "chapter": "Anhänge",
+    "article_id": "Anhang III",
+    "recital_refs": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "text": "Anhang III - Hochrisiko-KI-Systeme gemäß Artikel 6 Absatz 2\nDie folgenden KI-Systeme gelten gemäß Artikel 6 Absatz 2 als Hochrisiko-KI-Systeme:\n1. Biometrie:\na) Fernidentifizierungssysteme in Echtzeit oder nachträglich;\nb) Systeme zur biometrischen Kategorisierung nach sensiblen Merkmalen;\nc) Systeme zur Emotionserkennung.\n2. Kritische Infrastrukturen: Sicherheitsbauteile für digitale Infrastruktur, Straßenverkehr, Wasser-, Gas-, Wärme- und Stromversorgung.\n3. Allgemeine und berufliche Bildung:\na) Zulassung oder Zuweisung zu Bildungseinrichtungen;\nb) Bewertung von Lernergebnissen;\nc) Einstufung des Bildungsniveaus;\nd) Überwachung von Prüfungen und Erkennung von Täuschungsversuchen.\n4. Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit:\na) Einstellung und Auswahl, Ausschreibung, Filterung von Bewerbungen und Bewertung von Bewerbern;\nb) Entscheidungen über Beförderung, Kündigung, Zuweisung von Aufgaben sowie Überwachung und Leistungsbewertung am Arbeitsplatz.\n5. Zugang zu wesentlichen privaten und öffentlichen Dienstleistungen:\na) Bewertung der Anspruchsberechtigung auf Sozialleistungen;\nb) Bonitätsprüfung und Kreditwürdigkeitsbewertung (Credit Scoring);\nc) Notrufdienste und Priorisierung von Rettungskräften;\nd) Risikobewertung und Preisgestaltung in der Lebens- und Krankenversicherung.\n6. Strafverfolgung: Risikobewertung von Personen, Lügendetektoren, Zuverlässigkeit von Beweismitteln.\n7. Migration, Asyl und Grenzkontrolle: Antragsprüfung, Sicherheitsrisiken, Echtheitsprüfung von Reisedokumenten.\n8. Rechtspflege und demokratische Prozesse: Unterstützung von Justizbehörden bei Rechtsauslegung und Tatsachenfeststellung.",
+    "keywords": [
+      "Anhang III",
+      "Hochrisiko-Liste",
+      "Biometrie",
+      "Kritische Infrastruktur",
+      "Bildung",
+      "Beschäftigung",
+      "Personalmanagement",
+      "Credit Scoring",
+      "Bonitätsprüfung",
+      "Strafverfolgung",
+      "Migration",
+      "Rechtspflege"
+    ],
+    "regulation_id": "Verordnung (EU) 2024/1689",
+    "celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "official_journal": "ABl. L, 2024/1689, 12.7.2024, S. 1-144",
+    "publication_date": "2024-07-12",
+    "retrieval_date": "2024-08-01",
+    "document_version": "Amtsblatt der Europäischen Union, CELEX 32024R1689",
+    "content_sha256": "123e39dc380ce7723f8bb6ebb2665feba41639b0555ac5db6c89acace3817f3b"
+  }
+]

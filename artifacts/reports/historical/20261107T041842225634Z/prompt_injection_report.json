@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-07T04:17:03.430658+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "collected": 16,
+  "passed": 16,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_ids": [
+    "tests.security.test_document_injection.test_markdown_comment_injection_neutralized",
+    "tests.security.test_document_injection.test_html_comment_and_script_injection_neutralized",
+    "tests.security.test_document_injection.test_zero_width_obfuscated_injection_neutralized",
+    "tests.security.test_document_injection.test_cyrillic_homoglyph_injection_neutralized",
+    "tests.security.test_document_injection.test_url_encoded_injection_neutralized",
+    "tests.security.test_document_injection.test_german_indirect_document_injection_neutralized",
+    "tests.security.test_document_injection.test_table_embedded_injection_neutralized",
+    "tests.security.test_document_injection.test_split_chunk_distributed_injection_detected",
+    "tests.security.test_document_injection.test_synthesis_isolation_from_document_instructions",
+    "tests.security.test_multi_turn_injection.test_multi_turn_escalation_flow",
+    "tests.security.test_multi_turn_injection.test_identity_not_derived_from_conversation_content",
+    "tests.security.test_multi_turn_injection.test_concurrent_sessions_isolated",
+    "tests.test_indirect_prompt_injection.test_document_chunk_inspection_detects_embedded_injection",
+    "tests.test_indirect_prompt_injection.test_retrieval_sanitizes_poisoned_chunks",
+    "tests.test_indirect_prompt_injection.test_synthesis_does_not_execute_indirect_injection",
+    "tests.test_red_teaming.test_full_red_teaming_suite"
+  ],
+  "evidence": "hardening-tests.xml",
+  "limitation": "Automated local checks only; no production or general security guarantee."
+}

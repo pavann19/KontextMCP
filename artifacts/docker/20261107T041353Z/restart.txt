@@ -1,0 +1,2 @@
+ Container kontext-validation-363a46d0ea-app Restarting 
+ Container kontext-validation-363a46d0ea-app Started 

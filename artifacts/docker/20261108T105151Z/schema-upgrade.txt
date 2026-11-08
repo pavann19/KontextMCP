@@ -1,0 +1,7 @@
+Schema is at the reviewed migration head and matches the application metadata.
+ Volume kontext-validation-b4dcaf0a21_hardened_app_data Creating 
+ Volume kontext-validation-b4dcaf0a21_hardened_app_data Creating 
+ Volume kontext-validation-b4dcaf0a21_hardened_app_data Created 
+ Volume kontext-validation-b4dcaf0a21_hardened_app_data Created 
+ Container kontext-validation-b4dcaf0a21-app-run-b98d6b71ccf1 Creating 
+ Container kontext-validation-b4dcaf0a21-app-run-b98d6b71ccf1 Created 

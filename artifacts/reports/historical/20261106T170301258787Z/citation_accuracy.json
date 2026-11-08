@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-11-06T17:02:43.320491+00:00",
+  "scope": "local",
+  "status": "UNVERIFIED",
+  "retrieval_article_hit_at_1": 0.8177777777777778,
+  "limitation": "Article retrieval hit rate is not answer entailment or citation precision. Answer-level citation accuracy and abstention were not measured."
+}

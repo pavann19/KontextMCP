@@ -1,0 +1,2 @@
+# Install into .venv-mcp-sdk to keep client dependencies separate from the application.
+mcp==2.3.0

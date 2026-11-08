@@ -1,0 +1,24 @@
+# Combine with docker-compose.yml using a unique project name.
+# No application host-data mounts or fixed host ports are used here.
+services:
+  app:
+    container_name: ${COMPOSE_PROJECT_NAME}-app
+    restart: "no"
+    environment:
+      - DATA_DIR=/var/lib/kontext
+      - AUDIT_LOG_PATH=/var/lib/kontext/audit.jsonl
+      - QDRANT_STORAGE_DIR=/var/lib/kontext/vectors
+    ports: !override
+      - "127.0.0.1::8000"
+    volumes: !override
+      - validation_app_data:/var/lib/kontext
+  postgres:
+    container_name: ${COMPOSE_PROJECT_NAME}-postgres
+    restart: "no"
+    ports: !reset []
+  qdrant:
+    container_name: ${COMPOSE_PROJECT_NAME}-qdrant
+    restart: "no"
+    ports: !reset []
+volumes:
+  validation_app_data:

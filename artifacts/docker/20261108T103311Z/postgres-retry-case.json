@@ -1,0 +1,468 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-08T10:34:54.739777+00:00",
+  "scope": "Disposable local PostgreSQL repository writes and outbox fault injection; not production capacity",
+  "database": "postgresql",
+  "concurrency": 8,
+  "concurrent_retry_attempts": 64,
+  "committed_assessments_from_concurrent_attempts": 8,
+  "duplicate_assessment_effects": 0,
+  "payload_conflicts_rejected": 8,
+  "discarded_acknowledgement": "SIMULATED_CLIENT_OUTCOME_REPLAYED",
+  "rollback_and_retry": "PASS",
+  "append_before_ack_fault": "INJECTED_AND_RECOVERED",
+  "total_case_assessments": 10,
+  "ledger_records_per_assessment": 1,
+  "sql_mirrors_per_assessment": 1,
+  "recovery_seconds": 0.010604120001517003,
+  "attempts": [
+    {
+      "group": 0,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 64.79577500067535
+    },
+    {
+      "group": 0,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 69.7618810008862
+    },
+    {
+      "group": 0,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 67.03586299954623
+    },
+    {
+      "group": 0,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 68.0918380003277
+    },
+    {
+      "group": 0,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 65.3570509985002
+    },
+    {
+      "group": 0,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 66.0161869982403
+    },
+    {
+      "group": 0,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 63.85680300081731
+    },
+    {
+      "group": 0,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-d69aa747e0154dbcb739eef3125e",
+      "elapsed_ms": 69.77744399955554
+    },
+    {
+      "group": 1,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 29.124796999894897
+    },
+    {
+      "group": 1,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 27.01359999991837
+    },
+    {
+      "group": 1,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 23.673413001233712
+    },
+    {
+      "group": 1,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 32.462287999805994
+    },
+    {
+      "group": 1,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 30.01780399972631
+    },
+    {
+      "group": 1,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 27.37075000004552
+    },
+    {
+      "group": 1,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 28.653936999035068
+    },
+    {
+      "group": 1,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2158fd018b1449eba2d5bdcad664",
+      "elapsed_ms": 33.22223500072141
+    },
+    {
+      "group": 2,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 24.27808699940215
+    },
+    {
+      "group": 2,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 27.322171999912825
+    },
+    {
+      "group": 2,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 22.26890500060108
+    },
+    {
+      "group": 2,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 25.15042300001369
+    },
+    {
+      "group": 2,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 22.513049998451606
+    },
+    {
+      "group": 2,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 20.906174000629107
+    },
+    {
+      "group": 2,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 24.089099999400787
+    },
+    {
+      "group": 2,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-2b280ea22d5341fdace1a674e077",
+      "elapsed_ms": 28.14838999984204
+    },
+    {
+      "group": 3,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 35.601972000222304
+    },
+    {
+      "group": 3,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 34.846847998778685
+    },
+    {
+      "group": 3,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 35.66859500097053
+    },
+    {
+      "group": 3,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 34.49551700032316
+    },
+    {
+      "group": 3,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 30.65742899889301
+    },
+    {
+      "group": 3,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 32.66832799999975
+    },
+    {
+      "group": 3,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 38.70084099980886
+    },
+    {
+      "group": 3,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-98146d60c445445591b2d2aab75f",
+      "elapsed_ms": 37.63124999932188
+    },
+    {
+      "group": 4,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 23.739268999634078
+    },
+    {
+      "group": 4,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 25.24737199928495
+    },
+    {
+      "group": 4,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 25.63380399988091
+    },
+    {
+      "group": 4,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 28.003818000797764
+    },
+    {
+      "group": 4,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 27.451202000520425
+    },
+    {
+      "group": 4,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 29.653827999936766
+    },
+    {
+      "group": 4,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 24.851974998455262
+    },
+    {
+      "group": 4,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-a53beb101d8b4700985bb949ec28",
+      "elapsed_ms": 30.2972059998865
+    },
+    {
+      "group": 5,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 23.281738998775836
+    },
+    {
+      "group": 5,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 30.110745999991195
+    },
+    {
+      "group": 5,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 24.635358999148593
+    },
+    {
+      "group": 5,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 25.533392999932403
+    },
+    {
+      "group": 5,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 23.531703000116977
+    },
+    {
+      "group": 5,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 24.37400899907516
+    },
+    {
+      "group": 5,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 15.31020400034322
+    },
+    {
+      "group": 5,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-8781b61d5ab74479a81c4d3deeb6",
+      "elapsed_ms": 25.782462000279338
+    },
+    {
+      "group": 6,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 30.717240000740276
+    },
+    {
+      "group": 6,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 34.79462900031649
+    },
+    {
+      "group": 6,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 29.74172200083558
+    },
+    {
+      "group": 6,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 29.05132499836327
+    },
+    {
+      "group": 6,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 27.92861499983701
+    },
+    {
+      "group": 6,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 31.22552900094888
+    },
+    {
+      "group": 6,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 23.871408000559313
+    },
+    {
+      "group": 6,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-450ed6bc713a45ae90e0ac341ef3",
+      "elapsed_ms": 34.23254700101097
+    },
+    {
+      "group": 7,
+      "attempt": 0,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 27.376751000701915
+    },
+    {
+      "group": 7,
+      "attempt": 1,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 28.86136499910208
+    },
+    {
+      "group": 7,
+      "attempt": 2,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 31.186801999865565
+    },
+    {
+      "group": 7,
+      "attempt": 3,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 33.549752000908484
+    },
+    {
+      "group": 7,
+      "attempt": 4,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 28.93090199904691
+    },
+    {
+      "group": 7,
+      "attempt": 5,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 28.758518999893568
+    },
+    {
+      "group": 7,
+      "attempt": 6,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 33.67828400041617
+    },
+    {
+      "group": 7,
+      "attempt": 7,
+      "outcome": "ACKNOWLEDGED",
+      "assessment_id": "ASM-7086f1d5b85c48628e43f183d862",
+      "elapsed_ms": 33.49037599946314
+    }
+  ]
+}

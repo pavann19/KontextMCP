@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-11-03T15:13:47Z",
+  "protocol_version": "2024-11-05",
+  "jsonrpc_version": "2.0",
+  "registered_tools_count": 5,
+  "tool_reliability_metrics": {
+    "schema_validation_accuracy": 1.0,
+    "error_code_compliance": 1.0,
+    "transaction_rollback_success": 1.0,
+    "read_only_immutability_verified": true,
+    "unexpected_type_rejection": true,
+    "empty_result_graceful_handling": true
+  }
+}

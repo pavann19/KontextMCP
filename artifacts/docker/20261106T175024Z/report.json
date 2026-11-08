@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "scope": "local Docker: FastAPI + PostgreSQL + remote Qdrant",
+  "project": "kontext-validation-ea5cab42c6",
+  "checks": [],
+  "optional_services": "SKIPPED: Ollama and Langfuse are not used by the default request path",
+  "production_capacity": "UNVERIFIED",
+  "external_mcp_application": "UNVERIFIED",
+  "error": "startup failed (exit 1); see startup.txt",
+  "cleanup": "PASS",
+  "source_sha256": "e6c11c4ece8d8a49d7afc2957b17bcd3a94cfa997f57ef1bf80bb4390789a184",
+  "timestamp": "2026-11-06T17:53:48.917978+00:00"
+}

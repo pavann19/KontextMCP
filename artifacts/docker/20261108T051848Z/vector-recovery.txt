@@ -1,0 +1,2 @@
+ Container kontext-validation-eb1591fa7b-qdrant Starting 
+ Container kontext-validation-eb1591fa7b-qdrant Started 

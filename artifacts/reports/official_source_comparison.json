@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "scope": "Official publication snapshot and parser consistency; no independent legal sign-off",
+  "languages": {
+    "en": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689",
+      "html_sha256": "feeab7cd9f42faae555c21b43e699871c3448a66c752309067d5f1ae3fcf92cc",
+      "snapshot": "data\\official\\en-feeab7cd9f42faae555c21b43e699871c3448a66c752309067d5f1ae3fcf92cc.html",
+      "articles": 113,
+      "annexes": 13,
+      "snapshot_reparse_matches": true
+    },
+    "de": {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689",
+      "html_sha256": "d672832f5d244a72363ada8af5a4a7f456bd8da3bc0141146b44a413f152d90d",
+      "snapshot": "data\\official\\de-d672832f5d244a72363ada8af5a4a7f456bd8da3bc0141146b44a413f152d90d.html",
+      "articles": 113,
+      "annexes": 13,
+      "snapshot_reparse_matches": true
+    }
+  },
+  "curated_comparison": [
+    {
+      "language": "en",
+      "article_id": "Article 1",
+      "exact_normalized_match": false,
+      "similarity": 0.9760450915922968
+    },
+    {
+      "language": "en",
+      "article_id": "Article 2",
+      "exact_normalized_match": false,
+      "similarity": 0.43634580813858476
+    },
+    {
+      "language": "en",
+      "article_id": "Article 3",
+      "exact_normalized_match": false,
+      "similarity": 0.34241170243479935
+    },
+    {
+      "language": "en",
+      "article_id": "Article 5",
+      "exact_normalized_match": false,
+      "similarity": 0.4912515026045145
+    },
+    {
+      "language": "en",
+      "article_id": "Article 6",
+      "exact_normalized_match": false,
+      "similarity": 0.6180272108843538
+    },
+    {
+      "language": "en",
+      "article_id": "Article 9",
+      "exact_normalized_match": false,
+      "similarity": 0.5657329438047775
+    },
+    {
+      "language": "en",
+      "article_id": "Article 10",
+      "exact_normalized_match": false,
+      "similarity": 0.5377466166639491
+    },
+    {
+      "language": "en",
+      "article_id": "Article 11",
+      "exact_normalized_match": false,
+      "similarity": 0.6745774901114707
+    },
+    {
+      "language": "en",
+      "article_id": "Article 12",
+      "exact_normalized_match": false,
+      "similarity": 0.8936170212765957
+    },
+    {
+      "language": "en",
+      "article_id": "Article 13",
+      "exact_normalized_match": false,
+      "similarity": 0.6070315976858033
+    },
+    {
+      "language": "en",
+      "article_id": "Article 14",
+      "exact_normalized_match": false,
+      "similarity": 0.7335175681010659
+    },
+    {
+      "language": "en",
+      "article_id": "Article 15",
+      "exact_normalized_match": false,
+      "similarity": 0.684756584197925
+    },
+    {
+      "language": "en",
+      "article_id": "Article 50",
+      "exact_normalized_match": false,
+      "similarity": 0.3947595242199621
+    },
+    {
+      "language": "en",
+      "article_id": "Article 51",
+      "exact_normalized_match": false,
+      "similarity": 0.7612293144208038
+    },
+    {
+      "language": "en",
+      "article_id": "Article 55",
+      "exact_normalized_match": false,
+      "similarity": 0.7003732609433322
+    },
+    {
+      "language": "en",
+      "article_id": "Article 99",
+      "exact_normalized_match": false,
+      "similarity": 0.43388488191203506
+    },
+    {
+      "language": "en",
+      "article_id": "Annex III",
+      "exact_normalized_match": false,
+      "similarity": 0.5392119357306809
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 1",
+      "exact_normalized_match": false,
+      "similarity": 0.8871627146361406
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 2",
+      "exact_normalized_match": false,
+      "similarity": 0.3608058608058608
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 3",
+      "exact_normalized_match": false,
+      "similarity": 0.25422206252245777
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 5",
+      "exact_normalized_match": false,
+      "similarity": 0.3085253912698937
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 6",
+      "exact_normalized_match": false,
+      "similarity": 0.4441072331815883
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 9",
+      "exact_normalized_match": false,
+      "similarity": 0.41026530258366567
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 10",
+      "exact_normalized_match": false,
+      "similarity": 0.326498669588355
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 11",
+      "exact_normalized_match": false,
+      "similarity": 0.3079268292682927
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 12",
+      "exact_normalized_match": false,
+      "similarity": 0.501460564751704
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 13",
+      "exact_normalized_match": false,
+      "similarity": 0.24763328350772296
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 14",
+      "exact_normalized_match": false,
+      "similarity": 0.3246899661781285
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 15",
+      "exact_normalized_match": false,
+      "similarity": 0.3579379027533685
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 50",
+      "exact_normalized_match": false,
+      "similarity": 0.28256513026052105
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 51",
+      "exact_normalized_match": false,
+      "similarity": 0.34063745019920316
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 55",
+      "exact_normalized_match": false,
+      "similarity": 0.36005830903790087
+    },
+    {
+      "language": "de",
+      "article_id": "Artikel 99",
+      "exact_normalized_match": false,
+      "similarity": 0.2506998444790047
+    },
+    {
+      "language": "de",
+      "article_id": "Anhang III",
+      "exact_normalized_match": false,
+      "similarity": 0.2618293502255495
+    }
+  ],
+  "human_legal_review": "UNVERIFIED",
+  "timestamp": "2026-11-06T17:38:15.861372+00:00",
+  "curated_equivalence": "FAIL"
+}

@@ -1,0 +1,24 @@
+{
+  "servers": {
+    "KontextMCP": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "-m",
+        "scripts.start_mcp"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "MCP_API_KEY": "${input:kontextApiKey}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "kontextApiKey",
+      "description": "Provisioned KontextMCP credential; leave empty for public access",
+      "password": true
+    }
+  ]
+}

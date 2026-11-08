@@ -1,0 +1,121 @@
+...............................F........................................ [ 42%]
+........................................................................ [ 85%]
+.........................                                                [100%]
+=================================== FAILURES ===================================
+_________________ test_official_sdk_stdio_read_deny_and_write __________________
+
+    def test_official_sdk_stdio_read_deny_and_write():
+        root = Path(__file__).resolve().parents[2]
+        default = root / ".venv-mcp-sdk" / ("Scripts/python.exe" if os.name == "nt" else "bin/python")
+        interpreter = Path(os.environ.get("MCP_SDK_PYTHON", str(default)))
+        if not interpreter.is_file():
+            pytest.skip("Install requirements-mcp-client.txt in .venv-mcp-sdk or set MCP_SDK_PYTHON.")
+        result = subprocess.run([str(interpreter), str(root / "scripts/check_mcp_sdk.py"), "--server-python", sys.executable],
+            cwd=root, env={**os.environ, "KONTEXT_SDK_TEST_ISOLATED": "1"}, capture_output=True,
+            text=True, encoding="utf-8", errors="replace", timeout=85)
+>       assert result.returncode == 0, result.stderr
+E       AssertionError: Traceback (most recent call last):
+E           File "<frozen runpy>", line 198, in _run_module_as_main
+E           File "<frozen runpy>", line 88, in _run_code
+E           File "/app/scripts/start_mcp.py", line 40, in <module>
+E             main()
+E           File "/app/scripts/start_mcp.py", line 18, in main
+E             settings.validate_runtime()
+E           File "/app/app/config.py", line 104, in validate_runtime
+E             raise RuntimeError("Unsafe production configuration: " + "; ".join(errors))
+E         RuntimeError: Unsafe production configuration: DEBUG must be false; provision API credentials of at least 32 characters; use PostgreSQL; migrate the schema and use verify mode; use remote Qdrant; configure explicit HTTP hosts
+E           + Exception Group Traceback (most recent call last):
+E           |   File "/app/scripts/check_mcp_sdk.py", line 74, in <module>
+E           |     main()
+E           |   File "/app/scripts/check_mcp_sdk.py", line 70, in main
+E           |     result = asyncio.run(asyncio.wait_for(check(args.server_python), timeout=60))
+E           |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           |   File "/usr/local/lib/python3.11/asyncio/runners.py", line 190, in run
+E           |     return runner.run(main)
+E           |            ^^^^^^^^^^^^^^^^
+E           |   File "/usr/local/lib/python3.11/asyncio/runners.py", line 118, in run
+E           |     return self._loop.run_until_complete(task)
+E           |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           |   File "/usr/local/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+E           |     return future.result()
+E           |            ^^^^^^^^^^^^^^^
+E           |   File "/usr/local/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+E           |     return fut.result()
+E           |            ^^^^^^^^^^^^
+E           |   File "/app/scripts/check_mcp_sdk.py", line 33, in check
+E           |     async with Client(params) as client:
+E           |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/client.py", line 458, in __aenter__
+E           |     async with AsyncExitStack() as exit_stack:
+E           |   File "/usr/local/lib/python3.11/contextlib.py", line 745, in __aexit__
+E           |     raise exc_details[1]
+E           |   File "/usr/local/lib/python3.11/contextlib.py", line 728, in __aexit__
+E           |     cb_suppress = await cb(*exc_details)
+E           |                   ^^^^^^^^^^^^^^^^^^^^^^
+E           |   File "/usr/local/lib/python3.11/contextlib.py", line 231, in __aexit__
+E           |     await self.gen.athrow(typ, value, traceback)
+E           |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/stdio.py", line 201, in stdio_client
+E           |     async with anyio.create_task_group() as tg:
+E           |   File "/opt/mcp-sdk/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 871, in __aexit__
+E           |     raise BaseExceptionGroup(
+E           | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+E           +-+---------------- 1 ----------------
+E             | Exception Group Traceback (most recent call last):
+E             |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/stdio.py", line 205, in stdio_client
+E             |     yield read_stream, write_stream
+E             |   File "/usr/local/lib/python3.11/contextlib.py", line 728, in __aexit__
+E             |     cb_suppress = await cb(*exc_details)
+E             |                   ^^^^^^^^^^^^^^^^^^^^^^
+E             |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/session.py", line 514, in __aexit__
+E             |     result = await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+E             |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E             |   File "/opt/mcp-sdk/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 871, in __aexit__
+E             |     raise BaseExceptionGroup(
+E             | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+E             +-+---------------- 1 ----------------
+E               | Traceback (most recent call last):
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/_probe.py", line 70, in negotiate_auto
+E               |     raw = await session.send_discover(version)
+E               |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/session.py", line 752, in send_discover
+E               |     raw = await self._dispatcher.send_raw_request(data["method"], data.get("params"), opts)
+E               |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/shared/jsonrpc_dispatcher.py", line 461, in send_raw_request
+E               |     raise MCPError(code=outcome.code, message=outcome.message, data=outcome.data)
+E               | mcp.shared.exceptions.MCPError: Connection closed
+E               | 
+E               | During handling of the above exception, another exception occurred:
+E               | 
+E               | Traceback (most recent call last):
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/client.py", line 465, in __aenter__
+E               |     await negotiate_auto(session)
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/_probe.py", line 81, in negotiate_auto
+E               |     await session.initialize()  # every other rpc-error → legacy (the denylist)
+E               |     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/session.py", line 654, in initialize
+E               |     result = await self.send_request(
+E               |              ^^^^^^^^^^^^^^^^^^^^^^^^
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/client/session.py", line 586, in send_request
+E               |     raw = await self._dispatcher.send_raw_request(method, data.get("params"), opts)
+E               |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E               |   File "/opt/mcp-sdk/lib/python3.11/site-packages/mcp/shared/jsonrpc_dispatcher.py", line 340, in send_raw_request
+E               |     raise MCPError(code=CONNECTION_CLOSED, message="Connection closed")
+E               | mcp.shared.exceptions.MCPError: Connection closed
+E               +------------------------------------
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['/opt/mcp-sdk/bin/python', '/app/scripts/check_mcp_sdk.py', '--server-python', '/usr/local/bin/...on closed")\n      | mcp.shared.exceptions.MCPError: Connection closed\n      +------------------------------------\n').returncode
+
+tests/mcp/test_official_sdk.py:19: AssertionError
+=============================== warnings summary ===============================
+app/config.py:9
+  /app/app/config.py:9: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    class Settings(BaseSettings):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/mcp/test_official_sdk.py::test_official_sdk_stdio_read_deny_and_write
+1 failed, 168 passed, 1 warning in 23.76s
+/usr/local/lib/python3.11/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
+The event loop scope for asynchronous fixtures will default to the "fixture" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to "function" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", "class", "module", "package", "session"
+
+  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))

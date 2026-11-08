@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED_STORAGE",
+  "free_bytes": 24293376,
+  "minimum_free_bytes": 2147483648,
+  "reason": "Insufficient workspace storage for an isolated image build; no resources started.",
+  "timestamp": "2026-11-07T18:13:13.046856+00:00",
+  "cleanup": "NOT_REQUIRED"
+}

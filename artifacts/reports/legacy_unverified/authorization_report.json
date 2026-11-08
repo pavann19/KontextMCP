@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-11-03T15:13:47Z",
+  "direct_db_row_level_enforced": true,
+  "mcp_server_side_enforced": true,
+  "test_cases": [
+    {
+      "identity": "eva_public",
+      "role": "public_viewer",
+      "dept": "public",
+      "target": "SYS-HR-001 (Private)",
+      "expected": "DENIED"
+    },
+    {
+      "identity": "eva_public",
+      "role": "public_viewer",
+      "dept": "public",
+      "target": "SYS-CHAT-004 (Public)",
+      "expected": "ALLOWED"
+    },
+    {
+      "identity": "david_hr_dev",
+      "role": "developer",
+      "dept": "human_resources",
+      "target": "SYS-HR-001 (HR)",
+      "expected": "ALLOWED"
+    },
+    {
+      "identity": "david_hr_dev",
+      "role": "developer",
+      "dept": "human_resources",
+      "target": "SYS-FIN-001 (Finance)",
+      "expected": "DENIED"
+    },
+    {
+      "identity": "david_hr_dev",
+      "role": "developer",
+      "dept": "human_resources",
+      "target": "Incident History",
+      "expected": "DENIED"
+    },
+    {
+      "identity": "bob_auditor",
+      "role": "auditor",
+      "dept": "internal_audit",
+      "target": "SYS-HR-001",
+      "expected": "ALLOWED"
+    },
+    {
+      "identity": "bob_auditor",
+      "role": "auditor",
+      "dept": "internal_audit",
+      "target": "SYS-FIN-001",
+      "expected": "ALLOWED"
+    },
+    {
+      "identity": "bob_auditor",
+      "role": "auditor",
+      "dept": "internal_audit",
+      "target": "Write Compliance Signoff",
+      "expected": "DENIED"
+    },
+    {
+      "identity": "alice_compliance",
+      "role": "compliance_officer",
+      "dept": "legal_compliance",
+      "target": "All Systems & Write Signoff",
+      "expected": "ALLOWED"
+    }
+  ],
+  "authorization_pass_rate": 1.0
+}

@@ -1,0 +1,56 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 521B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 882B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 DONE 1.4s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 188B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.11-slim@sha256:65bd3d9f1d7fa268dd1909973ba7eb4bdf41f6dcf2cfbe76ba9528b170f3fd79
+#5 resolve docker.io/library/python:3.11-slim@sha256:65bd3d9f1d7fa268dd1909973ba7eb4bdf41f6dcf2cfbe76ba9528b170f3fd79 0.1s done
+#5 DONE 0.1s
+
+#6 [internal] load build context
+#6 transferring context: 36.76MB 5.0s
+#6 transferring context: 48.99MB 7.3s done
+#6 DONE 7.4s
+
+#7 [2/6] WORKDIR /app
+#7 CACHED
+
+#8 [3/6] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     curl     libpq-dev     && rm -rf /var/lib/apt/lists/*
+#8 CACHED
+
+#9 [4/6] COPY requirements.txt .
+#9 CACHED
+
+#10 [5/6] RUN pip install --no-cache-dir -r requirements.txt
+#10 CACHED
+
+#11 [6/6] COPY . .
+#11 DONE 1.1s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 5.1s done
+#12 exporting manifest sha256:036d69df38cff13885e3e512fa758e021df03b6a2ff1cd09f716346ba0c84cb4 0.0s done
+#12 exporting config sha256:07222953af07f92690f07fa15c0b37af400f2e4381bd51fd59762d473fed9aba 0.0s done
+#12 exporting attestation manifest sha256:846df071634e89b6aeefe5a18a520f75e3dfe8b2379295e2ee385d881f640f4e 0.0s done
+#12 exporting manifest list sha256:cb9edd7f293a8dbcb9c5e486a405ef4c06797c25eae39ad69769aa992826db8e
+#12 exporting manifest list sha256:cb9edd7f293a8dbcb9c5e486a405ef4c06797c25eae39ad69769aa992826db8e 0.0s done
+#12 naming to docker.io/library/kontext-validation-3de6671c01-app:latest done
+#12 unpacking to docker.io/library/kontext-validation-3de6671c01-app:latest
+#12 unpacking to docker.io/library/kontext-validation-3de6671c01-app:latest 1.6s done
+#12 DONE 6.9s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ Image kontext-validation-3de6671c01-app Building 
+ Image kontext-validation-3de6671c01-app Built 

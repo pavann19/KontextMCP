@@ -1,0 +1,2 @@
+ kontext-validation-6612fbaa0e-app Copying kontext-validation-6612fbaa0e-app:/tmp/docker-tests.xml to D:\KontextMCP\artifacts\docker\20261106T172305Z\docker-tests.xml
+ kontext-validation-6612fbaa0e-app Copied kontext-validation-6612fbaa0e-app:/tmp/docker-tests.xml to D:\KontextMCP\artifacts\docker\20261106T172305Z\docker-tests.xml

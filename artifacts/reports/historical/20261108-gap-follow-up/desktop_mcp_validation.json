@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_UI_AUTOMATION",
+  "host": "Visual Studio Code",
+  "observed": "Application launched and separate empty window/folder picker opened. Folder dialog input targeting failed: cached element unavailable; focus observation did not track clicks or keyboard input.",
+  "tool_discovery": "UNVERIFIED",
+  "authorized_invocation": "UNVERIFIED",
+  "private_records_accessed": false,
+  "scope": "No MCP server or privileged credential was started through the desktop host."
+}

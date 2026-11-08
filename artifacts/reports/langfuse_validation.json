@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED_RESOURCE",
+  "configuration": "Official upstream Compose snapshot preserved; provision non-default secrets before use",
+  "upstream_sha256": "cf67837af1f69e6a0d82125bd623e63401b1b8876bf467c8c22adb8c384c7ff2",
+  "upstream_source": "https://github.com/langfuse/langfuse/blob/production/docker-compose.yml",
+  "configured_docker_memory_bytes": 4111339520,
+  "recommended_vm_memory_bytes": 17179869184,
+  "deployment_started": false,
+  "reason": "Docker memory is below the upstream local/VM recommendation; host settings and existing services were preserved."
+}

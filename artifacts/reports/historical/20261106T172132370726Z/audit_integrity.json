@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-06T17:20:05.001966+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "collected": 12,
+  "passed": 12,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_ids": [
+    "tests.audit.test_checkpoint_anchors.test_truncation_is_detected_by_checkpoint",
+    "tests.audit.test_checkpoint_anchors.test_missing_log_and_malformed_record_fail_closed",
+    "tests.audit.test_checkpoint_anchors.test_checkpoint_reads_tip_after_restart",
+    "tests.audit.test_checkpoint_anchors.test_rewritten_chain_is_rejected_by_anchor",
+    "tests.audit.test_checkpoint_anchors.test_separate_process_writers_preserve_chain",
+    "tests.audit.test_concurrent_integrity.test_concurrent_audit_logging_maintains_unbroken_chain",
+    "tests.audit.test_concurrent_integrity.test_hmac_signed_checkpoint_creation_and_verification",
+    "tests.audit.test_concurrent_integrity.test_forged_checkpoint_key_rejection",
+    "tests.test_audit_chain_tampering.test_unaltered_audit_chain_is_valid",
+    "tests.test_audit_chain_tampering.test_detect_payload_tampering",
+    "tests.test_audit_chain_tampering.test_detect_broken_chain_prev_hash",
+    "tests.test_audit_chain_tampering.test_detect_deleted_record"
+  ],
+  "evidence": "hardening-tests.xml",
+  "limitation": "Automated local checks only; no production or general security guarantee."
+}

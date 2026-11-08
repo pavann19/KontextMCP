@@ -1,0 +1,2 @@
+error while interpolating services.app.environment.[]: required variable KONTEXT_POSTGRES_PASSWORD is missing a value: Set a random database password
+error while interpolating services.postgres.environment.[]: required variable KONTEXT_POSTGRES_PASSWORD is missing a value: Set a random database password

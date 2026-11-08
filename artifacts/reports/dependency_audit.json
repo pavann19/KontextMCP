@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-08T10:52:20.723068+00:00",
+  "tool": "pip-audit 2.10.1",
+  "scope": "Known Python package advisories for version-locked app and SDK dependencies at query time",
+  "limitations": "Not a container OS scan, penetration test, zero-day guarantee or hashed-wheel attestation.",
+  "results": [
+    {
+      "lock": "requirements-linux.lock",
+      "lock_sha256": "858435f8d31bba73b22a266e94dc2dd75ca4884e8e83ec46ad675f8cfced5c48",
+      "status": "PASS",
+      "exit_code": 0,
+      "packages": 91,
+      "unique_advisories": [],
+      "skipped_packages": [],
+      "raw_report": "artifacts/reports/dependency-audit-app.json"
+    },
+    {
+      "lock": "requirements-mcp-client.lock",
+      "lock_sha256": "39a9cea48713043959e176914ff8ee210792d3b83992e9e24509a64b800e2892",
+      "status": "PASS",
+      "exit_code": 0,
+      "packages": 29,
+      "unique_advisories": [],
+      "skipped_packages": [],
+      "raw_report": "artifacts/reports/dependency-audit-sdk.json"
+    },
+    {
+      "lock": "requirements-bootstrap.lock",
+      "lock_sha256": "287400666901ac91b093cbedbe40cb0b10514961b48e0a62230dcd7134e79023",
+      "status": "PASS",
+      "exit_code": 0,
+      "packages": 4,
+      "unique_advisories": [],
+      "skipped_packages": [],
+      "raw_report": "artifacts/reports/dependency-audit-bootstrap.json"
+    }
+  ]
+}

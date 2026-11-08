@@ -1,0 +1,130 @@
+kontext-validation-6612fbaa0e-app     | INFO:     Started server process [1]
+kontext-validation-6612fbaa0e-app     | INFO:     Waiting for application startup.
+kontext-validation-6612fbaa0e-app     | INFO:     Application startup complete.
+kontext-validation-6612fbaa0e-app     | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+kontext-validation-6612fbaa0e-app     | INFO:     127.0.0.1:33970 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/tools/list HTTP/1.1" 401 Unauthorized
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/tools/list HTTP/1.1" 401 Unauthorized
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  |            _                 _    
+kontext-validation-6612fbaa0e-qdrant  |   __ _  __| |_ __ __ _ _ __ | |_  
+kontext-validation-6612fbaa0e-qdrant  |  / _` |/ _` | '__/ _` | '_ \| __| 
+kontext-validation-6612fbaa0e-qdrant  | | (_| | (_| | | | (_| | | | | |_  
+kontext-validation-6612fbaa0e-qdrant  |  \__, |\__,_|_|  \__,_|_| |_|\__| 
+kontext-validation-6612fbaa0e-qdrant  |     |_|                           
+kontext-validation-6612fbaa0e-qdrant  | 
+kontext-validation-6612fbaa0e-qdrant  | Version: 1.20.0, build: 222b2e44
+kontext-validation-6612fbaa0e-qdrant  | Access web UI at http://localhost:6333/dashboard
+kontext-validation-6612fbaa0e-qdrant  | Agentic Skills: https://skills.qdrant.tech/
+kontext-validation-6612fbaa0e-qdrant  | 
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.123370Z  INFO storage::content_manager::consensus::persistent: Initializing new raft state at ./storage/raft_state.json
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/search?q=Article+5+prohibited+practices&method=reranked&top_k=3 HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/search?q=Article+5&method=unknown HTTP/1.1" 422 Unprocessable Entity
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/search?q=Article+5&language=unknown HTTP/1.1" 422 Unprocessable Entity
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.170240Z  INFO qdrant: Distributed mode disabled
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:44646 - "GET /api/v1/audit/traces HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     Shutting down
+kontext-validation-6612fbaa0e-app     | INFO:     Waiting for application shutdown.
+kontext-validation-6612fbaa0e-app     | INFO:     Application shutdown complete.
+kontext-validation-6612fbaa0e-app     | INFO:     Finished server process [1]
+kontext-validation-6612fbaa0e-app     | INFO:     Started server process [1]
+kontext-validation-6612fbaa0e-app     | INFO:     Waiting for application startup.
+kontext-validation-6612fbaa0e-app     | INFO:     Application startup complete.
+kontext-validation-6612fbaa0e-app     | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:49624 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.170413Z  INFO qdrant: Telemetry reporting enabled, id: 667c4287-7973-4ce9-8084-b8faba0e55f9
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.294765Z  INFO qdrant::actix: REST transport settings: keep_alive=5s, client_request_timeout=5s, client_disconnect_timeout=5s
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.294921Z  INFO qdrant::actix: TLS disabled for REST API
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:49624 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-app     | INFO:     172.24.0.1:49624 - "GET /api/v1/audit/verify HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.295002Z  INFO qdrant::actix: Qdrant HTTP listening on 6333
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.295012Z  INFO actix_server::builder: starting 3 workers
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.295032Z  INFO actix_server::server: Actix runtime found; starting in Actix runtime
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.295094Z  INFO actix_server::server: starting service: "actix-web-service-0.0.0.0:6333", workers: 3, listening on: 0.0.0.0:6333
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.302190Z  INFO qdrant::tonic: Qdrant gRPC listening on 6334
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:13.302279Z  INFO qdrant::tonic: TLS disabled for gRPC API
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:27.484952Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 71 "-" "python-client/1.20.0 python/3.11.18" 0.002021
+kontext-validation-6612fbaa0e-app     | INFO:     127.0.0.1:42880 - "GET /health HTTP/1.1" 200 OK
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:27.491225Z  INFO storage::content_manager::toc::collection_meta_ops: Creating collection eu_ai_act_bilingual
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:27.590643Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual HTTP/1.1" 200 57 "-" "python-client/1.20.0 python/3.11.18" 0.100158
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:27.609735Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 88 "-" "python-client/1.20.0 python/3.11.18" 0.000214
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:23:27.864514Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual/points?wait=true HTTP/1.1" 200 83 "-" "python-client/1.20.0 python/3.11.18" 0.023482
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:01.326276Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 9869 "-" "python-client/1.20.0 python/3.11.18" 0.003449
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:01.441256Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 9320 "-" "python-client/1.20.0 python/3.11.18" 0.002556
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:05.535744Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 87 "-" "python-client/1.20.0 python/3.11.18" 0.000886
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:05.540550Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections/eu_ai_act_bilingual HTTP/1.1" 200 485 "-" "python-client/1.20.0 python/3.11.18" 0.001276
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:15.197287Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 87 "-" "python-client/1.20.0 python/3.11.18" 0.001970
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:15.216596Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections HTTP/1.1" 200 88 "-" "python-client/1.20.0 python/3.11.18" 0.000185
+kontext-validation-6612fbaa0e-qdrant  | 2026-11-06T17:24:15.465652Z  INFO actix_web::middleware::logger: 172.24.0.4 "PUT /collections/eu_ai_act_bilingual/points?wait=true HTTP/1.1" 200 84 "-" "python-client/1.20.0 python/3.11.18" 0.023990
+kontext-validation-6612fbaa0e-postgres  | The files belonging to this database system will be owned by user "postgres".
+kontext-validation-6612fbaa0e-postgres  | This user must also own the server process.
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | The database cluster will be initialized with locale "en_US.utf8".
+kontext-validation-6612fbaa0e-postgres  | The default database encoding has accordingly been set to "UTF8".
+kontext-validation-6612fbaa0e-postgres  | The default text search configuration will be set to "english".
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | Data page checksums are disabled.
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+kontext-validation-6612fbaa0e-postgres  | creating subdirectories ... ok
+kontext-validation-6612fbaa0e-postgres  | selecting dynamic shared memory implementation ... posix
+kontext-validation-6612fbaa0e-postgres  | selecting default max_connections ... 100
+kontext-validation-6612fbaa0e-postgres  | selecting default shared_buffers ... 128MB
+kontext-validation-6612fbaa0e-postgres  | selecting default time zone ... UTC
+kontext-validation-6612fbaa0e-postgres  | creating configuration files ... ok
+kontext-validation-6612fbaa0e-postgres  | running bootstrap script ... ok
+kontext-validation-6612fbaa0e-postgres  | sh: locale: not found
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:15.426 UTC [35] WARNING:  no usable system locales were found
+kontext-validation-6612fbaa0e-postgres  | performing post-bootstrap initialization ... ok
+kontext-validation-6612fbaa0e-postgres  | syncing data to disk ... ok
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | Success. You can now start the database server using:
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | initdb: warning: enabling "trust" authentication for local connections
+kontext-validation-6612fbaa0e-postgres  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+kontext-validation-6612fbaa0e-postgres  | waiting for server to start....2026-11-06 17:23:17.786 UTC [47] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:17.790 UTC [47] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:17.803 UTC [50] LOG:  database system was shut down at 2026-11-06 17:23:17 UTC
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:17.825 UTC [47] LOG:  database system is ready to accept connections
+kontext-validation-6612fbaa0e-postgres  |  done
+kontext-validation-6612fbaa0e-postgres  | server started
+kontext-validation-6612fbaa0e-postgres  | CREATE DATABASE
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+kontext-validation-6612fbaa0e-postgres  | CREATE TABLE
+kontext-validation-6612fbaa0e-postgres  | CREATE TABLE
+kontext-validation-6612fbaa0e-postgres  | CREATE TABLE
+kontext-validation-6612fbaa0e-postgres  | CREATE TABLE
+kontext-validation-6612fbaa0e-postgres  | CREATE TABLE
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.253 UTC [47] LOG:  received fast shutdown request
+kontext-validation-6612fbaa0e-postgres  | waiting for server to shut down....2026-11-06 17:23:18.259 UTC [47] LOG:  aborting any active transactions
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.263 UTC [47] LOG:  background worker "logical replication launcher" (PID 53) exited with exit code 1
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.269 UTC [48] LOG:  shutting down
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.272 UTC [48] LOG:  checkpoint starting: shutdown immediate
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.452 UTC [48] LOG:  checkpoint complete: wrote 944 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.116 s, total=0.184 s; sync files=322, longest=0.004 s, average=0.001 s; distance=4395 kB, estimate=4395 kB; lsn=0/1941D38, redo lsn=0/1941D38
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.469 UTC [47] LOG:  database system is shut down
+kontext-validation-6612fbaa0e-postgres  |  done
+kontext-validation-6612fbaa0e-postgres  | server stopped
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | PostgreSQL init process complete; ready for start up.
+kontext-validation-6612fbaa0e-postgres  | 
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.607 UTC [1] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.607 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.607 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.614 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.627 UTC [71] LOG:  database system was shut down at 2026-11-06 17:23:18 UTC
+kontext-validation-6612fbaa0e-postgres  | 2026-11-06 17:23:18.645 UTC [1] LOG:  database system is ready to accept connections

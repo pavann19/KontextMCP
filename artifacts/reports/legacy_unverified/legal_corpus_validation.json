@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-03T15:13:47Z",
+  "regulation": "Regulation (EU) 2024/1689",
+  "official_celex_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+  "publication_date": "2024-07-12",
+  "en_provisions_verified": 17,
+  "de_provisions_verified": 17,
+  "bilingual_alignment_score": 1.0,
+  "statutory_thresholds_verified": {
+    "article_99_tier_1_fines": "35 000 000 EUR / 7%",
+    "article_99_tier_2_fines": "15 000 000 EUR / 3%",
+    "article_99_tier_3_fines": "7 500 000 EUR / 1.5%",
+    "article_51_gpai_compute_flops": "10^25"
+  }
+}

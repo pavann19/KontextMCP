@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-11-08T11:05:22.790692+00:00",
+  "status": "NATIVE_VERIFIED_EXTERNAL_GAPS_REMAIN",
+  "scope": "Local implementation, fixtures, independent CLI/SDK clients and disposable hardened Docker; not production operation or independent legal approval",
+  "reports": {
+    "run_manifest.json": {
+      "sha256": "d9acd0c89d9b9f89414d7131941623f1a7950d20c43629a983693ad0c2b0b7af",
+      "status": "PASS",
+      "path": "artifacts/reports/run_manifest.json"
+    },
+    "test_results.json": {
+      "sha256": "e29267dd803f6fe07a729a0fae68bcce714e8a33b61430d5fa21438dcf87c5d9",
+      "status": "PASS",
+      "path": "artifacts/reports/test_results.json"
+    },
+    "docker_validation.json": {
+      "sha256": "bcda0674664a443ac9ef4ae2ea025d45cecff54efe3604081d9a2f48cad46258",
+      "status": "PASS",
+      "path": "artifacts/reports/docker_validation.json"
+    },
+    "official_source_comparison.json": {
+      "sha256": "1e3ce13e5e75edd41caa177bfe21d31eed90181a5870a2faab74b72ee900ee9f",
+      "status": "PASS",
+      "path": "artifacts/reports/official_source_comparison.json"
+    },
+    "heldout_evaluation.json": {
+      "sha256": "3a2fc855ba18f7354e3f981d4ac71aee81a8d981bbb4f8f7324056e1b9296ad8",
+      "status": "MEASURED",
+      "path": "artifacts/reports/heldout_evaluation.json"
+    },
+    "citation_accuracy.json": {
+      "sha256": "4662c970a0c0b75406282a18a097678fe50e6855de787e283ce0b741a590c134",
+      "status": "PASS",
+      "path": "artifacts/reports/citation_accuracy.json"
+    },
+    "entailment_calibration.json": {
+      "sha256": "f53ed37a1725f4294b80200fcb76f3480da5859f1afc4cd703e4e2a4244eb307",
+      "status": "MEASURED",
+      "path": "artifacts/reports/entailment_calibration.json"
+    },
+    "expanded_defense_evaluation.json": {
+      "sha256": "d48434c424a38898676057671a6ddb504bb66790e3f94bdfb391d78f721c70c7",
+      "status": "PASS",
+      "path": "artifacts/reports/expanded_defense_evaluation.json"
+    },
+    "mcp_sdk_interoperability.json": {
+      "sha256": "d07442868104b3562388a55003d310bda7dfda30aa8285fa5f9532ad28b92f5a",
+      "status": "PASS",
+      "path": "artifacts/reports/mcp_sdk_interoperability.json"
+    },
+    "inspector_validation.json": {
+      "sha256": "ab734849baadc9637eca8965f1e56723b93851a3f4ff837df6ad3b4cce21e7d8",
+      "status": "PASS",
+      "path": "artifacts/reports/inspector_validation.json"
+    },
+    "ollama_validation.json": {
+      "sha256": "6d06b8f854d7b3ab79b1d9ffb6e5bb6d40f8186d2872d505867d1d71476592ee",
+      "status": "PASS",
+      "path": "artifacts/reports/ollama_validation.json"
+    },
+    "langfuse_validation.json": {
+      "sha256": "c3e1dec77c72af024093cf9e1d36987540aba12a91c66e05b85df9d73380e020",
+      "status": "BLOCKED_RESOURCE",
+      "path": "artifacts/reports/langfuse_validation.json"
+    },
+    "retention_inventory.json": {
+      "sha256": "98d83aabdf2a313c5fa4d3b8ddd46bb24d63803dc15bcfb8c385853683970434",
+      "status": "UNVERIFIED",
+      "path": "artifacts/reports/retention_inventory.json"
+    },
+    "desktop_mcp_validation.json": {
+      "sha256": "21783ed2f6a5c77274e3e628431c86642a02de5b29bfeb686ac46f83af77ce7c",
+      "status": "BLOCKED_UI_AUTOMATION",
+      "path": "artifacts/reports/desktop_mcp_validation.json"
+    },
+    "dependency_audit.json": {
+      "sha256": "dad58560e98564f382a1ad2e692f8c5bd50a594fb5f379c1f3c8ed810e3a71b0",
+      "status": "PASS",
+      "path": "artifacts/reports/dependency_audit.json"
+    },
+    "release_verification.json": {
+      "sha256": "676e7fdae8094c45f812c7ac45d33824fc8952d70e9a8206f436b8669c3dd21c",
+      "status": "PASS",
+      "path": "artifacts/reports/release_verification.json"
+    },
+    "container_image_audit.json": {
+      "sha256": "cca6101950d24a02c83e86498dce6eed816eef544299988b8ef6855019669357",
+      "status": "MEASURED_WITH_UNFIXED_FINDINGS",
+      "path": "artifacts/reports/container_image_audit.json"
+    }
+  },
+  "docker_check_count": 39,
+  "remaining_requirements": {
+    "independent_legal_review": "UNVERIFIED",
+    "desktop_UI_invocation": "BLOCKED_UI_AUTOMATION",
+    "langfuse_live_ingestion_readback": "BLOCKED_RESOURCE",
+    "external_anchor_custody": "OPERATOR_SETUP_REQUIRED",
+    "actual_history_disposition": "PENDING_OPERATOR_REVIEW",
+    "production_capacity_and_long_duration_soak": "UNVERIFIED",
+    "locked_container_validation": "PASS",
+    "hosted_CI_execution": "PREPARED_NOT_RUN",
+    "deployment_TLS_secret_rotation_and_independent_backups": "OPERATOR_SETUP_REQUIRED",
+    "signed_image_publication": "NOT_PERFORMED_LOCAL_ONLY",
+    "container_unfixed_advisory_review": "OPEN_1_MEDIUM_50_LOW_NO_REPORTED_FIX"
+  },
+  "publication": "No push, public deployment or paid provisioning performed",
+  "historical_docker_report": "artifacts/docker/20261107T041853Z/report.json",
+  "docker_check_count_scope": "Latest Docker attempt only; historical results kept separately",
+  "dependency_locks": {
+    "requirements-bootstrap.lock": "287400666901ac91b093cbedbe40cb0b10514961b48e0a62230dcd7134e79023",
+    "requirements-linux.lock": "858435f8d31bba73b22a266e94dc2dd75ca4884e8e83ec46ad675f8cfced5c48",
+    "requirements-mcp-client.lock": "39a9cea48713043959e176914ff8ee210792d3b83992e9e24509a64b800e2892"
+  },
+  "native_source_current": true
+}

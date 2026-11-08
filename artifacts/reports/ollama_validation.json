@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "model": "qwen2.5:0.5b",
+  "real_generation": true,
+  "loaded_model_verified": true,
+  "synthesis_backend": "ollama_selection",
+  "grounding_status": "SOURCE_VERIFIED",
+  "limitation": "One local model and bounded query. Model selects allowed sources; no free-form model legal claims are exposed."
+}

@@ -1,0 +1,53 @@
+{
+  "tools": [
+    {
+      "name": "search_eu_ai_act_provisions",
+      "description": "Searches bilingual German/English EU AI Act regulatory provisions, articles, and annexes.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The search query in German or English."
+          },
+          "language": {
+            "type": "string",
+            "enum": [
+              "en",
+              "de"
+            ],
+            "description": "Optional language filter."
+          },
+          "top_k": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "default": 3,
+            "description": "Number of provisions to retrieve."
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "query_ai_system_compliance",
+      "description": "Queries an enterprise AI system's registration, risk classification, and conformity status.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "system_id": {
+            "type": "string",
+            "description": "The unique system ID (e.g., 'SYS-HR-001') or system name."
+          }
+        },
+        "required": [
+          "system_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Apply after the base stack and, for disposable checks, compose.validation.yml.
+services:
+  app:
+    read_only: true
+    user: "10001:10001"
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs:
+      - /tmp:uid=10001,gid=10001,mode=1777
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 256
+    environment:
+      - DATA_DIR=/var/lib/kontext
+      - AUDIT_LOG_PATH=/var/lib/kontext/audit.jsonl
+      - QDRANT_STORAGE_DIR=/var/lib/kontext/vectors
+      - CHUNKS_DIR=/var/lib/kontext/chunks
+      - CORPUS_VARIANT=official
+      - DATABASE_SCHEMA_MODE=verify
+      - HTTP_ALLOWED_HOSTS=["localhost","127.0.0.1","[::1]"]
+      - DATABASE_URL=postgresql+psycopg2://postgres:${KONTEXT_POSTGRES_PASSWORD:?Set a random database password}@postgres:5432/enterprise_rag
+      - API_KEYS=${API_KEYS:?Provision API credentials}
+      - AUDIT_CHECKPOINT_KEY=${AUDIT_CHECKPOINT_KEY:?Provision an audit signing secret}
+    volumes: !override
+      - hardened_app_data:/var/lib/kontext
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  postgres:
+    volumes: !override
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=${KONTEXT_POSTGRES_PASSWORD:?Set a random database password}
+    mem_limit: 512m
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  qdrant:
+    mem_limit: 512m
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+
+volumes:
+  hardened_app_data:

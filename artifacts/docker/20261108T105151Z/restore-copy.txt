@@ -1,0 +1,2 @@
+ kontext-validation-b4dcaf0a21-postgres Copying D:\KontextMCP\artifacts\docker\20261108T105151Z\postgres-fixture.dump to kontext-validation-b4dcaf0a21-postgres:/tmp/kontext-fixture.dump
+ kontext-validation-b4dcaf0a21-postgres Copied D:\KontextMCP\artifacts\docker\20261108T105151Z\postgres-fixture.dump to kontext-validation-b4dcaf0a21-postgres:/tmp/kontext-fixture.dump

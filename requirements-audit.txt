@@ -1,0 +1,2 @@
+# Install in a separate tooling environment, not the application interpreter.
+pip-audit==2.10.1

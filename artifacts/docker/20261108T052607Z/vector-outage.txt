@@ -1,0 +1,2 @@
+ Container kontext-validation-87246694b1-qdrant Stopping 
+ Container kontext-validation-87246694b1-qdrant Stopped 

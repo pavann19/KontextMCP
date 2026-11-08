@@ -1,0 +1,2 @@
+ Container kontext-validation-ed58df6734-postgres Stopping 
+ Container kontext-validation-ed58df6734-postgres Stopped 

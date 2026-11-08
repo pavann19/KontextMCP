@@ -1,0 +1,2 @@
+ Container kontext-validation-b4dcaf0a21-qdrant Stopping 
+ Container kontext-validation-b4dcaf0a21-qdrant Stopped 

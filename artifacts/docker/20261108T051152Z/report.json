@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED_DOCKER",
+  "free_bytes": 30523371520,
+  "reason": "Docker engine is unavailable; no validation resources started.",
+  "diagnostic": "failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.\n",
+  "timestamp": "2026-11-08T05:11:52.814661+00:00",
+  "cleanup": "NOT_REQUIRED"
+}

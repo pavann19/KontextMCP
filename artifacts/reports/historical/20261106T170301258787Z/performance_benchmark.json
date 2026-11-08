@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-11-06T17:02:43.321267+00:00",
+  "scope": "local retrieval only",
+  "status": "PASS",
+  "configurations": {
+    "bm25": {
+      "hit_at_1": 0.7333333333333333,
+      "hit_at_3": 0.8977777777777778,
+      "hit_at_5": 0.9555555555555556,
+      "mrr": 0.8239259259259258,
+      "queries": 225,
+      "mean_latency_ms": 0.13467777766183847,
+      "p95_latency_ms": 0.22324000092339694
+    },
+    "hashed_vectors": {
+      "hit_at_1": 0.3377777777777778,
+      "hit_at_3": 0.5244444444444445,
+      "hit_at_5": 0.6533333333333333,
+      "mrr": 0.44666666666666666,
+      "queries": 225,
+      "mean_latency_ms": 2.9446653334081123,
+      "p95_latency_ms": 4.626380000263451
+    },
+    "hybrid_rrf": {
+      "hit_at_1": 0.6133333333333333,
+      "hit_at_3": 0.7822222222222223,
+      "hit_at_5": 0.8533333333333334,
+      "mrr": 0.7045925925925925,
+      "queries": 225,
+      "mean_latency_ms": 4.710682666757041,
+      "p95_latency_ms": 7.7449600001273184
+    },
+    "lexical_reranked_top5": {
+      "hit_at_1": 0.8177777777777778,
+      "hit_at_3": 0.9022222222222223,
+      "hit_at_5": 0.9422222222222222,
+      "mrr": 0.8631851851851852,
+      "queries": 225,
+      "mean_latency_ms": 10.438692444359832,
+      "p95_latency_ms": 16.25799999892478
+    }
+  },
+  "agent_latency": "UNVERIFIED",
+  "throughput": "UNVERIFIED",
+  "limitation": "No network, model inference, concurrent load, or production capacity measurement."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED_UI_AUTOMATION",
+  "host": "Visual Studio Code",
+  "observed": "VS Code 1.145.2 opened D:\\KontextMCP and exposed its workspace accessibility tree. Command-palette keyboard input did not produce the intended control/focus. Docker Quit input was also rejected as targeting another foreground window after activation and refreshed observation. No stale input was retried.",
+  "tool_discovery": "UNVERIFIED",
+  "authorized_invocation": "UNVERIFIED",
+  "private_records_accessed": false,
+  "scope": "No desktop MCP server, privileged credential or private-record invocation was started. SDK and Inspector evidence is separate.",
+  "timestamp": "2026-11-08T05:14:23.112496+00:00"
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "provenance": "Agent-authored disjoint questions, not human-reviewed legal annotations. Frozen before evaluating; no tuning from results.",
+  "items": [
+    {
+      "id": "HOLDOUT-01-en",
+      "language": "en",
+      "query": "Which provision addresses hidden manipulation that changes a person’s decisions?",
+      "expected_article_id": "Article 5"
+    },
+    {
+      "id": "HOLDOUT-01-de",
+      "language": "de",
+      "query": "Welche Bestimmung betrifft verdeckte Manipulation menschlicher Entscheidungen?",
+      "expected_article_id": "Article 5"
+    },
+    {
+      "id": "HOLDOUT-02-en",
+      "language": "en",
+      "query": "Where are lifecycle processes for identifying and mitigating risks described?",
+      "expected_article_id": "Article 9"
+    },
+    {
+      "id": "HOLDOUT-02-de",
+      "language": "de",
+      "query": "Wo werden fortlaufende Prozesse zur Erkennung und Begrenzung von Risiken beschrieben?",
+      "expected_article_id": "Article 9"
+    },
+    {
+      "id": "HOLDOUT-03-en",
+      "language": "en",
+      "query": "Where should I look for requirements about representativeness of training data?",
+      "expected_article_id": "Article 10"
+    },
+    {
+      "id": "HOLDOUT-03-de",
+      "language": "de",
+      "query": "Wo finde ich Anforderungen an die Repräsentativität von Trainingsdaten?",
+      "expected_article_id": "Article 10"
+    },
+    {
+      "id": "HOLDOUT-04-en",
+      "language": "en",
+      "query": "Which provision concerns automatic recording of system events?",
+      "expected_article_id": "Article 12"
+    },
+    {
+      "id": "HOLDOUT-04-de",
+      "language": "de",
+      "query": "Welche Bestimmung betrifft die automatische Aufzeichnung von Systemereignissen?",
+      "expected_article_id": "Article 12"
+    },
+    {
+      "id": "HOLDOUT-05-en",
+      "language": "en",
+      "query": "Where are instructions supplied to a system’s deployer discussed?",
+      "expected_article_id": "Article 13"
+    },
+    {
+      "id": "HOLDOUT-05-de",
+      "language": "de",
+      "query": "Wo werden die dem Betreiber bereitzustellenden Gebrauchsanweisungen behandelt?",
+      "expected_article_id": "Article 13"
+    },
+    {
+      "id": "HOLDOUT-06-en",
+      "language": "en",
+      "query": "Where does the regulation discuss the ability of a person to override a system?",
+      "expected_article_id": "Article 14"
+    },
+    {
+      "id": "HOLDOUT-06-de",
+      "language": "de",
+      "query": "Wo behandelt die Verordnung die Möglichkeit eines Menschen, ein System zu übersteuern?",
+      "expected_article_id": "Article 14"
+    },
+    {
+      "id": "HOLDOUT-07-en",
+      "language": "en",
+      "query": "Which provision deals with robustness against data poisoning?",
+      "expected_article_id": "Article 15"
+    },
+    {
+      "id": "HOLDOUT-07-de",
+      "language": "de",
+      "query": "Welche Bestimmung behandelt die Robustheit gegen Datenvergiftung?",
+      "expected_article_id": "Article 15"
+    },
+    {
+      "id": "HOLDOUT-08-en",
+      "language": "en",
+      "query": "Where are disclosures about machine-generated content discussed?",
+      "expected_article_id": "Article 50"
+    },
+    {
+      "id": "HOLDOUT-08-de",
+      "language": "de",
+      "query": "Wo werden Offenlegungen zu maschinell erzeugten Inhalten behandelt?",
+      "expected_article_id": "Article 50"
+    },
+    {
+      "id": "HOLDOUT-09-en",
+      "language": "en",
+      "query": "Which provision discusses classification of general-purpose models with systemic risk?",
+      "expected_article_id": "Article 51"
+    },
+    {
+      "id": "HOLDOUT-09-de",
+      "language": "de",
+      "query": "Welche Bestimmung behandelt die Einstufung von Modellen mit allgemeinem Verwendungszweck und systemischem Risiko?",
+      "expected_article_id": "Article 51"
+    },
+    {
+      "id": "HOLDOUT-10-en",
+      "language": "en",
+      "query": "Where are adversarial evaluations for systemic-risk models addressed?",
+      "expected_article_id": "Article 55"
+    },
+    {
+      "id": "HOLDOUT-10-de",
+      "language": "de",
+      "query": "Wo werden adversarielle Bewertungen für Modelle mit systemischem Risiko behandelt?",
+      "expected_article_id": "Article 55"
+    },
+    {
+      "id": "HOLDOUT-11-en",
+      "language": "en",
+      "query": "Where are administrative penalties for infringements described?",
+      "expected_article_id": "Article 99"
+    },
+    {
+      "id": "HOLDOUT-11-de",
+      "language": "de",
+      "query": "Wo werden verwaltungsrechtliche Sanktionen bei Verstößen beschrieben?",
+      "expected_article_id": "Article 99"
+    },
+    {
+      "id": "HOLDOUT-12-en",
+      "language": "en",
+      "query": "Which list includes recruitment and employee evaluation as use cases?",
+      "expected_article_id": "Annex III"
+    },
+    {
+      "id": "HOLDOUT-12-de",
+      "language": "de",
+      "query": "Welche Liste umfasst die Personalauswahl und Bewertung von Beschäftigten?",
+      "expected_article_id": "Annex III"
+    }
+  ]
+}

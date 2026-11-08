@@ -1,0 +1,1 @@
+{"dialect": "postgresql", "vector_points": 803, "vector_client": "QdrantRemote"}

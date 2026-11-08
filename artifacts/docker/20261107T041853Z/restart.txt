@@ -1,0 +1,2 @@
+ Container kontext-validation-ed58df6734-app Restarting 
+ Container kontext-validation-ed58df6734-app Started 

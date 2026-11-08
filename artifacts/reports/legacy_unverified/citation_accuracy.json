@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-03T15:13:45Z",
+  "evaluation_queries": 250,
+  "citation_precision_at_1": 0.676,
+  "citation_recall_at_5": 0.776,
+  "article_number_accuracy": 0.965,
+  "unsupported_question_abstention_rate": 1.0,
+  "language_consistency_rate": 0.988
+}

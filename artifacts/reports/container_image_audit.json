@@ -1,0 +1,33 @@
+{
+  "status": "MEASURED_WITH_UNFIXED_FINDINGS",
+  "timestamp": "2026-11-08T11:05:21.693750+00:00",
+  "scanner": "Docker Scout 1.27.0",
+  "image": "kontext-validation-9d69a123a2-app:latest",
+  "image_id": "sha256:3be7ed12f0c6265c64070ec6e6ae5da0266b6221ef9bd5581d6725393b74874c",
+  "docker_source_sha256": "1b1ef82ede11c5166e8020bcb254e0dca8682e0848fafadeb1917c992eae7fc7",
+  "scope": "Local final image advisory snapshot; no independent penetration test or risk acceptance",
+  "severity_counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 50
+  },
+  "total_findings": 51,
+  "fixable_findings": [],
+  "high_critical_and_fixable_gate": "PASS",
+  "residual_review": "OPEN: 1 medium GNU tar issue and 50 low upstream findings; scanner reports no available fixes. The application does not extract submitted archives, but this is not independent risk acceptance.",
+  "raw_report": "artifacts/reports/container-advisories.sarif.json",
+  "raw_sha256": "297374cbf156cef482bfcd1e802566480b21d1bb3506df0edf9ef2ab3911d544",
+  "baseline": {
+    "raw_report": "artifacts/reports/historical/production-readiness-image-audit/before-remediation.sarif.json",
+    "total_findings": 142,
+    "high": 4
+  },
+  "remediation": [
+    "Debian security updates including zlib",
+    "Remove unnecessary build compilers",
+    "Pinned patched packaging tools in both interpreters",
+    "Mako 1.4.3",
+    "Build-time dependency checks and runtime pip removal"
+  ]
+}

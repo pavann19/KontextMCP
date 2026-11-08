@@ -1,0 +1,2 @@
+ Container kontext-validation-9d69a123a2-qdrant Stopping 
+ Container kontext-validation-9d69a123a2-qdrant Stopped 

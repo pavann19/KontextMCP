@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-03T15:13:47Z",
+  "state_machine_nodes": 6,
+  "execution_limits": {
+    "max_steps": 8,
+    "max_tool_invocations": 3,
+    "timeout_seconds": 30.0
+  },
+  "failure_recovery": {
+    "empty_retrieval_handled": true,
+    "unknown_tool_id_handled": true,
+    "ollama_unavailable_fallback": "GroundedLegalSynthesizer",
+    "hallucination_abstention_verified": true
+  }
+}

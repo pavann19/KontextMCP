@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED_STORAGE",
+  "project": "kontext-validation-d08c4b4bf8",
+  "timestamp": "2026-11-07T18:14:42.262349+00:00",
+  "scope": "Attempted locked dependency image build; no compose up was reached",
+  "error": "Build reported read-only filesystem; Docker build-cache query reported input/output error. Workspace drive had approximately 24 MB free. Task-owned build client was stopped.",
+  "cleanup": "UNVERIFIED_DOCKER_UNAVAILABLE",
+  "application_resources_started": false,
+  "historical_results": "Prior successful Docker run remains separate; this attempt provides no new Linux validation."
+}

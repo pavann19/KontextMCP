@@ -1,0 +1,2 @@
+ Container kontext-validation-0eae24555f-qdrant Starting 
+ Container kontext-validation-0eae24555f-qdrant Started 

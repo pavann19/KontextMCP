@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.sqlite
+*.lock
+
+
+.env
+.env.*
+!.env.example
+# Local runtime data is excluded from publication.
+data/*.db
+data/*log.jsonl
+data/execution_traces.jsonl
+data/audit_checkpoints.json
+data/qdrant_storage/
+
+.venv-mcp-sdk/
+.venv-audit/
+artifacts/docker/**/*.dump
+
+# Dependency locks are source artifacts, unlike runtime writer locks.
+!requirements*.lock

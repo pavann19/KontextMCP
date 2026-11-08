@@ -1,0 +1,2 @@
+ Container kontext-validation-363a46d0ea-qdrant Stopping 
+ Container kontext-validation-363a46d0ea-qdrant Stopped 

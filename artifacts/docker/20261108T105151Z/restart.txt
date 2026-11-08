@@ -1,0 +1,2 @@
+ Container kontext-validation-b4dcaf0a21-app Restarting 
+ Container kontext-validation-b4dcaf0a21-app Started 

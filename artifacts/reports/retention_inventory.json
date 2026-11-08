@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "root": "D:\\KontextMCP",
+  "files": [
+    {
+      "path": "data/enterprise_records.db",
+      "size": 1097728,
+      "sha256": "06270dd11a8b151d8b2ba6954edda28a38797c9ec099053ff846e5e38866f248"
+    },
+    {
+      "path": "data/execution_traces.jsonl",
+      "size": 1122620,
+      "sha256": "20d079b878dd01246e4c3f29ce20408909c5448bf987d736b6b241016f08e22b"
+    },
+    {
+      "path": "data/audit_log.jsonl",
+      "size": 930166,
+      "sha256": "1a368f51fa570ecdbd7af5c58d32b1c588821d3ba86a601636ec0f77a533d665"
+    },
+    {
+      "path": "data/audit_checkpoints.json",
+      "size": 1572,
+      "sha256": "1066d267be7afc2798804e6585c8348a80be755931c3fe60d16d73682c461ef0"
+    }
+  ],
+  "destructive_action": "NONE; reviewed manifest required before removal"
+}

@@ -1,0 +1,2096 @@
+{
+  "timestamp": "2026-11-07T04:20:37.699461+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "evaluation_queries": 225,
+  "answers_with_excerpts": 211,
+  "not_applicable_or_abstained": 14,
+  "guard_rejections": 0,
+  "source_fidelity_failures": 0,
+  "source_fidelity_rate_among_excerpt_answers": 1.0,
+  "expected_article_returned_rate_all_queries": 0.8488888888888889,
+  "unsupported_fixed_cases": 10,
+  "unsupported_cases_abstained": 10,
+  "semantic_entailment": "UNVERIFIED",
+  "official_source_equivalence": "UNVERIFIED",
+  "limitation": "Exact excerpts and metadata checked against the same local curated corpus, after configured redaction. Generated fixed queries, no holdout or independent legal correctness assessment. Relevance is reported separately from source fidelity.",
+  "queries": [
+    {
+      "query_id": "EN-001",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-002",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-003",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-004",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-005",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-006",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-007",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-008",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-009",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-010",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-011",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-012",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-013",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-014",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-015",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-016",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-017",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-018",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-019",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-020",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-021",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-022",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-023",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-024",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-025",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-026",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-027",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-028",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-029",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-030",
+      "language": "en",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "EN-031",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-032",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-033",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-034",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-035",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-036",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-037",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-038",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-039",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-040",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-041",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-042",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-043",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-044",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-045",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-046",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-047",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-048",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-049",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-050",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-051",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-052",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-053",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-054",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-055",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-056",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-057",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-058",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-059",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-060",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-061",
+      "language": "en",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "EN-062",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-063",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-064",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-065",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-066",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-067",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-068",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-069",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-070",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-071",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-072",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-073",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-074",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-075",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-076",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-077",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-078",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-079",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-080",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-081",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-082",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-083",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-084",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-085",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-086",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-087",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-088",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-089",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-090",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-091",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "EN-092",
+      "language": "en",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "EN-093",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-094",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-095",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-096",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-097",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-098",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "EN-099",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "EN-100",
+      "language": "en",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-001",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-002",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-003",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-004",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-005",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-006",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-007",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-008",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-009",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-010",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-011",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-012",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-013",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-014",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-015",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-016",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-017",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-018",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-019",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-020",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-021",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-022",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-023",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-024",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-025",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-026",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-027",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-028",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-029",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-030",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-031",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-032",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-033",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-034",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-035",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-036",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-037",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-038",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-039",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-040",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-041",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-042",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-043",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-044",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-045",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-046",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-047",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-048",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-049",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-050",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-051",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-052",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-053",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-054",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-055",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-056",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-057",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-058",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-059",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-060",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-061",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-062",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-063",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-064",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-065",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-066",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-067",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-068",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-069",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-070",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-071",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-072",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-073",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-074",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-075",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-076",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-077",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-078",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-079",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-080",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-081",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-082",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-083",
+      "language": "de",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "DE-084",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-085",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-086",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-087",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-088",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-089",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-090",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-091",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-092",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-093",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "DE-094",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-095",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-096",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-097",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "DE-098",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-099",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "DE-100",
+      "language": "de",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-01",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-02",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "XL-03",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-04",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "XL-05",
+      "language": "cross",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "XL-06",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-07",
+      "language": "cross",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "XL-08",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "XL-09",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-10",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-11",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-12",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "XL-13",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-14",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "XL-15",
+      "language": "cross",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "XL-16",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-17",
+      "language": "cross",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    },
+    {
+      "query_id": "XL-18",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "XL-19",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-20",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-21",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-22",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 3,
+      "error": null
+    },
+    {
+      "query_id": "XL-23",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 1,
+      "error": null
+    },
+    {
+      "query_id": "XL-24",
+      "language": "cross",
+      "grounding_status": "SOURCE_VERIFIED",
+      "source_fidelity_valid": true,
+      "expected_article_in_returned_citations": true,
+      "citation_count": 2,
+      "error": null
+    },
+    {
+      "query_id": "XL-25",
+      "language": "cross",
+      "grounding_status": "NOT_APPLICABLE",
+      "source_fidelity_valid": null,
+      "expected_article_in_returned_citations": false,
+      "citation_count": 0,
+      "error": null
+    }
+  ],
+  "unsupported_results": [
+    {
+      "query": "What does Article 112 require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "What does Article 111 require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "What does Article 100 require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "What does Article 0 require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "What does Article -1 require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "What does Article 150 require?",
+      "abstained": true,
+      "answer": "**Regulatory Notice:** The EU AI Act (Regulation (EU) 2[REDACTED_PHONE]) consists of Articles 1 through 113. Article 150 does not exist in the official statutory regulation. The system abstains from generating fabricated statutory provisions or penalties."
+    },
+    {
+      "query": "What does Annex IX require?",
+      "abstained": true,
+      "answer": "The requested provision is not available in the retrieved local sources."
+    },
+    {
+      "query": "Was verlangt Artikel 112?",
+      "abstained": true,
+      "answer": "Die angefragte Bestimmung ist in den abgerufenen lokalen Quellen nicht verf\u00fcgbar."
+    },
+    {
+      "query": "Was verlangt Anhang IX?",
+      "abstained": true,
+      "answer": "Die angefragte Bestimmung ist in den abgerufenen lokalen Quellen nicht verf\u00fcgbar."
+    },
+    {
+      "query": "Which stocks should I buy?",
+      "abstained": true,
+      "answer": "I am an authorized enterprise compliance assistant for the EU AI Act (Regulation (EU) 2[REDACTED_PHONE]) and internal registered AI systems. No relevant statutory provisions were found for this inquiry. Please specify your question regarding EU AI Act articles, high-risk systems, or compliance registers."
+    }
+  ]
+}

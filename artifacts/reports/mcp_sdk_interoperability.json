@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "client": "official Python SDK",
+  "sdk_version": "2.3.0",
+  "transport": "stdio",
+  "checks": [
+    {
+      "identity": "public",
+      "protocol": "2024-11-05",
+      "operation": "list_and_public_read",
+      "status": "PASS"
+    },
+    {
+      "identity": "public",
+      "operation": "protected_read_denied",
+      "status": "PASS"
+    },
+    {
+      "identity": "officer",
+      "protocol": "2024-11-05",
+      "operation": "list_and_public_read",
+      "status": "PASS"
+    },
+    {
+      "identity": "officer",
+      "operation": "explicit_write_and_readback",
+      "status": "PASS"
+    }
+  ],
+  "limitation": "One SDK version against local fixture storage. Desktop hosts, HTTP transport and production deployments are unverified."
+}

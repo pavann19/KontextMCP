@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-08T10:59:57.973278+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "source_sha256": "2043e4442f89d08fc3dab721e675ceed4740f8eb3d8a44398642c0137f22a903",
+  "source_unchanged_during_run": true,
+  "source_scope": "All app/test/script Python files, requirements, curated/chunk/official JSON corpora and frozen evaluation inputs. Docker files are verified by the separate Docker report.",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "deployment_status": "UNVERIFIED",
+  "official_sdk_stdio": "PASS",
+  "external_desktop_hosts": "UNVERIFIED",
+  "semantic_entailment": "UNVERIFIED"
+}

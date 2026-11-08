@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-08T11:05:21.694983+00:00",
+  "scope": "Local functional release artifact inspection; image residuals are separately recorded, not accepted",
+  "native_source_sha256": "2043e4442f89d08fc3dab721e675ceed4740f8eb3d8a44398642c0137f22a903",
+  "docker_source_sha256": "1b1ef82ede11c5166e8020bcb254e0dca8682e0848fafadeb1917c992eae7fc7",
+  "linux_tests": 172,
+  "linux_failures_or_skips": 0,
+  "docker_checks": 39,
+  "cleanup": "PASS",
+  "installed_app_versions_match_lock": true,
+  "app_and_sdk_build_dependency_checks": "PASS",
+  "runtime_pip": "ABSENT_IN_BOTH_INTERPRETERS",
+  "dependency_audit_lock_hashes_current": true,
+  "image_high_critical_findings": 0,
+  "image_unfixed_medium_low_findings": 51,
+  "workflow_yaml_and_permissions": "CHECKED_HOSTED_EXECUTION_UNVERIFIED",
+  "case_report": "artifacts/docker/20261108T105838Z/postgres-retry-case.json",
+  "load_report": "artifacts/docker/20261108T105838Z/bounded-load.json"
+}

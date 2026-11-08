@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-06T17:06:09.990480+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "source_sha256": "f32a4436a63d3bb8dfa00418ad70c0ad0dc893c786ddebb0eb2465c8d2c8f037",
+  "source_unchanged_during_run": true,
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "deployment_status": "UNVERIFIED",
+  "external_mcp_client": "UNVERIFIED"
+}

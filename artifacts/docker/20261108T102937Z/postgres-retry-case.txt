@@ -1,0 +1,34 @@
+ Container kontext-validation-3c8fb811d1-app-run-355d57979d10 Creating 
+ Container kontext-validation-3c8fb811d1-app-run-355d57979d10 Created 
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/app/scripts/validate_postgres_retries.py", line 133, in <module>
+    main()
+  File "/app/scripts/validate_postgres_retries.py", line 53, in main
+    rows = list(executor.map(attempt, range(8)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/scripts/validate_postgres_retries.py", line 49, in attempt
+    identifier = write(key)
+                 ^^^^^^^^^^
+  File "/app/scripts/validate_postgres_retries.py", line 38, in write
+    return SecureRepository.create_compliance_assessment(session, user, system_id, findings,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app/db/repository.py", line 138, in create_compliance_assessment
+    raise ValueError(f"Target system '{system_id}' does not exist.")
+ValueError: Target system 'CASE-a00f58462791' does not exist.
+

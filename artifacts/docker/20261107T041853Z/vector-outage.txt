@@ -1,0 +1,2 @@
+ Container kontext-validation-ed58df6734-qdrant Stopping 
+ Container kontext-validation-ed58df6734-qdrant Stopped 

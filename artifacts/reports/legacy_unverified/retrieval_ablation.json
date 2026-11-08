@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-03T15:13:45Z",
+  "dataset_size": 250,
+  "ablation_comparison": {
+    "bm25_only": {
+      "hit_at_1": 0.652,
+      "hit_at_3": 0.788,
+      "hit_at_5": 0.86,
+      "mrr": 0.7333,
+      "mean_latency_ms": 0.18,
+      "p95_latency_ms": 0.37
+    },
+    "dense_only": {
+      "hit_at_1": 0.312,
+      "hit_at_3": 0.488,
+      "hit_at_5": 0.604,
+      "mrr": 0.4155,
+      "mean_latency_ms": 4.05,
+      "p95_latency_ms": 6.69
+    },
+    "hybrid_rrf": {
+      "hit_at_1": 0.544,
+      "hit_at_3": 0.696,
+      "hit_at_5": 0.772,
+      "mrr": 0.6285,
+      "mean_latency_ms": 4.69,
+      "p95_latency_ms": 7.7
+    },
+    "hybrid_reranked": {
+      "hit_at_1": 0.676,
+      "hit_at_3": 0.776,
+      "hit_at_5": 0.776,
+      "mrr": 0.7207,
+      "mean_latency_ms": 5.2,
+      "p95_latency_ms": 7.21
+    }
+  }
+}

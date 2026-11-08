@@ -1,0 +1,2 @@
+ Container kontext-validation-eb1591fa7b-app Restarting 
+ Container kontext-validation-eb1591fa7b-app Started 

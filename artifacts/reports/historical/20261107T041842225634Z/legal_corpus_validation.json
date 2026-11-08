@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-07T04:17:03.429801+00:00",
+  "scope": "local",
+  "status": "PASS",
+  "collected": 9,
+  "passed": 9,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_ids": [
+    "tests.legal.test_corpus_integrity.test_corpus_provenance_metadata",
+    "tests.legal.test_corpus_integrity.test_corpus_official_penalties_article_99",
+    "tests.legal.test_corpus_integrity.test_gpai_compute_threshold_article_51",
+    "tests.legal.test_official_snapshot.test_official_snapshots_reparse_and_cover_full_structure",
+    "tests.test_legal_corpus_validation.test_bilateral_structural_alignment",
+    "tests.test_legal_corpus_validation.test_official_penalty_thresholds",
+    "tests.test_legal_corpus_validation.test_gpai_systemic_risk_computation_threshold",
+    "tests.test_legal_corpus_validation.test_prohibited_practices_enumeration",
+    "tests.test_legal_corpus_validation.test_official_terminology_bilingual_dictionary"
+  ],
+  "evidence": "hardening-tests.xml",
+  "limitation": "Checks local curated data and official snapshot reparse consistency; separate official_source_comparison.json reports curated differences. No independent legal review.",
+  "official_source_equivalence": "UNVERIFIED"
+}

@@ -1,0 +1,5 @@
+# Evidence digests refer to exact captured bytes, not checkout-normalized text.
+artifacts/reports/* -text
+artifacts/reports/historical/production-readiness-image-audit/** -text
+artifacts/reports/historical/production-readiness-dependency-audit/** -text
+artifacts/docker/20261108T*/** -text

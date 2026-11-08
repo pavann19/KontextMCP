@@ -1,0 +1,481 @@
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | The files belonging to this database system will be owned by user "postgres".
+kontext-validation-eb1591fa7b-postgres  | This user must also own the server process.
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | The database cluster will be initialized with locale "en_US.utf8".
+kontext-validation-eb1591fa7b-postgres  | The default database encoding has accordingly been set to "UTF8".
+kontext-validation-eb1591fa7b-postgres  | The default text search configuration will be set to "english".
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | Data page checksums are disabled.
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+kontext-validation-eb1591fa7b-postgres  | creating subdirectories ... ok
+kontext-validation-eb1591fa7b-postgres  | selecting dynamic shared memory implementation ... posix
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.656160Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.006695
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.667798Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001557
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.723402Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.009945
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.724146Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004789
+kontext-validation-eb1591fa7b-postgres  | selecting default max_connections ... 100
+kontext-validation-eb1591fa7b-postgres  | selecting default shared_buffers ... 128MB
+kontext-validation-eb1591fa7b-postgres  | selecting default time zone ... UTC
+kontext-validation-eb1591fa7b-postgres  | creating configuration files ... ok
+kontext-validation-eb1591fa7b-postgres  | running bootstrap script ... ok
+kontext-validation-eb1591fa7b-postgres  | sh: locale: not found
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:05.782 UTC [35] WARNING:  no usable system locales were found
+kontext-validation-eb1591fa7b-postgres  | performing post-bootstrap initialization ... ok
+kontext-validation-eb1591fa7b-postgres  | initdb: warning: enabling "trust" authentication for local connections
+kontext-validation-eb1591fa7b-postgres  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | syncing data to disk ... ok
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | Success. You can now start the database server using:
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | waiting for server to start....2026-11-08 05:21:07.172 UTC [47] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.176 UTC [47] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.783686Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002011
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.844608Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.003731
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.846977Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.006118
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.190 UTC [50] LOG:  database system was shut down at 2026-11-08 05:21:06 UTC
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.205 UTC [47] LOG:  database system is ready to accept connections
+kontext-validation-eb1591fa7b-postgres  |  done
+kontext-validation-eb1591fa7b-postgres  | server started
+kontext-validation-eb1591fa7b-postgres  | CREATE DATABASE
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+kontext-validation-eb1591fa7b-postgres  | CREATE TABLE
+kontext-validation-eb1591fa7b-postgres  | CREATE TABLE
+kontext-validation-eb1591fa7b-postgres  | CREATE TABLE
+kontext-validation-eb1591fa7b-postgres  | CREATE TABLE
+kontext-validation-eb1591fa7b-postgres  | CREATE TABLE
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | waiting for server to shut down....2026-11-08 05:21:07.474 UTC [47] LOG:  received fast shutdown request
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.477 UTC [47] LOG:  aborting any active transactions
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.480 UTC [47] LOG:  background worker "logical replication launcher" (PID 53) exited with exit code 1
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.876591Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001964
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.486 UTC [48] LOG:  shutting down
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.489 UTC [48] LOG:  checkpoint starting: shutdown immediate
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.612 UTC [48] LOG:  checkpoint complete: wrote 944 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.032 s, sync=0.084 s, total=0.126 s; sync files=322, longest=0.003 s, average=0.001 s; distance=4395 kB, estimate=4395 kB; lsn=0/1941D38, redo lsn=0/1941D38
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.626 UTC [47] LOG:  database system is shut down
+kontext-validation-eb1591fa7b-postgres  |  done
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.935035Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.003895
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:15.988515Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001837
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.001586Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002057
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.060417Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.007025
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.116709Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.008598
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.131269Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001838
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.188394Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.005056
+kontext-validation-eb1591fa7b-postgres  | server stopped
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | PostgreSQL init process complete; ready for start up.
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.248824Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001642
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.261779Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002111
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.322519Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005621
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.434110Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002114
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.484850Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.004895
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.510628Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005549
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.565560Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002079
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.621598Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.004370
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.625391Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002187
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.646483Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.004204
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.646509Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004204
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.709201Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.004002
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.721230Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005898
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.740534Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001840
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.794162Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.003872
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.713 UTC [1] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.713 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.713 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.952309Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001455
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:16.965457Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002161
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.718 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.726 UTC [65] LOG:  database system was shut down at 2026-11-08 05:21:07 UTC
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:21:07.732 UTC [1] LOG:  database system is ready to accept connections
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.009 UTC [1] LOG:  received fast shutdown request
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.011 UTC [1] LOG:  aborting any active transactions
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.012 UTC [243] FATAL:  terminating connection due to administrator command
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.013 UTC [1] LOG:  background worker "logical replication launcher" (PID 68) exited with exit code 1
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.020713Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.003982
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.067572Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.009043
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.084687Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001891
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.144765Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002221
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.148115Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004833
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.210207Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.008514
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.219176Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.003029
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.236239Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005497
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.015 UTC [63] LOG:  shutting down
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.018 UTC [63] LOG:  checkpoint starting: shutdown immediate
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.239515Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002453
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.127 UTC [63] LOG:  checkpoint complete: wrote 1059 buffers (6.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.032 s, sync=0.072 s, total=0.112 s; sync files=390, longest=0.003 s, average=0.001 s; distance=4807 kB, estimate=4807 kB; lsn=0/1DF3AA8, redo lsn=0/1DF3AA8
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:04.139 UTC [1] LOG:  database system is shut down
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.309492Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.009910
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.526099Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001830
+kontext-validation-eb1591fa7b-postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.540586Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002604
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.589337Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002660
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.612744Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.006359
+kontext-validation-eb1591fa7b-postgres  | 
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.563 UTC [1] LOG:  starting PostgreSQL 16.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.563 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.563 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.616862Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002488
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.694690Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.011157
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.710254Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.012657
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.568 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.576 UTC [29] LOG:  database system was shut down at 2026-11-08 05:22:04 UTC
+kontext-validation-eb1591fa7b-postgres  | 2026-11-08 05:22:13.616 UTC [1] LOG:  database system is ready to accept connections
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.723125Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001940
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.766202Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001786
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.798803Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.004279
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.798822Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.008539
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:17.872009Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004710
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.026253Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001568
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.038967Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002641
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.103333Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.006709
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.154279Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.006597
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.178317Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001761
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.242297Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004590
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.242445Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.011443
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.311706Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001763
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.312221Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.005778
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.375242Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004896
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.378750Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001872
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.414440Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004437
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.565194Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001659
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.584162Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001718
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.646904Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005025
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.699243Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001589
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.717222Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002211
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.769061Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.011816
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.779279Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005274
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.800958Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002835
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.850384Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002791
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.866381Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004778
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.873538Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002899
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:18.948747Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005975
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.113441Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001957
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.127986Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001917
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.190023Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005729
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.250008Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001636
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.264804Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002272
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.314682Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001875
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.329042Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004631
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.349408Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001736
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.401284Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002970
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.412323Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005459
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.433088Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001489
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.496862Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004396
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.783292Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002162
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.829111Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001906
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.861284Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005597
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.930957Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001743
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.986489Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002407
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:19.986561Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.005178
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.051199Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001447
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.053420Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005751
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.061744Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7550 "-" "python-client/1.20.0 python/3.11.18" 0.002037
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.134700Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.044400
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.148382Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.009662
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.179466Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004257
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.331282Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.006666
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.345253Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002002
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.411176Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.005284
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.470550Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.009339
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.483896Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001626
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.543069Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001977
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.545133Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004050
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.617724Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.006929
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.619320Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002202
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.673130Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.037858
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.676283Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005657
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.716328Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004522
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.883159Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001986
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.937900Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002677
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:20.993614Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.034325
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.021295Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7550 "-" "python-client/1.20.0 python/3.11.18" 0.014955
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.047744Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.014759
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.086879Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002170
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.103147Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005159
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.107620Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002488
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.187003Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002707
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.206460Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004917
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.225071Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001705
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.284545Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004261
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.452022Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001678
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.503857Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.007203
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.530709Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004320
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.591370Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002488
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.639683Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.033773
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.652789Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001745
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.675589Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.004632
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.676409Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005504
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.748546Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002185
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.783658Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005565
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.793774Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002363
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:21.864630Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004440
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.094386Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.006628
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.110408Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001624
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.169688Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002194
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.182123Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.006607
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.247541Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.003483
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.253991Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.003786
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.274704Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.006679
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.340363Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.013127
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.345523Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.008594
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.370600Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002379
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.373425Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004302
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.445426Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004207
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.604782Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001518
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.623055Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001885
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.682744Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004094
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.739097Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001637
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.759285Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001510
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.809908Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.009477
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "GET /api/v1/search?q=Article+9+risk+management&top_k=3&method=reranked HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37050 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37064 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37054 - "POST /api/v1/tools/call HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     172.24.0.1:37034 - "POST /api/v1/chat HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     127.0.0.1:59200 - "GET /ready HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-app       | INFO:     127.0.0.1:38018 - "GET /ready HTTP/1.1" 200 OK
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.828016Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.007197
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.834059Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002665
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.908970Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.009762
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.912480Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004993
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:22.977044Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001994
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.001107Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004617
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.161966Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002014
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.174731Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001859
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.237953Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004772
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.302750Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001604
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.362462Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002066
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.362527Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.007129
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.425319Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002323
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.436835Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001864
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.440685Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.005230
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.472262Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004279
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.506771Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002482
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.550548Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004274
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.720194Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001673
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.735601Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002210
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.807596Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004520
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.873052Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.002064
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.929446Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.004255
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.929737Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001831
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.954416Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.003163
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:23.954894Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.010169
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.016337Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.003213
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.026336Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004216
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.048502Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.001410
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.109110Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.004678
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.269999Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001792
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.327689Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.005791
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.350420Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004122
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.418026Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.001602
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.488042Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.006899
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.493443Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.006197
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.510382Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.005389
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.564992Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.014136
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.583132Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7551 "-" "python-client/1.20.0 python/3.11.18" 0.017584
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.596952Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6393 "-" "python-client/1.20.0 python/3.11.18" 0.007848
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.620697Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 7552 "-" "python-client/1.20.0 python/3.11.18" 0.002125
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:24.691466Z  INFO actix_web::middleware::logger: 172.24.0.4 "POST /collections/eu_ai_act_bilingual/points/query HTTP/1.1" 200 6392 "-" "python-client/1.20.0 python/3.11.18" 0.004194
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:28.112176Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections/eu_ai_act_bilingual HTTP/1.1" 200 485 "-" "python-client/1.20.0 python/3.11.18" 0.001194
+kontext-validation-eb1591fa7b-qdrant    | 2026-11-08T05:23:58.207105Z  INFO actix_web::middleware::logger: 172.24.0.4 "GET /collections/eu_ai_act_bilingual HTTP/1.1" 200 484 "-" "python-client/1.20.0 python/3.11.18" 0.001082

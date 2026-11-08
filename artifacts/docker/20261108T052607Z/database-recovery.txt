@@ -1,0 +1,2 @@
+ Container kontext-validation-87246694b1-postgres Starting 
+ Container kontext-validation-87246694b1-postgres Started 

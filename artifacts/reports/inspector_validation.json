@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "client": "MCP Inspector CLI 2.14.0",
+  "requested_node": "24.22.1",
+  "transport": "stdio",
+  "public_tools": 2,
+  "desktop_ui": "UNVERIFIED; VS Code workspace config supplied separately"
+}

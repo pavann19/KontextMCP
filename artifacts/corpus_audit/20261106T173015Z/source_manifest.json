@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-11-06T17:30:15.307137+00:00",
+  "sources": [
+    {
+      "version": "original",
+      "language": "en",
+      "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689",
+      "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689",
+      "status": 200,
+      "bytes": 1264462,
+      "sha256": "b2718a68d9a6f7b0d6e7a199b2f55806bacb2c8e0d7a8b22e6c520ae2b48f3df",
+      "path": "original_en.html"
+    },
+    {
+      "version": "original",
+      "language": "de",
+      "requested_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689",
+      "resolved_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32024R1689",
+      "status": 200,
+      "bytes": 1340257,
+      "sha256": "d79ea88f23fdd753f40d90c8fc96523bf2133f9b7ead2d3ba73da98b35b6c75c",
+      "path": "original_de.html"
+    },
+    {
+      "version": "consolidated_20260727",
+      "language": "en",
+      "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+      "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+      "status": 200,
+      "bytes": 853883,
+      "sha256": "7e5a422942039a779f342ed6e5baf9770b858275667db9f172a81e367734ccd9",
+      "path": "consolidated_20260727_en.html"
+    },
+    {
+      "version": "consolidated_20260727",
+      "language": "de",
+      "requested_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+      "resolved_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+      "status": 200,
+      "bytes": 903666,
+      "sha256": "a600179680b73114a2c74db698a8a9aa6204806b3ded0f859b6343a22a03640a",
+      "path": "consolidated_20260727_de.html"
+    }
+  ]
+}

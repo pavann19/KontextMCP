@@ -1,0 +1,7 @@
+    i New version 1.29.0 available (installed version is 1.27.0) at https://github.com/docker/scout-cli
+    ...Storing image for indexing
+    v Image stored for indexing
+    ...Indexing
+    v Indexed 346 packages
+    x Detected 26 vulnerable packages with a total of 142 vulnerabilities
+    v Report written to artifacts/reports/container-advisories.sarif.json

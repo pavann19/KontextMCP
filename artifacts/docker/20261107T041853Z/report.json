@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "scope": "local Docker: FastAPI + PostgreSQL + remote Qdrant",
+  "project": "kontext-validation-ed58df6734",
+  "checks": [
+    {
+      "name": "image_excludes_local_secrets_and_runtime",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "health",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "reject_demo_key",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "reject_forged_role",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "public_cannot_read_private",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "developer_department_boundary",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "remote_vector_search",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "search_enum_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "schema_rejects_boolean_score",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "developer_cannot_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "explicit_postgres_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "explicit_postgres_write",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "unique_assessment_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "chat_cannot_sign_off",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "chat_response",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "trace_privacy_and_ownership",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "real_backend_connections",
+      "status": "PASS",
+      "details": {
+        "dialect": "postgresql",
+        "vector_points": 803,
+        "vector_client": "QdrantRemote"
+      }
+    },
+    {
+      "name": "postgres_restart_persistence",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "signed_audit_after_restart",
+      "status": "PASS",
+      "details": {
+        "is_valid": true,
+        "total_records": 8,
+        "error": null,
+        "verification_status": "CRYPTOGRAPHIC_CHAIN_VERIFIED"
+      }
+    },
+    {
+      "name": "readiness",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "authenticated_metrics",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_backup",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "postgres_restore_matches",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "readiness_detects_database_outage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "database_connection_recovery",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "readiness_detects_vector_outage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "vector_connection_recovery",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "official_sdk_http",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "bounded_concurrent_load",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "linux_regression_suite",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "source_unchanged",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "optional_services": "SKIPPED: Ollama and Langfuse are not used by the default request path",
+  "production_capacity": "UNVERIFIED",
+  "external_mcp_application": "UNVERIFIED",
+  "cleanup": "PASS",
+  "source_sha256": "62b24de7e193427d50265347aecd656fa8de275f149a4d74d713cba581d77692",
+  "timestamp": "2026-11-07T04:22:37.867859+00:00"
+}

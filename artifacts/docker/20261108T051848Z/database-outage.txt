@@ -1,0 +1,2 @@
+ Container kontext-validation-eb1591fa7b-postgres Stopping 
+ Container kontext-validation-eb1591fa7b-postgres Stopped 

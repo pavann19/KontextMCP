@@ -1,0 +1,66 @@
+{
+  "status": "MEASURED",
+  "model": "qwen2.5:0.5b",
+  "cases": 8,
+  "accuracy": 0.5,
+  "suitable_as_sole_legal_validator": false,
+  "scope": "Frozen synthetic logical calibration, not independent legal annotations or proof of legal correctness",
+  "results": [
+    {
+      "premise": "Systems in group A must produce logs.",
+      "claim": "Group A systems must produce logs.",
+      "expected": "ENTAILED",
+      "predicted": "ENTAILED",
+      "raw": "{ \"label\": \"ENTAILED\" }"
+    },
+    {
+      "premise": "Systems in group A must produce logs.",
+      "claim": "Group A systems do not need to produce logs.",
+      "expected": "CONTRADICTED",
+      "predicted": "UNKNOWN",
+      "raw": "{ \"label\": \"UNKNOWN\" }"
+    },
+    {
+      "premise": "Systems in group A must produce logs.",
+      "claim": "The logs must be kept for six years.",
+      "expected": "UNKNOWN",
+      "predicted": "UNKNOWN",
+      "raw": "{ \"label\": \"UNKNOWN\" }"
+    },
+    {
+      "premise": "Only group B is exempt from record keeping.",
+      "claim": "Every group is exempt from record keeping.",
+      "expected": "CONTRADICTED",
+      "predicted": "UNKNOWN",
+      "raw": "{ \"label\": \"UNKNOWN\" }"
+    },
+    {
+      "premise": "Systeme der Gruppe A m\u00fcssen Protokolle erstellen.",
+      "claim": "Gruppe A muss Protokolle erstellen.",
+      "expected": "ENTAILED",
+      "predicted": "ENTAILED",
+      "raw": "{ \"label\": \"ENTAILED\" }"
+    },
+    {
+      "premise": "Systeme der Gruppe A m\u00fcssen Protokolle erstellen.",
+      "claim": "Gruppe A muss keine Protokolle erstellen.",
+      "expected": "CONTRADICTED",
+      "predicted": "UNKNOWN",
+      "raw": "{ \"label\": \"UNKNOWN\" }"
+    },
+    {
+      "premise": "Systeme der Gruppe A m\u00fcssen Protokolle erstellen.",
+      "claim": "Die Protokolle m\u00fcssen sechs Jahre aufbewahrt werden.",
+      "expected": "UNKNOWN",
+      "predicted": "UNKNOWN",
+      "raw": "{ \"label\": \"UNKNOWN\" }"
+    },
+    {
+      "premise": "The document says nothing about disclosure.",
+      "claim": "Disclosure is mandatory.",
+      "expected": "UNKNOWN",
+      "predicted": "ENTAILED",
+      "raw": "{ \"label\": \"ENTAILED\" }"
+    }
+  ]
+}

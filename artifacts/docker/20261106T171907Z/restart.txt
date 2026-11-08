@@ -1,0 +1,2 @@
+ Container kontext-validation-27eafd95a4-app Restarting 
+ Container kontext-validation-27eafd95a4-app Started 

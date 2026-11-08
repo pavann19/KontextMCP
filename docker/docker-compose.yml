@@ -1,0 +1,92 @@
+services:
+  # 1. FastAPI Application Server
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: enterprise_rag_app
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - API_KEYS
+      - AUDIT_CHECKPOINT_KEY
+      - ALLOWED_ORIGINS
+      - DATABASE_URL=postgresql+psycopg2://postgres:postgres@postgres:5432/enterprise_rag
+      - USE_SQLITE_FALLBACK=False
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - QDRANT_PREFER_LOCAL=False
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - LANGFUSE_HOST=http://langfuse:3000
+    volumes:
+      - ../data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    networks:
+      - enterprise_rag_network
+
+  # 2. PostgreSQL Relational Database for Enterprise Records
+  postgres:
+    image: postgres:16-alpine@sha256:cf78e76683b9ca8c5733cbbdce6c9262b45b6767934dd0a95e671f9a0fc20685
+    container_name: enterprise_rag_postgres
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "postgres", "-d", "enterprise_rag"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=enterprise_rag
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init_postgres.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - enterprise_rag_network
+
+  # 3. Qdrant Vector Database
+  qdrant:
+    image: qdrant/qdrant@sha256:9bfc89f9914fc14876a88c05270685921a55b8877b254a98bcc1cc2f0a424cd2
+    container_name: enterprise_rag_qdrant
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    networks:
+      - enterprise_rag_network
+
+  # 4. Ollama Local LLM Inference
+  ollama:
+    profiles: [ollama]
+    image: ollama/ollama@sha256:0e59999e0e8f9fd4e704bd788a89b7e4cad399367fb1365f8c102ac662288761
+    container_name: enterprise_rag_ollama
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    networks:
+      - enterprise_rag_network
+
+  # Langfuse uses the separately preserved official multi-service Compose stack
+  # under docker/upstream; a lone web container is not a complete deployment.
+
+volumes:
+  postgres_data:
+  qdrant_storage:
+  ollama_models:
+
+networks:
+  enterprise_rag_network:
+    driver: bridge
